@@ -11,17 +11,18 @@
     <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
     <meta name="archive" content="noarchive">
     
-    <title>AFLC - Assisted Pro Se services for Divorce, Custody, Visitation</title>
-    <meta name="description" content="Get family law help and assistance in Texas; divorce, custody, child support, visitation, parental rights, adoption, or kinship placement, 713-239-5200.">
+    <title>Family Law Legal Assistance-Low-Income Texas Families</title>
+    <meta name="description" content="Get Family Law Legal Assistance; all areas of family law. Providing greater access to Justice for low-income Texas families. Call 713-239-5200.">
     <meta name="Copyright" content="Copyright © America Family Law Center 2025. All Rights Reserved.">
     
     <!-- Open Graph Meta -->
     <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="AFLC - Assisted Pro Se services for Divorce, Custody, Visitation">
-    <meta property="og:description" content="American Family Law Center(nonprofit) We assist your family in different situations that involve divorce, custody, child visitation and immigration.">
-    <meta property="og:url" content="https://americafamilylawcenter.org/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Menu - Mission">
+    <meta property="og:description" content="Help the families to understand how to strive for equal rights, sharing parental responsibility and the areas involving in Law.">
+    <meta property="og:url" content="https://americafamilylawcenter.org/mission/">
     <meta property="og:site_name" content="America Family Law Center">
+    <meta property="og:image" content="images/Diverse-group-of-children.jpg">
     
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png" sizes="32x32">
@@ -55,6 +56,13 @@
         img.lazyload {
             opacity: 1;
         }
+        .page-articles-title-img {
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        .page-articles.hide {
+            display: none;
+        }
     </style>
     
     <script>
@@ -62,19 +70,24 @@
             $(".nav-button").click(function () {
                 $(".nav-button,.primary-nav").toggleClass("open");
             });
+            
+            // Toggle Family Law Articles section
+            $(".page-articles-title").click(function() {
+                $(".page-articles").toggleClass("hide");
+            });
         });
     </script>
 </head>
 
-<body class="home page-template-default page page-id-25">
+<body class="page page-template-default page-id-29">
     <div id="wrapper">
         <!-- Mobile Navigation -->
         <div id="mobile_nav">
             <button class="nav-button">Menu</button>
             <div class="nav">
                 <ul id="menu-mobile" class="primary-nav">
-                    <li class="current-menu-item"><a href="index.html">Home</a></li>
-                    <li><a href="mission.html">Mission</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current-menu-item"><a href="mission.html">Mission</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="programs.html">Programs</a></li>
                     <li><a href="topics.html">Topics</a></li>
@@ -142,8 +155,8 @@
                         <a href="donate.html" class="donate">Donate</a>
                         <div class="menu-primary-container">
                             <ul id="menu-primary" class="menu">
-                                <li class="current-menu-item"><a href="index.html">Home</a></li>
-                                <li><a href="mission.html">Mission</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li class="current-menu-item"><a href="mission.html">Mission</a></li>
                                 <li><a href="services.html">Services</a></li>
                                 <li><a href="programs.html">Programs</a></li>
                                 <li><a href="blog.html">Blog</a></li>
@@ -329,138 +342,44 @@
                     <!-- Content -->
                     <div id="content" class="eight columns padding-right20">
                         <div class="recent-posts-wrapper">
-                            <h2><span class="recent-posts-title page-articles-title">Family Law Articles</span></h2>
-                            <ul class="recent-posts-list page-articles">
-                                <li><a href="#">School Records | Denied Access?</a></li>
-                                <li><a href="#">Astroworld Festival Ends in Injuries</a></li>
-                                <li><a href="topics/child-custody.html">Child Custody</a></li>
-                                <li><a href="#">Divorce Checklist for Parent</a></li>
-                                <li><a href="#">Third-round Stimulus Checks and Child Support</a></li>
-                                <li><a href="#">What Factors Effect Your Stimulus Check | Back Child Support</a></li>
-                                <li><a href="#">Unemployed and Struggling with Child Support</a></li>
-                                <li><a href="#">Shelter-in-place due to COVID-19 | Visitation</a></li>
-                                <li><a href="#">Visitation Schedules and School Cancellation due to COVID-19</a></li>
-                                <li><a href="#">What Can Be Done About Parental Alienation</a></li>
+                            <h2><span class="recent-posts-title page-articles-title">Family Law Articles <img src="images/arrow_sm_black_top.gif" title="Open/Close Family Law Articles" alt="Open/Close Family Law Articles" class="page-articles-title-img"></span></h2>
+                            <ul class="recent-posts-list page-articles hide">
+                                <li><a href="school-records-denied-access.html">School Records | Denied Access?</a></li>
+                                <li><a href="astroworld-festival-ends-in-injuries.html">Astroworld Festival Ends in Injuries</a></li>
+                                <li><a href="child-custody.html">Child Custody</a></li>
+                                <li><a href="divorce-checklist-for-parent.html">Divorce Checklist for Parent</a></li>
+                                <li><a href="third-round-stimulus-checks-and-child-support.html">Third-round Stimulus Checks and Child Support</a></li>
+                                <li><a href="what-factors-effect-your-stimulus-check-back-child-support.html">What Factors Effect Your Stimulus Check | Back Child Support</a></li>
+                                <li><a href="unemployed-and-cant-pay-child-support.html">Unemployed and Struggling with Child Support</a></li>
+                                <li><a href="shelter-in-place-due-to-covid-19-visitation.html">Shelter-in-place due to COVID-19 | Visitation</a></li>
+                                <li><a href="visitation-schedules-and-school-cancellation-due-to-covid-19.html">Visitation Schedules and School Cancellation due to COVID-19</a></li>
+                                <li><a href="what-can-be-done-about-parental-alienation.html">What Can Be Done About Parental Alienation</a></li>
                             </ul>
                         </div>
                         
-                        <article class="post" id="post-25">
+                        <article class="post" id="post-29">
                             <div class="entry">
-                                <h1 id="h-family-law-legal-assistance">Family Law Legal Assistance</h1>
+                                <h1 id="h-mission">Mission</h1>
                                 
-                                <p>America Family Law Center's mission is to help children by helping their parents and caregivers resolve family situations. America Family Law Center provides legal services through its Assisted Pro Se service program, which is available to paid or comped clients in good standing. America Family Law Center is the #1 Assisted Pro Se service for family law matters. America Family Law Center is recognized as the leading, most advanced, and premier provider of Assisted Pro Se services. Understanding how to navigate a divorce, child custody, child visitation, child support, and parental rights can be overwhelming – we are here to help.</p>
+                                <p>America Family Law Center strives to enhance the lives of children and families through education, assistance, and access to justice.</p>
                                 
-                                <p>America Family Law Center is a 501(c)(3) nonprofit charitable organization whose mission is rooted in the belief that children should have loving relationships with parents or caregivers. Loving relationships between children and parents can continue after divorce or separation. When children are parented safely and lovingly by both parents or caregivers, not only does the child benefit, but our society and communities will also be better off.</p>
+                                <h2 id="h-values">Values</h2>
                                 
-                                <h2>Assisted Pro Se service</h2>
+                                <p>America Family Law Center believes that raising children in a loving, nurturing, and supportive family structure benefits both the children and our community.</p>
                                 
-                                <p>When America Family Law Center launched, it modeled its Assisted Pro Se service using the same guiding principles fundamental to the <a href="https://drive.google.com/file/d/1eM1kEqjHomIYC8f7vdi75LPjWUDA1NzJ/" target="_blank" rel="noopener">American Bar Association (ABA) Standard for the Provision of Civil Legal Aid</a>. America Family Law Center tracks closely with the ABA on limited-scope representation, legal advice, and assistance to pro se or self-represented litigants in family law matters and incorporates this with the effective use of technology. America Family Law Center exceeds the best practices recommended by the Texas Access to Justice Commission in its paper on the Best Practices in Assisted Pro Se Models for the Unrepresented.</p>
+                                <p>America Family Law Center, a <a href="https://www.irs.gov/charities-and-nonprofits" target="_blank" rel="noreferrer noopener">501(c)(3) nonprofit</a>, is a charitable organization committed to improving and enriching the children in our communities.</p>
                                 
-                                <p>The <a href="https://www.texasatj.org/pro-se-litigants" target="_blank" rel="noopener">Texas Access to Justice Commission (TAJC)</a> defines Assisted Pro Se as "<em>helping self-represented litigants help themselves with limited assistance from lawyers</em>." America Family Law Center is recognized as the most prominent and premier provider of Assisted Pro Se services for family law matters.</p>
+                                <div class="wp-block-image">
+                                    <figure class="alignleft is-resized">
+                                        <img src="images/Diverse-group-of-children.jpg" alt="Mission" style="aspect-ratio:1.7307865168539325;width:177px;height:auto">
+                                    </figure>
+                                </div>
                                 
-                                <p>Below is the Legal Services Matrix, illustrating how America Family Law Center's Assisted Pro Se service is positioned in the legal services industry.</p>
+                                <p>Our efforts primarily focus on helping children by assisting the parents of low-income or at-risk families. Disadvantaged and underserved children might otherwise end up in child protective services or the foster care system – we want these children to grow up in a safe, loving, and supportive family environment.</p>
                                 
-                                <h2>Legal Services Matrix</h2>
+                                <p>Each year, America Family Law Center impacts the lives of over 25,000 people in our local communities. The organization has had clients in all 50 states.</p>
                                 
-                                <figure class="wp-block-image size-full">
-                                    <a href="images/Civil-Legal-Aid-Diagram.png">
-                                        <img src="images/Civil-Legal-Aid-Diagram.png" alt="Civil Legal Aid Diagram">
-                                    </a>
-                                </figure>
-                                
-                                <p>The State of Texas so strongly promotes and encourages Assisted Pro Se services that it awards millions of dollars of publicly-funded grants. The Texas Access to Justice Commission went so far as to create a Self-Represented Litigants Committee ("SRL Committee") and also a subcommittee focused on helping providers with Assisted Pro Se service programs.</p>
-                                
-                                <p>Through its Assisted Pro Se services, America Family Law Center strives to help resolve as many situations as possible collaboratively, without litigation or court involvement. With the help of America Family Law Center's Assisted Pro Se services, most legal cases are worked outside the courtroom and resolved without a contested trial. <a href="services.html">Please click here to visit our Services page and read more about our Assisted Pro Se services.</a></p>
-                                
-                                <h2>Justice Gap</h2>
-                                
-                                <p>America Family Law Center encourages those who qualify for and are granted access to free legal assistance to take advantage of that free assistance. America Family Law Center encourages those who have the money to hire a full-service attorney in a traditional manner to do so. America Family Law Center is here to assist those pro se and self-represented litigants with family law cases who do not get free legal aid and cannot afford to pay a traditional full-service attorney thousands of dollars – those in the Justice Gap.</p>
-                                
-                                <figure class="aligncenter">
-                                    <a href="images/Justice-Gap.png">
-                                        <img src="images/Justice-Gap.png" alt="Justice Gap - America Family Law Center">
-                                    </a>
-                                </figure>
-                                
-                                <h2>Legal Services Affordability Scale</h2>
-                                
-                                <figure class="aligncenter">
-                                    <a href="images/Legal-Services-Affordability-Scale.png">
-                                        <img src="images/Legal-Services-Affordability-Scale.png" alt="Legal Services Affordability Scale">
-                                    </a>
-                                </figure>
-                                
-                                <h2>Family Law Help and Assistance</h2>
-                                
-                                <p>America Family Law Center is devoted to helping low-income and underserved people get family law help and assistance. This includes assistance for various family law matters such as child custody, divorce, and parental rights. America Family Law Center's Assisted Pro Se service is available to paid or comped clients in good standing. Some of the areas of family law that the organization can help with include:</p>
-                                
-                                <figure class="alignright">
-                                    <img src="images/visitation.jpg" alt="Child Custody in Texas">
-                                </figure>
-                                
-                                <ul>
-                                    <li><a href="topics/child-custody.html">child custody (access and possession),</a></li>
-                                    <li><a href="#">conservatorship,</a></li>
-                                    <li><a href="topics/child-support.html">child support,</a></li>
-                                    <li><a href="#">adjudicate parentage,</a></li>
-                                    <li><a href="topics/divorce.html">divorce, and</a></li>
-                                    <li><a href="#">parental rights</a></li>
-                                    <li>name change</li>
-                                    <li>adoption, and</li>
-                                    <li>kinship placement.</li>
-                                </ul>
-                                
-                                <h2>Other Questions – Parental Rights, Child Custody, Child Support, and Grandparent Rights</h2>
-                                
-                                <p>Parents and individuals often need additional information about a situation before legal action. America Family Law Center can help provide a better understanding of many topics, including:</p>
-                                
-                                <ul>
-                                    <li>What are my parental rights?</li>
-                                    <li>How do I get custody of my children?</li>
-                                    <li>How do I get child support from my child's other parent?</li>
-                                    <li>How do I get rid of back child support?</li>
-                                    <li>How do I change my child support?</li>
-                                    <li>What are fathers' rights?</li>
-                                    <li>How do I stop child support when my son or daughter turns 18?</li>
-                                    <li>How do I establish visitation with my children?</li>
-                                    <li>What is an Acknowledgment of Paternity, or AOP?</li>
-                                    <li>How do I get a DNA paternity test to determine if I am the father or dad?</li>
-                                    <li>What does it mean to adjudicate parentage?</li>
-                                    <li>What does conservatorship mean</li>
-                                    <li>How do I find my child?</li>
-                                    <li>How do I enforce my visitation?</li>
-                                    <li>Can the mother go to jail for not letting me see my child?</li>
-                                    <li>Do grandparents have rights?</li>
-                                    <li>Why might I go to jail for not paying child support?</li>
-                                    <li>Do I have to let my child go for visitation?</li>
-                                </ul>
-                                
-                                <h2>Other Resources</h2>
-                                
-                                <p>America Family Law Center collaborates with many other agencies and resources to help people get access to assistance for situations that may involve:</p>
-                                
-                                <figure class="alignright">
-                                    <img src="images/question-mark.jpg" alt="Get Your Questions Answered" style="width:262px;height:auto">
-                                    <figcaption>Get Your Questions Answered</figcaption>
-                                </figure>
-                                
-                                <ul>
-                                    <li>divorce,</li>
-                                    <li>mediation,</li>
-                                    <li>shared parenting,</li>
-                                    <li>parenting programs,</li>
-                                    <li>parenting classes,</li>
-                                    <li>child support establishment,</li>
-                                    <li>child support collection,</li>
-                                    <li>child custody, and</li>
-                                    <li>visitation.</li>
-                                </ul>
-                                
-                                <h2>Call Today</h2>
-                                
-                                <p>We are here to help. Call today to find the help you need.</p>
-                                
-                                <h6>English&nbsp;&nbsp;|&nbsp;&nbsp;<a href="inicio.html" title="View Español version.">Español</a></h6>
+                                <h6>English&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mision.html" title="View Español version.">Español</a></h6>
                                 
                                 <hr class="post-contact-information-hr">
                                 <div class="post-contact-information">
@@ -519,18 +438,66 @@
                         <h2>Text or Call</h2>
                         <div class="row">
                             <div class="u-pull-left">
-                                <span>TX - Dallas</span><br>
-                                <span>TX - Houston</span><br>
-                                <span>TX - San Antonio</span><br>
+                                <span>AZ - Phoenix</span><br>
+                                <span>FL - Jacksonville</span><br>
+                                <span>FL - Miami</span><br>
+                                <span>GA - Atlanta</span><br>
+                                <span>IL - Chicago</span><br>
+                                <span>IL - Springfield</span><br>
+                                <span>MO - Kansas City</span><br>
+                                <span>MO - St. Louis</span><br>
+                                <span>OH - Cleveland</span><br>
+                                <span>OH - Columbus</span><br>
+                                <span>PA - Philadelphia</span><br>
+                                <span>PA - Pittsburgh</span><br>
+                                <span>TX - Abilene</span><br>
+                                <span>TX - Amarillo</span><br>
                                 <span>TX - Austin</span><br>
+                                <span>TX - Beaumont</span><br>
+                                <span>TX - Corpus Christi</span><br>
+                                <span>TX - Dallas</span><br>
+                                <span>TX - El Paso</span><br>
                                 <span>TX - Fort Worth</span><br>
+                                <span>TX - Houston</span><br>
+                                <span>TX - Laredo</span><br>
+                                <span>TX - Longview</span><br>
+                                <span>TX - Lubbock</span><br>
+                                <span>TX - McAllen</span><br>
+                                <span>TX - Midland</span><br>
+                                <span>TX - San Angelo</span><br>
+                                <span>TX - San Antonio</span><br>
+                                <span>TX - Wichita Falls</span><br>
                             </div>
                             <div class="u-pull-right">
-                                <span><a href="tel:1-214-516-7700">214-516-7700</a></span><br>
-                                <span><a href="tel:1-713-239-5200">713-239-5200</a></span><br>
-                                <span><a href="tel:1-210-390-8600">210-390-8600</a></span><br>
+                                <span><a href="tel:1-602-691-5000">602-691-5000</a></span><br>
+                                <span><a href="tel:1-904-615-8880">904-615-8880</a></span><br>
+                                <span><a href="tel:1-305-424-2970">305-424-2970</a></span><br>
+                                <span><a href="tel:1-404-905-3000">404-905-3000</a></span><br>
+                                <span><a href="tel:1-312-548-7700">312-548-7700</a></span><br>
+                                <span><a href="tel:1-217-906-4040">217-906-4040</a></span><br>
+                                <span><a href="tel:1-913-305-5000">913-305-5000</a></span><br>
+                                <span><a href="tel:1-314-667-4000">314-667-4000</a></span><br>
+                                <span><a href="tel:1-216-616-8100">216-616-8100</a></span><br>
+                                <span><a href="tel:1-614-820-1100">614-820-1100</a></span><br>
+                                <span><a href="tel:1-215-607-8000">215-607-8000</a></span><br>
+                                <span><a href="tel:1-412-385-7900">412-385-7900</a></span><br>
+                                <span><a href="tel:1-325-330-8800">325-330-8800</a></span><br>
+                                <span><a href="tel:1-806-305-2200">806-305-2200</a></span><br>
                                 <span><a href="tel:1-512-271-8700">512-271-8700</a></span><br>
+                                <span><a href="tel:1-409-509-7700">409-509-7700</a></span><br>
+                                <span><a href="tel:1-361-320-8800">361-320-8800</a></span><br>
+                                <span><a href="tel:1-214-516-7700">214-516-7700</a></span><br>
+                                <span><a href="tel:1-915-348-5500">915-348-5500</a></span><br>
                                 <span><a href="tel:1-817-932-9500">817-932-9500</a></span><br>
+                                <span><a href="tel:1-713-239-5200">713-239-5200</a></span><br>
+                                <span><a href="tel:1-956-625-9900">956-625-9900</a></span><br>
+                                <span><a href="tel:1-903-355-2000">903-355-2000</a></span><br>
+                                <span><a href="tel:1-806-515-3300">806-515-3300</a></span><br>
+                                <span><a href="tel:1-956-758-8300">956-758-8300</a></span><br>
+                                <span><a href="tel:1-432-280-2200">432-280-2200</a></span><br>
+                                <span><a href="tel:1-325-423-8800">325-423-8800</a></span><br>
+                                <span><a href="tel:1-210-390-8600">210-390-8600</a></span><br>
+                                <span><a href="tel:1-940-204-5500">940-204-5500</a></span><br>
                             </div>
                         </div>
                     </div>

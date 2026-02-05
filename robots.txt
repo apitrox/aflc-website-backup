@@ -1,0 +1,80 @@
+# Robots.txt for America Family Law Center
+# Block all bots from crawling this site
+
+# Block all robots
+User-agent: *
+Disallow: /
+
+# Specifically block Wayback Machine / Internet Archive
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+# Block other common crawlers/archivers
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: facebookexternalhit
+Disallow: /
+
+User-agent: Twitterbot
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: linkedinbot
+Disallow: /
+
+User-agent: embedly
+Disallow: /
+
+User-agent: quora link preview
+Disallow: /
+
+User-agent: showyoubot
+Disallow: /
+
+User-agent: outbrain
+Disallow: /
+
+User-agent: pinterest
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+# No sitemap - site should not be indexed
+# Sitemap: https://americafamilylawcenter.org/sitemap.xml
