@@ -11,6 +11,7 @@
 Changes to make to `aflc-website-backup` project website:  
 - Rebuild/replicate the FAQs page of our website from `https://web.archive.org/web/20250709154805/https://americafamilylawcenter.org/faqs/`.  
 - Build any new web page as a separate HTML file in this project.  
+- Copy images to the `images` folder, trying not to create duplicate copies of an image but instead reusing the same image when appropriate
 - When replicating a web page from the Wayback Machine, make it identical to what is on the Wayback Machine except to remove the Wayback Machine code and for our website use all HTML/CSS/JavaScript.  
 - For links to pages that do not yet exist, leave the links empty and we will create the page and update the link later.  
   
