@@ -793,18 +793,25 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 /* Topics Mega Menu Styles
 -------------------------------------------------------------------------------*/
 #nav .menu-item-has-children {
+    position: static;
+}
+
+#nav {
     position: relative;
 }
 
 #nav .menu-item-has-children > .sub-menu {
     display: none;
     position: absolute;
-    top: 100%;
-    left: -200px;
+    top: 58px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     background: #e8e8e8;
-    min-width: 960px;
+    max-width: 960px;
+    width: 100%;
     z-index: 1000;
-    padding: 15px 20px;
+    padding: 8px 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     flex-wrap: wrap;
 }
@@ -816,15 +823,17 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 #nav .sub-menu li {
     width: 25%;
     box-sizing: border-box;
-    padding: 8px 15px;
+    padding: 3px 8px;
     list-style: none;
 }
 
 #nav .sub-menu li a {
     color: #666;
-    font-size: 13px;
+    font-size: 12px;
     text-decoration: none;
     display: block;
+    line-height: 1.4;
+    padding: 2px 0;
 }
 
 #nav .sub-menu li a:hover {
@@ -839,6 +848,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
         left: 0;
         display: none;
         flex-direction: column;
+        padding: 5px;
     }
 
     #nav .menu-item-has-children:hover > .sub-menu {
@@ -847,6 +857,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 
     #nav .sub-menu li {
         width: 100%;
+        padding: 2px 5px;
     }
 }
 
