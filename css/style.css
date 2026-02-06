@@ -790,6 +790,66 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	margin-bottom:0px !important;
 }
 
+/* Topics Mega Menu Styles
+-------------------------------------------------------------------------------*/
+#nav .menu-item-has-children {
+    position: relative;
+}
+
+#nav .menu-item-has-children > .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -200px;
+    background: #e8e8e8;
+    min-width: 960px;
+    z-index: 1000;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    flex-wrap: wrap;
+}
+
+#nav .menu-item-has-children:hover > .sub-menu {
+    display: flex;
+}
+
+#nav .sub-menu li {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 8px 15px;
+    list-style: none;
+}
+
+#nav .sub-menu li a {
+    color: #666;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+}
+
+#nav .sub-menu li a:hover {
+    color: #8B1A1A;
+}
+
+/* Mobile Topics Menu */
+@media only screen and (max-width: 959px) {
+    #nav .menu-item-has-children > .sub-menu {
+        position: static;
+        min-width: 100%;
+        left: 0;
+        display: none;
+        flex-direction: column;
+    }
+
+    #nav .menu-item-has-children:hover > .sub-menu {
+        display: flex;
+    }
+
+    #nav .sub-menu li {
+        width: 100%;
+    }
+}
+
 /*
      FILE ARCHIVED ON 02:58:22 Apr 24, 2025 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 17:48:11 Feb 05, 2026.

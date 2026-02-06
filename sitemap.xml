@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- 
+    <!--
     Note: This sitemap is maintained for internal reference only.
     All pages are set to noindex and this site blocks all crawlers via robots.txt.
     -->
     <url>
         <loc>https://americafamilylawcenter.org/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-02-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://americafamilylawcenter.org/mission.html</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-02-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://americafamilylawcenter.org/services.html</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-02-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://americafamilylawcenter.org/programs.html</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-02-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://americafamilylawcenter.org/blog.html</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-02-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -39,5 +39,270 @@
         <lastmod>2025-02-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- Topic Pages -->
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/adjudicate-parentage.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/adoption.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/affordable-family-law.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/child-custody.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/child-custody-lawyers.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/child-custody-legal-aid.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/child-support.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/child-support-collection.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/child-support-enforcement.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/child-support-lawyers.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/child-visitation.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/child-visitation-assistance.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/co-parenting.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/conservatorship.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/custodial-parent.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/divorce.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/divorce-attorneys.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/divorce-lawyers.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/dna-paternity-testing.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/family-law.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/family-law-center.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/guardianship.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/joint-custody.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/law-help.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/legal-aid.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/limited-scope-representation.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/mediation.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/obligee.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/obligor.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/parenting-plans.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/parental-rights.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/pro-bono-attorney.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/pro-bono-lawyers.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/property-division.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/protective-order.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/restraining-order.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/shared-parenting.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/spousal-support.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/visitation.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/visitation-assistance.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/visitation-enforcement.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/visitation-lawyers.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://americafamilylawcenter.org/topics/visitation-rights.html</loc>
+        <lastmod>2025-02-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
 </urlset>

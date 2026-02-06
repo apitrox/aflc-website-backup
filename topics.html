@@ -4,39 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Block all search engines and bots -->
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
     <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
     <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
     <meta name="archive" content="noarchive">
-    
-    <title>Family Law Legal Assistance-Low-Income Texas Families</title>
-    <meta name="description" content="Get Family Law Legal Assistance; all areas of family law. Providing greater access to Justice for low-income Texas families. Call 713-239-5200.">
+
+    <title>Free Legal Resources, Family Law; Pro-bono lawyers, divorce, custody</title>
+    <meta name="description" content="Free legal resource for family law; divorce, custody, support. For more information contact America Family Law Center at 713-239-5200.">
     <meta name="Copyright" content="Copyright © America Family Law Center 2025. All Rights Reserved.">
-    
+
     <!-- Open Graph Meta -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Menu - Mission">
-    <meta property="og:description" content="Help the families to understand how to strive for equal rights, sharing parental responsibility and the areas involving in Law.">
-    <meta property="og:url" content="https://americafamilylawcenter.org/mission/">
+    <meta property="og:title" content="Menu - Topics">
+    <meta property="og:description" content="Free legal resource for family law; divorce, custody, support. For more information contact America Family Law Center at 713-239-5200.">
+    <meta property="og:url" content="https://americafamilylawcenter.org/topics/">
     <meta property="og:site_name" content="America Family Law Center">
-    <meta property="og:image" content="images/Diverse-group-of-children.jpg">
-    
+
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png" sizes="32x32">
-    
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/flexslider.css">
-    
+
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    
+
     <style>
         /* Custom overrides */
         #main p {
@@ -56,22 +55,77 @@
         img.lazyload {
             opacity: 1;
         }
-        .page-articles-title-img {
+
+        /* Topics mega menu styles */
+        #nav .menu-item-has-children .sub-menu {
+            display: none;
+            position: absolute;
+            background: #e8e8e8;
+            min-width: 200px;
+            z-index: 1000;
+            padding: 15px 0;
+            left: 0;
+            width: 100%;
+            max-width: 960px;
+        }
+        #nav .menu-item-has-children:hover .sub-menu {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #nav .sub-menu li {
+            width: 25%;
+            box-sizing: border-box;
+            padding: 5px 15px;
+        }
+        #nav .sub-menu li a {
+            color: #666;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        #nav .sub-menu li a:hover {
+            color: #8B1A1A;
+        }
+
+        /* Topics list styling */
+        .topics-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .topics-list li {
+            padding: 5px 0;
+        }
+        .topics-list li a {
+            color: #333;
+            text-decoration: none;
+        }
+        .topics-list li a:hover {
+            color: #8B1A1A;
+            text-decoration: underline;
+        }
+
+        /* Page articles toggle */
+        .page-articles-title {
             cursor: pointer;
+        }
+        .page-articles-title-img {
+            width: 12px;
+            height: 12px;
             margin-left: 5px;
+            vertical-align: middle;
         }
         .page-articles.hide {
             display: none;
         }
     </style>
-    
+
     <script>
         $(document).ready(function(){
             $(".nav-button").click(function () {
                 $(".nav-button,.primary-nav").toggleClass("open");
             });
-            
-            // Toggle Family Law Articles section
+
+            // Toggle Family Law Articles
             $(".page-articles-title").click(function() {
                 $(".page-articles").toggleClass("hide");
             });
@@ -79,7 +133,7 @@
     </script>
 </head>
 
-<body class="page page-template-default page-id-29">
+<body class="page-template-default page page-id-64">
     <div id="wrapper">
         <!-- Mobile Navigation -->
         <div id="mobile_nav">
@@ -87,10 +141,10 @@
             <div class="nav">
                 <ul id="menu-mobile" class="primary-nav">
                     <li><a href="index.html">Home</a></li>
-                    <li class="current-menu-item"><a href="mission.html">Mission</a></li>
+                    <li><a href="mission.html">Mission</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="programs.html">Programs</a></li>
-                    <li><a href="topics.html">Topics</a></li>
+                    <li class="current-menu-item"><a href="topics.html">Topics</a></li>
                     <li><a href="blog.html">Blogs</a></li>
                     <li><a href="faqs.html">FAQs</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -98,7 +152,7 @@
                 </ul>
             </div>
         </div>
-        
+
         <!-- Header -->
         <div id="top">
             <div id="header" role="banner">
@@ -147,7 +201,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Navigation -->
             <div id="nav-shell">
                 <div id="nav-iner-shell">
@@ -156,12 +210,12 @@
                         <div class="menu-primary-container">
                             <ul id="menu-primary" class="menu">
                                 <li><a href="index.html">Home</a></li>
-                                <li class="current-menu-item"><a href="mission.html">Mission</a></li>
+                                <li><a href="mission.html">Mission</a></li>
                                 <li><a href="services.html">Services</a></li>
                                 <li><a href="programs.html">Programs</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="faqs.html">FAQs</a></li>
-                                <li class="menu-item-has-children">
+                                <li class="menu-item-has-children current-menu-item">
                                     <a href="topics.html">Topics</a>
                                     <ul class="sub-menu">
                                         <li><a href="topics/adjudicate-parentage.html">Adjudicate Parentage</a></li>
@@ -215,7 +269,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Main Content -->
         <div id="main" class="container">
             <div class="row">
@@ -286,7 +340,7 @@
                                 </form>
                             </div>
                         </div>
-                        
+
                         <p class="sidebanner"><span class="text_phone_num_link">TEXT</span> OR <span class="call_phone_num_link">CALL</span></p>
                         <div class="contact_wrapper">
                             <div class="row">
@@ -356,7 +410,7 @@
                         </div>
                     </aside>
                 </div>
-                
+
                 <!-- Main Content Area -->
                 <div>
                     <!-- Slider -->
@@ -373,49 +427,95 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Content -->
                     <div id="content" class="eight columns padding-right20">
                         <div class="recent-posts-wrapper">
-                            <h2><span class="recent-posts-title page-articles-title">Family Law Articles <img src="images/arrow_sm_black_top.gif" title="Open/Close Family Law Articles" alt="Open/Close Family Law Articles" class="page-articles-title-img"></span></h2>
+                            <h2><span class="recent-posts-title page-articles-title">Family Law Articles</span></h2>
                             <ul class="recent-posts-list page-articles hide">
-                                <li><a href="school-records-denied-access.html">School Records | Denied Access?</a></li>
-                                <li><a href="astroworld-festival-ends-in-injuries.html">Astroworld Festival Ends in Injuries</a></li>
-                                <li><a href="child-custody.html">Child Custody</a></li>
-                                <li><a href="divorce-checklist-for-parent.html">Divorce Checklist for Parent</a></li>
-                                <li><a href="third-round-stimulus-checks-and-child-support.html">Third-round Stimulus Checks and Child Support</a></li>
-                                <li><a href="what-factors-effect-your-stimulus-check-back-child-support.html">What Factors Effect Your Stimulus Check | Back Child Support</a></li>
-                                <li><a href="unemployed-and-cant-pay-child-support.html">Unemployed and Struggling with Child Support</a></li>
-                                <li><a href="shelter-in-place-due-to-covid-19-visitation.html">Shelter-in-place due to COVID-19 | Visitation</a></li>
-                                <li><a href="visitation-schedules-and-school-cancellation-due-to-covid-19.html">Visitation Schedules and School Cancellation due to COVID-19</a></li>
-                                <li><a href="what-can-be-done-about-parental-alienation.html">What Can Be Done About Parental Alienation</a></li>
+                                <li><a href="#">School Records | Denied Access?</a></li>
+                                <li><a href="#">Astroworld Festival Ends in Injuries</a></li>
+                                <li><a href="topics/child-custody.html">Child Custody</a></li>
+                                <li><a href="#">Divorce Checklist for Parent</a></li>
+                                <li><a href="#">Third-round Stimulus Checks and Child Support</a></li>
+                                <li><a href="#">What Factors Effect Your Stimulus Check | Back Child Support</a></li>
+                                <li><a href="#">Unemployed and Struggling with Child Support</a></li>
+                                <li><a href="#">Shelter-in-place due to COVID-19 | Visitation</a></li>
+                                <li><a href="#">Visitation Schedules and School Cancellation due to COVID-19</a></li>
+                                <li><a href="#">What Can Be Done About Parental Alienation</a></li>
                             </ul>
                         </div>
-                        
-                        <article class="post" id="post-29">
+
+                        <article class="post" id="post-64">
                             <div class="entry">
-                                <h1 id="h-mission">Mission</h1>
-                                
-                                <p>America Family Law Center strives to enhance the lives of children and families through education, assistance, and access to justice.</p>
-                                
-                                <h2 id="h-values">Values</h2>
-                                
-                                <p>America Family Law Center believes that raising children in a loving, nurturing, and supportive family structure benefits both the children and our community.</p>
-                                
-                                <p>America Family Law Center, a <a href="https://www.irs.gov/charities-and-nonprofits" target="_blank" rel="noreferrer noopener">501(c)(3) nonprofit</a>, is a charitable organization committed to improving and enriching the children in our communities.</p>
-                                
-                                <div class="wp-block-image">
-                                    <figure class="alignleft is-resized">
-                                        <img src="images/Diverse-group-of-children.jpg" alt="Mission" style="aspect-ratio:1.7307865168539325;width:177px;height:auto">
-                                    </figure>
-                                </div>
-                                
-                                <p>Our efforts primarily focus on helping children by assisting the parents of low-income or at-risk families. Disadvantaged and underserved children might otherwise end up in child protective services or the foster care system – we want these children to grow up in a safe, loving, and supportive family environment.</p>
-                                
-                                <p>Each year, America Family Law Center impacts the lives of over 25,000 people in our local communities. The organization has had clients in all 50 states.</p>
-                                
-                                <h6>English&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mision.html" title="View Español version.">Español</a></h6>
-                                
+                                <h2 id="h-can-you-hug-your-child-today-we-can-help">Can you hug your child today? We can help! <sup>TM</sup></h2>
+
+                                <h1 id="h-free-legal-resource-related-to-family-law-topics">Free Legal Resource Related to Family Law Topics</h1>
+
+                                <!-- FAQs image placeholder -->
+                                <figure class="wp-block-image size-large is-resized aligncenter">
+                                    <!-- Image to be added later -->
+                                </figure>
+
+                                <p>America Family Law Center has identified many free legal resources related to <a href="http://www.statutes.legis.state.tx.us/Docs/FA/htm/FA.101.htm" target="_blank" rel="noopener">family law topics</a>. This free legal resource is meant to help the public understand more about family law in situations they may face. Each topic is general information and not meant to serve as legal advice.</p>
+
+                                <h2 id="h-additional-free-legal-resources-helpful-links">Additional Free Legal Resources Helpful Links</h2>
+
+                                <figure class="alignright size-large">
+                                    <a href="images/Gavel-justice-law-legal.jpg">
+                                        <img src="images/Gavel-justice-law-legal.jpg" alt="Gavel" width="500" height="333">
+                                    </a>
+                                </figure>
+
+                                <ul class="topics-list">
+                                    <li>Ad Litem Attorney</li>
+                                    <li><a href="topics/adjudicate-parentage.html">Adjudicate Parentage</a></li>
+                                    <li><a href="topics/adoption.html">Adoption</a></li>
+                                    <li><a href="topics/affordable-family-law.html">Affordable Family Law</a></li>
+                                    <li><a href="topics/child-custody.html">Child Custody</a></li>
+                                    <li><a href="topics/child-custody-lawyers.html">Child Custody Lawyers</a></li>
+                                    <li><a href="topics/child-custody-legal-aid.html">Child Custody Legal Aid</a></li>
+                                    <li><a href="topics/child-support.html">Child Support</a></li>
+                                    <li><a href="topics/child-support-collection.html">Child Support Collection</a></li>
+                                    <li><a href="topics/child-support-enforcement.html">Child Support Enforcement</a></li>
+                                    <li><a href="topics/child-support-lawyers.html">Child Support Lawyers</a></li>
+                                    <li><a href="topics/child-visitation.html">Child Visitation</a></li>
+                                    <li><a href="topics/child-visitation-assistance.html">Child Visitation Assistance</a></li>
+                                    <li><a href="topics/co-parenting.html">Co-Parenting</a></li>
+                                    <li><a href="topics/conservatorship.html">Conservatorship</a></li>
+                                    <li><a href="topics/custodial-parent.html">Custodial Parent</a></li>
+                                    <li><a href="topics/divorce.html">Divorce</a></li>
+                                    <li><a href="topics/divorce-attorneys.html">Divorce Attorneys</a></li>
+                                    <li><a href="topics/divorce-lawyers.html">Divorce Lawyers</a></li>
+                                    <li><a href="topics/dna-paternity-testing.html">DNA Paternity Testing</a></li>
+                                    <li><a href="topics/family-law.html">Family Law</a></li>
+                                    <li><a href="topics/family-law-center.html">Family Law Center</a></li>
+                                    <li><a href="topics/guardianship.html">Guardianship</a></li>
+                                    <li><a href="topics/joint-custody.html">Joint Custody</a></li>
+                                    <li><a href="topics/law-help.html">Law Help</a></li>
+                                    <li><a href="topics/legal-aid.html">Legal Aid</a></li>
+                                    <li><a href="topics/limited-scope-representation.html">Limited Scope Representation</a></li>
+                                    <li><a href="topics/mediation.html">Mediation</a></li>
+                                    <li><a href="topics/obligee.html">Obligee</a></li>
+                                    <li><a href="topics/obligor.html">Obligor</a></li>
+                                    <li><a href="topics/parenting-plans.html">Parenting Plans</a></li>
+                                    <li><a href="topics/parental-rights.html">Parental Rights</a></li>
+                                    <li><a href="topics/pro-bono-attorney.html">Pro Bono Attorneys</a></li>
+                                    <li><a href="topics/pro-bono-lawyers.html">Pro Bono Lawyers</a></li>
+                                    <li><a href="topics/property-division.html">Property Division</a></li>
+                                    <li><a href="topics/protective-order.html">Protective Order</a></li>
+                                    <li><a href="topics/restraining-order.html">Restraining Order</a></li>
+                                    <li><a href="topics/shared-parenting.html">Shared Parenting</a></li>
+                                    <li><a href="topics/spousal-support.html">Spousal Support</a></li>
+                                    <li><a href="topics/visitation.html">Visitation</a></li>
+                                    <li><a href="topics/visitation-assistance.html">Visitation Assistance</a></li>
+                                    <li><a href="topics/visitation-enforcement.html">Visitation Enforcement</a></li>
+                                    <li><a href="topics/visitation-lawyers.html">Visitation Lawyers</a></li>
+                                    <li><a href="topics/visitation-rights.html">Visitation Rights</a></li>
+                                </ul>
+
+                                <h6>English&nbsp;&nbsp;|&nbsp;&nbsp;<a href="temas.html" title="View Español version.">Español</a></h6>
+
                                 <hr class="post-contact-information-hr">
                                 <div class="post-contact-information">
                                     <div class="post-contact-information-logo">
@@ -435,7 +535,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Footer -->
         <div id="footer">
             <div class="container">
@@ -473,66 +573,18 @@
                         <h2>Text or Call</h2>
                         <div class="row">
                             <div class="u-pull-left">
-                                <span>AZ - Phoenix</span><br>
-                                <span>FL - Jacksonville</span><br>
-                                <span>FL - Miami</span><br>
-                                <span>GA - Atlanta</span><br>
-                                <span>IL - Chicago</span><br>
-                                <span>IL - Springfield</span><br>
-                                <span>MO - Kansas City</span><br>
-                                <span>MO - St. Louis</span><br>
-                                <span>OH - Cleveland</span><br>
-                                <span>OH - Columbus</span><br>
-                                <span>PA - Philadelphia</span><br>
-                                <span>PA - Pittsburgh</span><br>
-                                <span>TX - Abilene</span><br>
-                                <span>TX - Amarillo</span><br>
-                                <span>TX - Austin</span><br>
-                                <span>TX - Beaumont</span><br>
-                                <span>TX - Corpus Christi</span><br>
                                 <span>TX - Dallas</span><br>
-                                <span>TX - El Paso</span><br>
-                                <span>TX - Fort Worth</span><br>
                                 <span>TX - Houston</span><br>
-                                <span>TX - Laredo</span><br>
-                                <span>TX - Longview</span><br>
-                                <span>TX - Lubbock</span><br>
-                                <span>TX - McAllen</span><br>
-                                <span>TX - Midland</span><br>
-                                <span>TX - San Angelo</span><br>
                                 <span>TX - San Antonio</span><br>
-                                <span>TX - Wichita Falls</span><br>
+                                <span>TX - Austin</span><br>
+                                <span>TX - Fort Worth</span><br>
                             </div>
                             <div class="u-pull-right">
-                                <span><a href="tel:1-602-691-5000">602-691-5000</a></span><br>
-                                <span><a href="tel:1-904-615-8880">904-615-8880</a></span><br>
-                                <span><a href="tel:1-305-424-2970">305-424-2970</a></span><br>
-                                <span><a href="tel:1-404-905-3000">404-905-3000</a></span><br>
-                                <span><a href="tel:1-312-548-7700">312-548-7700</a></span><br>
-                                <span><a href="tel:1-217-906-4040">217-906-4040</a></span><br>
-                                <span><a href="tel:1-913-305-5000">913-305-5000</a></span><br>
-                                <span><a href="tel:1-314-667-4000">314-667-4000</a></span><br>
-                                <span><a href="tel:1-216-616-8100">216-616-8100</a></span><br>
-                                <span><a href="tel:1-614-820-1100">614-820-1100</a></span><br>
-                                <span><a href="tel:1-215-607-8000">215-607-8000</a></span><br>
-                                <span><a href="tel:1-412-385-7900">412-385-7900</a></span><br>
-                                <span><a href="tel:1-325-330-8800">325-330-8800</a></span><br>
-                                <span><a href="tel:1-806-305-2200">806-305-2200</a></span><br>
-                                <span><a href="tel:1-512-271-8700">512-271-8700</a></span><br>
-                                <span><a href="tel:1-409-509-7700">409-509-7700</a></span><br>
-                                <span><a href="tel:1-361-320-8800">361-320-8800</a></span><br>
                                 <span><a href="tel:1-214-516-7700">214-516-7700</a></span><br>
-                                <span><a href="tel:1-915-348-5500">915-348-5500</a></span><br>
-                                <span><a href="tel:1-817-932-9500">817-932-9500</a></span><br>
                                 <span><a href="tel:1-713-239-5200">713-239-5200</a></span><br>
-                                <span><a href="tel:1-956-625-9900">956-625-9900</a></span><br>
-                                <span><a href="tel:1-903-355-2000">903-355-2000</a></span><br>
-                                <span><a href="tel:1-806-515-3300">806-515-3300</a></span><br>
-                                <span><a href="tel:1-956-758-8300">956-758-8300</a></span><br>
-                                <span><a href="tel:1-432-280-2200">432-280-2200</a></span><br>
-                                <span><a href="tel:1-325-423-8800">325-423-8800</a></span><br>
                                 <span><a href="tel:1-210-390-8600">210-390-8600</a></span><br>
-                                <span><a href="tel:1-940-204-5500">940-204-5500</a></span><br>
+                                <span><a href="tel:1-512-271-8700">512-271-8700</a></span><br>
+                                <span><a href="tel:1-817-932-9500">817-932-9500</a></span><br>
                             </div>
                         </div>
                     </div>
@@ -548,7 +600,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Scripts -->
     <script src="js/flexslider-min.js"></script>
     <script src="js/functions.js"></script>
@@ -561,7 +613,7 @@
                 animationSpeed: 600
             });
         });
-        
+
         // Location switcher
         function SwitchLocation(value) {
             var parts = value.split('|');
@@ -573,7 +625,7 @@
                 $('#tel_btn').attr('href', 'tel:1-' + phoneNum);
             }
         }
-        
+
         // Form character counter
         document.addEventListener('DOMContentLoaded', function() {
             var situation = document.querySelector('textarea[name="Situation"]');
