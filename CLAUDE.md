@@ -56,7 +56,7 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:  
-- Rebuild/replicate the individual blog post pages listed/linked on the main Blog page `https://web.archive.org/web/20250207055108/https://americafamilylawcenter.org/category/en-post/`. Below is a link for each blog post listing page. They listing of links below should be in the same order as the blog posts on the main Blog page, but confirm each to be sure.
+- Rebuild/replicate the individual blog post pages listed/linked on the main Blog page `https://web.archive.org/web/20250714063415/https://americafamilylawcenter.org/category/en-post/`. Below is a link for each blog post listing page. They listing of links below should be in the same order as the blog posts on the main Blog page, but confirm each to be sure.
    - `https://web.archive.org/web/20250427104842/https://americafamilylawcenter.org/school-records-denied-access/`  
    - `https://web.archive.org/web/20250714054450/https://americafamilylawcenter.org/astroworld-festival-ends-in-injuries/`  
    - `https://web.archive.org/web/20250813122902/https://americafamilylawcenter.org/child-custody/`  
