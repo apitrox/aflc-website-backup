@@ -10,9 +10,8 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:  
-- You will be updating the blog listing page at `../blog.html`, and the individual blog post at `../posts/child-custody.html`.
-- Update the blog listing page by removing the 2 highlighted paragraphs shown in the image `child-custody-blog-post-listing.png` in our project and apply the image `images/blog/child-custody-post.jpg` making it the same size as other images on the page and updating the Read More link and posted date to be formatted the same as other post listings.  
-- Then update the `../posts/child-custody.html` page with the same image in the same manner.  
+- You will be updating the blog listing page at `../blog.html`.
+- Create a summary description for the blog post listing "Family Law Pro Bono Lawyers". Make it consistent with other blog post listing descriptions. Use the individual post page the listing is linked to.  
   
 ---  
   
@@ -68,7 +67,9 @@ When complete:
 <!-- - Rebuild/replicate the FAQs page of our website from `https://web.archive.org/web/20250709154805/https://americafamilylawcenter.org/faqs/`.  -->
 <!-- - Rebuild/replicate the Contact page of our website from `https://web.archive.org/web/20250709154805/https://americafamilylawcenter.org/contact/`.  -->
 <!-- - Rebuild/replicate the Topics page of our website from `https://web.archive.org/web/20250525043431/https://americafamilylawcenter.org/topics/`.  -->
-<!-- - Rebuild/replicate the multi-dimensional menu for Topics with each of the 43 different topics listed in alphabetical order, gray background. Included in the project repository is an image of the Topics multi-dimensional menu with only 7 items, named `AFLC-topics-menu-7.png`, another image with 39 menu items in gray named `AFLC-topics-menu-39-gray.png`, and another with 39 menu items in red named `AFLC-topics-menu-39-red.png`.
+<!-- - Rebuild/replicate the multi-dimensional menu for Topics with each of the 43 different topics listed in alphabetical order, gray background. Included in the project repository is an image of the Topics multi-dimensional menu with only 7 items, named `AFLC-topics-menu-7.png`, another image with 39 menu items in gray named `AFLC-topics-menu-39-gray.png`, and another with 39 menu items in red named `AFLC-topics-menu-39-red.png`.  -->
+
+<!--
 - Rebuild/replicate the individual Topic pages listed on the main Topics page, here are links to most of them:
    - `https://web.archive.org/web/20250714063341/https://americafamilylawcenter.org/adjudicate-parentage-in-texas-steps-to-adjudicate-parentage/`  
    - `https://web.archive.org/web/20250427092922/https://americafamilylawcenter.org/adoption/`  
@@ -146,3 +147,8 @@ When complete:
    - `https://web.archive.org/web/20250326050110/https://americafamilylawcenter.org/texas-adjudicate-parentage-action/`  
  -->
 
+<!--
+- You will be updating the blog listing page at `../blog.html`, and the individual blog post at `../posts/child-custody.html`.
+- Update the blog listing page by removing the 2 highlighted paragraphs shown in the image `child-custody-blog-post-listing.png` in our project and apply the image `images/blog/child-custody-post.jpg` making it the same size as other images on the page and updating the Read More link and posted date to be formatted the same as other post listings.  
+- Then update the `../posts/child-custody.html` page with the same image in the same manner.  
+ -->
