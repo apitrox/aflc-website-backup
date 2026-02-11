@@ -1,50 +1,4 @@
 
-<!-- - Rebuild/replicate the FAQs page of our website from `https://web.archive.org/web/20250709154805/https://americafamilylawcenter.org/faqs/`.  -->
-<!-- - Rebuild/replicate the Contact page of our website from `https://web.archive.org/web/20250709154805/https://americafamilylawcenter.org/contact/`.  -->
-<!-- - Rebuild/replicate the Topics page of our website from `https://web.archive.org/web/20250525043431/https://americafamilylawcenter.org/topics/`.  -->
-<!-- - Rebuild/replicate the multi-dimensional menu for Topics with each of the 43 different topics listed in alphabetical order, gray background. Included in the project repository is an image of the Topics multi-dimensional menu with only 7 items, named `AFLC-topics-menu-7.png`, another image with 39 menu items in gray named `AFLC-topics-menu-39-gray.png`, and another with 39 menu items in red named `AFLC-topics-menu-39-red.png`.
-- Rebuild/replicate the individual Topic pages listed on the main Topics page, here are links to most of them:
-   - `https://web.archive.org/web/20250714063341/https://americafamilylawcenter.org/adjudicate-parentage-in-texas-steps-to-adjudicate-parentage/`  
-   - `https://web.archive.org/web/20250427092922/https://americafamilylawcenter.org/adoption/`  
-   - `https://web.archive.org/web/20170705163854/https://americafamilylawcenter.org/family-topics/child-custody-lawyers/`  
-   - `https://web.archive.org/web/20250427091449/https://americafamilylawcenter.org/child-custody-legal-aid/`  
-   - `https://web.archive.org/web/20250714051756/https://americafamilylawcenter.org/child-support/`  
-   - `https://web.archive.org/web/20250525043020/https://americafamilylawcenter.org/child-support-collection/`  
-   - `https://web.archive.org/web/20250427101753/https://americafamilylawcenter.org/child-support-enforcement/`  
-   - `https://web.archive.org/web/20170705170721/https://americafamilylawcenter.org/family-topics/child-visitation/`  
-   - `https://web.archive.org/web/20250714064103/https://americafamilylawcenter.org/co-parenting/`  
-   - `https://web.archive.org/web/20250427093901/https://americafamilylawcenter.org/conservatorship/`  
-   - `https://web.archive.org/web/20250427095530/https://americafamilylawcenter.org/custodial-parent/`  
-   - `https://web.archive.org/web/20250525044540/https://americafamilylawcenter.org/divorce/`  
-   - `https://web.archive.org/web/20250623084941/https://americafamilylawcenter.org/divorce-attorneys/`  
-   - `https://web.archive.org/web/20250525041312/https://americafamilylawcenter.org/divorce-lawyers/`  
-   - `https://web.archive.org/web/20250714051315/https://americafamilylawcenter.org/dna-paternity-testing/`  
-   - `https://web.archive.org/web/20250709154652/https://americafamilylawcenter.org/family-law/`  
-   - `https://web.archive.org/web/20250714063654/https://americafamilylawcenter.org/family-law-center/`  
-   - `https://web.archive.org/web/20250326035956/https://americafamilylawcenter.org/guardianship/`  
-   - `https://web.archive.org/web/20250714063936/https://americafamilylawcenter.org/joint-custody/`  
-   - `https://web.archive.org/web/20250425030617/https://americafamilylawcenter.org/law-help/`  
-   - `https://web.archive.org/web/20250427103654/https://americafamilylawcenter.org/legal-aid/`  
-   - `https://web.archive.org/web/20250714060358/https://americafamilylawcenter.org/limited-scope-representation/`  
-   - `https://web.archive.org/web/20250714062603/https://americafamilylawcenter.org/mediation/`  
-   - `https://web.archive.org/web/20250326050218/https://americafamilylawcenter.org/obligee/`  
-   - `https://web.archive.org/web/20250425024204/https://americafamilylawcenter.org/obligor/`  
-   - `https://web.archive.org/web/20250623095458/https://americafamilylawcenter.org/parenting-plans/`  
-   - `https://web.archive.org/web/20250623092339/https://americafamilylawcenter.org/parental-rights/`  
-   - `https://web.archive.org/web/20250326035607/https://americafamilylawcenter.org/pro-bono-attorney/`  
-   - `https://web.archive.org/web/20250326045644/https://americafamilylawcenter.org/pro-bono-lawyers/`  
-   - `https://web.archive.org/web/20250714064831/https://americafamilylawcenter.org/property-division/`  
-   - `https://web.archive.org/web/20250714054145/https://americafamilylawcenter.org/protective-order/`  
-   - `https://web.archive.org/web/20250525054458/https://americafamilylawcenter.org/restraining-order/`  
-   - `https://web.archive.org/web/20250714063522/https://americafamilylawcenter.org/shared-parenting/`  
-   - `https://web.archive.org/web/20250425025614/https://americafamilylawcenter.org/spousal-support/`  
-   - `https://web.archive.org/web/20250714054721/https://americafamilylawcenter.org/visitation/`  
-   - `https://web.archive.org/web/20250714061506/https://americafamilylawcenter.org/visitation-assistance/`  
-   - `https://web.archive.org/web/20250525052023/https://americafamilylawcenter.org/visitation-enforcement/`  
-   - `https://web.archive.org/web/20250326043107/https://americafamilylawcenter.org/visitation-lawyers/`  
-   - `https://web.archive.org/web/20250714062530/https://americafamilylawcenter.org/visitation-rights/`  
- -->
-
 # AFLC (America Family Law Center) Backup Website  
   
 - This is `aflc-website-backup`, a website.  
@@ -56,45 +10,9 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:  
-- Rebuild/replicate the individual blog post pages listed/linked on the main Blog page `https://web.archive.org/web/20250714063415/https://americafamilylawcenter.org/category/en-post/`. Below is a link for each blog post listing page. They listing of links below should be in the same order as the blog posts on the main Blog page, but confirm each to be sure.
-   - `https://web.archive.org/web/20250427104842/https://americafamilylawcenter.org/school-records-denied-access/`  
-   - `https://web.archive.org/web/20250714054450/https://americafamilylawcenter.org/astroworld-festival-ends-in-injuries/`  
-   - `https://web.archive.org/web/20250813122902/https://americafamilylawcenter.org/child-custody/`  
-   - `https://web.archive.org/web/20250623101121/https://americafamilylawcenter.org/divorce-checklist-for-parent/`  
-   - `https://web.archive.org/web/20250714063306/https://americafamilylawcenter.org/third-round-stimulus-checks-and-child-support/`  
-   - `https://web.archive.org/web/20250714053503/https://americafamilylawcenter.org/what-factors-effect-your-stimulus-check-back-child-support/`  
-   - `https://web.archive.org/web/20250709154822/https://americafamilylawcenter.org/unemployed-and-cant-pay-child-support/`  
-   - `https://web.archive.org/web/20250714061430/https://americafamilylawcenter.org/shelter-in-place-due-to-covid-19-visitation/`  
-   - `https://web.archive.org/web/20250326050035/https://americafamilylawcenter.org/visitation-schedules-and-school-cancellation-due-to-covid-19/`  
-   - `https://web.archive.org/web/20250709154815/https://americafamilylawcenter.org/what-can-be-done-about-parental-alienation/`  
-   - `https://web.archive.org/web/20250427102548/https://americafamilylawcenter.org/help-need-protective-order-family-domestic-violence/`  
-   - `https://web.archive.org/web/20250326041631/https://americafamilylawcenter.org/family-law-pro-bono-lawyer/`  
-   - `https://web.archive.org/web/20250326044336/https://americafamilylawcenter.org/denied-visitation-rights/`  
-   - `https://web.archive.org/web/20250714054527/https://americafamilylawcenter.org/filing-for-divorce-in-texas-legal-documents-needed-for-divorce/`  
-   - `https://web.archive.org/web/20250326033406/https://americafamilylawcenter.org/when-can-you-deny-visitation-to-the-non-custodial-parent-in-texas/`  
-   - `https://web.archive.org/web/20250427093027/https://americafamilylawcenter.org/child-visitation-when-a-parent-has-been-displaced-from-his-or-her-home/`  
-   - `https://web.archive.org/web/20250427110710/https://americafamilylawcenter.org/child-visitation-after-the-hurricane/`  
-   - `https://web.archive.org/web/20250714054115/https://americafamilylawcenter.org/parenting-plan-in-texas-custody/`  
-   - `https://web.archive.org/web/20250525044033/https://americafamilylawcenter.org/determining-child-custody-texas/`  
-   - `https://web.archive.org/web/20250525035801/https://americafamilylawcenter.org/child-support-modification-in-texas/`  
-   - `https://web.archive.org/web/20250207052317/https://americafamilylawcenter.org/how-to-establish-visitation-in-texas-with-your-children/`  
-   - `https://web.archive.org/web/20250427105113/https://americafamilylawcenter.org/abbbott-signs-radical-welfare-law-in-texas/`  
-   - `https://web.archive.org/web/20250326044529/https://americafamilylawcenter.org/understanding-fathers-rights-in-texas/`  
-   - `https://web.archive.org/web/20250326043142/https://americafamilylawcenter.org/texas-child-protective-services-investigating/`  
-   - `https://web.archive.org/web/20250326045752/https://americafamilylawcenter.org/becoming-a-guardian-texas-adult-children-parents/`  
-   - `https://web.archive.org/web/20250326044256/https://americafamilylawcenter.org/deported-immigration-children-documents/`  
-   - `https://web.archive.org/web/20250427093729/https://americafamilylawcenter.org/parental-rights-texas/`  
-   - `https://web.archive.org/web/20250525043925/https://americafamilylawcenter.org/visitation-rights-texas-possession-access/`  
-   - `https://web.archive.org/web/20250326035315/https://americafamilylawcenter.org/no-fault-divorce-in-texas-what-you-need-to-know/`  
-   - `https://web.archive.org/web/20250525044621/https://americafamilylawcenter.org/child-custody-out-of-state-moves-possession-and-access-texas/`  
-   - `https://web.archive.org/web/20250427110449/https://americafamilylawcenter.org/teaching-children-responsibility-building-values/`  
-   - `https://web.archive.org/web/20250326050110/https://americafamilylawcenter.org/texas-adjudicate-parentage-action/`  
-- When accessing pages from the Wayback Machine at web.archive.org, you may have to pause extensively between each page load because the Wayback Machine seems to throttle or prohibit access with too frequent requests. You also often have to wait a long time for pages and images to load, be patient. Build one page at a time.  
-- Build any new web page as a separate HTML file in this project.  
-- For each of the individual topic pages, put the HTML file for that page in a folder/director named `posts`. For example, `https://americafamilylawcenter.org/posts/school-records-denied-access/`.  
-- The same image used on the main Blog post page with each blog post is to be used on the individual blog post page. If the image is missing leave a placeholder and we will get an image later.  
-- When replicating a web page from the Wayback Machine, make it identical to what is on the Wayback Machine except to remove the Wayback Machine code and for our website use all HTML/CSS/JavaScript.  
-- For links to pages that do not yet exist, leave the links empty and we will create the page and update the link later.  
+- You will be updating the blog listing page at `../blog.html`, and the individual blog post at `../posts/child-custody.html`.
+- Update the blog listing page by removing the 2 highlighted paragraphs shown in the image `child-custody-blog-post-listing.png` in our project and apply the image `images/blog/child-custody-post.jpg` making it the same size as other images on the page and updating the Read More link and posted date to be formatted the same as other post listings.  
+- Then update the `../posts/child-custody.html` page with the same image in the same manner.  
   
 ---  
   
@@ -145,3 +63,86 @@ Changes to make to `aflc-website-backup` project website:
 When complete:  
 - promptly display that the process is complete and give me a step-by-step summary of what was done  
 - delete any temporary files you created while doing the work  
+
+
+<!-- - Rebuild/replicate the FAQs page of our website from `https://web.archive.org/web/20250709154805/https://americafamilylawcenter.org/faqs/`.  -->
+<!-- - Rebuild/replicate the Contact page of our website from `https://web.archive.org/web/20250709154805/https://americafamilylawcenter.org/contact/`.  -->
+<!-- - Rebuild/replicate the Topics page of our website from `https://web.archive.org/web/20250525043431/https://americafamilylawcenter.org/topics/`.  -->
+<!-- - Rebuild/replicate the multi-dimensional menu for Topics with each of the 43 different topics listed in alphabetical order, gray background. Included in the project repository is an image of the Topics multi-dimensional menu with only 7 items, named `AFLC-topics-menu-7.png`, another image with 39 menu items in gray named `AFLC-topics-menu-39-gray.png`, and another with 39 menu items in red named `AFLC-topics-menu-39-red.png`.
+- Rebuild/replicate the individual Topic pages listed on the main Topics page, here are links to most of them:
+   - `https://web.archive.org/web/20250714063341/https://americafamilylawcenter.org/adjudicate-parentage-in-texas-steps-to-adjudicate-parentage/`  
+   - `https://web.archive.org/web/20250427092922/https://americafamilylawcenter.org/adoption/`  
+   - `https://web.archive.org/web/20170705163854/https://americafamilylawcenter.org/family-topics/child-custody-lawyers/`  
+   - `https://web.archive.org/web/20250427091449/https://americafamilylawcenter.org/child-custody-legal-aid/`  
+   - `https://web.archive.org/web/20250714051756/https://americafamilylawcenter.org/child-support/`  
+   - `https://web.archive.org/web/20250525043020/https://americafamilylawcenter.org/child-support-collection/`  
+   - `https://web.archive.org/web/20250427101753/https://americafamilylawcenter.org/child-support-enforcement/`  
+   - `https://web.archive.org/web/20170705170721/https://americafamilylawcenter.org/family-topics/child-visitation/`  
+   - `https://web.archive.org/web/20250714064103/https://americafamilylawcenter.org/co-parenting/`  
+   - `https://web.archive.org/web/20250427093901/https://americafamilylawcenter.org/conservatorship/`  
+   - `https://web.archive.org/web/20250427095530/https://americafamilylawcenter.org/custodial-parent/`  
+   - `https://web.archive.org/web/20250525044540/https://americafamilylawcenter.org/divorce/`  
+   - `https://web.archive.org/web/20250623084941/https://americafamilylawcenter.org/divorce-attorneys/`  
+   - `https://web.archive.org/web/20250525041312/https://americafamilylawcenter.org/divorce-lawyers/`  
+   - `https://web.archive.org/web/20250714051315/https://americafamilylawcenter.org/dna-paternity-testing/`  
+   - `https://web.archive.org/web/20250709154652/https://americafamilylawcenter.org/family-law/`  
+   - `https://web.archive.org/web/20250714063654/https://americafamilylawcenter.org/family-law-center/`  
+   - `https://web.archive.org/web/20250326035956/https://americafamilylawcenter.org/guardianship/`  
+   - `https://web.archive.org/web/20250714063936/https://americafamilylawcenter.org/joint-custody/`  
+   - `https://web.archive.org/web/20250425030617/https://americafamilylawcenter.org/law-help/`  
+   - `https://web.archive.org/web/20250427103654/https://americafamilylawcenter.org/legal-aid/`  
+   - `https://web.archive.org/web/20250714060358/https://americafamilylawcenter.org/limited-scope-representation/`  
+   - `https://web.archive.org/web/20250714062603/https://americafamilylawcenter.org/mediation/`  
+   - `https://web.archive.org/web/20250326050218/https://americafamilylawcenter.org/obligee/`  
+   - `https://web.archive.org/web/20250425024204/https://americafamilylawcenter.org/obligor/`  
+   - `https://web.archive.org/web/20250623095458/https://americafamilylawcenter.org/parenting-plans/`  
+   - `https://web.archive.org/web/20250623092339/https://americafamilylawcenter.org/parental-rights/`  
+   - `https://web.archive.org/web/20250326035607/https://americafamilylawcenter.org/pro-bono-attorney/`  
+   - `https://web.archive.org/web/20250326045644/https://americafamilylawcenter.org/pro-bono-lawyers/`  
+   - `https://web.archive.org/web/20250714064831/https://americafamilylawcenter.org/property-division/`  
+   - `https://web.archive.org/web/20250714054145/https://americafamilylawcenter.org/protective-order/`  
+   - `https://web.archive.org/web/20250525054458/https://americafamilylawcenter.org/restraining-order/`  
+   - `https://web.archive.org/web/20250714063522/https://americafamilylawcenter.org/shared-parenting/`  
+   - `https://web.archive.org/web/20250425025614/https://americafamilylawcenter.org/spousal-support/`  
+   - `https://web.archive.org/web/20250714054721/https://americafamilylawcenter.org/visitation/`  
+   - `https://web.archive.org/web/20250714061506/https://americafamilylawcenter.org/visitation-assistance/`  
+   - `https://web.archive.org/web/20250525052023/https://americafamilylawcenter.org/visitation-enforcement/`  
+   - `https://web.archive.org/web/20250326043107/https://americafamilylawcenter.org/visitation-lawyers/`  
+   - `https://web.archive.org/web/20250714062530/https://americafamilylawcenter.org/visitation-rights/`  
+ -->
+
+<!-- 
+   - `https://web.archive.org/web/20250427104842/https://americafamilylawcenter.org/school-records-denied-access/`  
+   - `https://web.archive.org/web/20250714054450/https://americafamilylawcenter.org/astroworld-festival-ends-in-injuries/`  
+   - `https://web.archive.org/web/20250813122902/https://americafamilylawcenter.org/child-custody/`  
+   - `https://web.archive.org/web/20250623101121/https://americafamilylawcenter.org/divorce-checklist-for-parent/`  
+   - `https://web.archive.org/web/20250714063306/https://americafamilylawcenter.org/third-round-stimulus-checks-and-child-support/`  
+   - `https://web.archive.org/web/20250714053503/https://americafamilylawcenter.org/what-factors-effect-your-stimulus-check-back-child-support/`  
+   - `https://web.archive.org/web/20250709154822/https://americafamilylawcenter.org/unemployed-and-cant-pay-child-support/`  
+   - `https://web.archive.org/web/20250714061430/https://americafamilylawcenter.org/shelter-in-place-due-to-covid-19-visitation/`  
+   - `https://web.archive.org/web/20250326050035/https://americafamilylawcenter.org/visitation-schedules-and-school-cancellation-due-to-covid-19/`  
+   - `https://web.archive.org/web/20250709154815/https://americafamilylawcenter.org/what-can-be-done-about-parental-alienation/`  
+   - `https://web.archive.org/web/20250427102548/https://americafamilylawcenter.org/help-need-protective-order-family-domestic-violence/`  
+   - `https://web.archive.org/web/20250326041631/https://americafamilylawcenter.org/family-law-pro-bono-lawyer/`  
+   - `https://web.archive.org/web/20250326044336/https://americafamilylawcenter.org/denied-visitation-rights/`  
+   - `https://web.archive.org/web/20250714054527/https://americafamilylawcenter.org/filing-for-divorce-in-texas-legal-documents-needed-for-divorce/`  
+   - `https://web.archive.org/web/20250326033406/https://americafamilylawcenter.org/when-can-you-deny-visitation-to-the-non-custodial-parent-in-texas/`  
+   - `https://web.archive.org/web/20250427093027/https://americafamilylawcenter.org/child-visitation-when-a-parent-has-been-displaced-from-his-or-her-home/`  
+   - `https://web.archive.org/web/20250427110710/https://americafamilylawcenter.org/child-visitation-after-the-hurricane/`  
+   - `https://web.archive.org/web/20250714054115/https://americafamilylawcenter.org/parenting-plan-in-texas-custody/`  
+   - `https://web.archive.org/web/20250525044033/https://americafamilylawcenter.org/determining-child-custody-texas/`  
+   - `https://web.archive.org/web/20250525035801/https://americafamilylawcenter.org/child-support-modification-in-texas/`  
+   - `https://web.archive.org/web/20250207052317/https://americafamilylawcenter.org/how-to-establish-visitation-in-texas-with-your-children/`  
+   - `https://web.archive.org/web/20250427105113/https://americafamilylawcenter.org/abbbott-signs-radical-welfare-law-in-texas/`  
+   - `https://web.archive.org/web/20250326044529/https://americafamilylawcenter.org/understanding-fathers-rights-in-texas/`  
+   - `https://web.archive.org/web/20250326043142/https://americafamilylawcenter.org/texas-child-protective-services-investigating/`  
+   - `https://web.archive.org/web/20250326045752/https://americafamilylawcenter.org/becoming-a-guardian-texas-adult-children-parents/`  
+   - `https://web.archive.org/web/20250326044256/https://americafamilylawcenter.org/deported-immigration-children-documents/`  
+   - `https://web.archive.org/web/20250427093729/https://americafamilylawcenter.org/parental-rights-texas/`  
+   - `https://web.archive.org/web/20250525043925/https://americafamilylawcenter.org/visitation-rights-texas-possession-access/`  
+   - `https://web.archive.org/web/20250326035315/https://americafamilylawcenter.org/no-fault-divorce-in-texas-what-you-need-to-know/`  
+   - `https://web.archive.org/web/20250525044621/https://americafamilylawcenter.org/child-custody-out-of-state-moves-possession-and-access-texas/`  
+   - `https://web.archive.org/web/20250427110449/https://americafamilylawcenter.org/teaching-children-responsibility-building-values/`  
+   - `https://web.archive.org/web/20250326050110/https://americafamilylawcenter.org/texas-adjudicate-parentage-action/`  
+ -->
+
