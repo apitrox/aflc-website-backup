@@ -10,7 +10,8 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:
-- Update the footer on every pages so that the text at the bottom of the footer, highlighted in yellow on the image `Screenshot 2026-02-12 110001.png`, is the same size of font as the text highlighted in blue on the same image.
+<!-- - Update the footer on every pages so that the text at the bottom of the footer, highlighted in yellow on the image `Screenshot 2026-02-12 110001.png`, is the same size of font as the text highlighted in blue on the same image. -->
+<!-- - Rollback the last change you made to the footer area, all other changes remain. -->
   
 ---  
   
