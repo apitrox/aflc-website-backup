@@ -55,10 +55,6 @@
         img.lazyload {
             opacity: 1;
         }
-        .page-articles-title-img {
-            cursor: pointer;
-            margin-left: 5px;
-        }
         .page-articles.hide {
             display: none;
         }
@@ -72,7 +68,9 @@
             
             // Toggle Family Law Articles section
             $(".page-articles-title").click(function() {
-                $(".page-articles").toggleClass("hide");
+                $(".page-articles").slideToggle(function() {
+                    $(".page-articles-twistie").toggleClass("collapsed", !$(".page-articles").is(":visible"));
+                });
             });
         });
     </script>
@@ -376,7 +374,7 @@
                     <!-- Content -->
                     <div id="content" class="eight columns padding-right20">
                         <div class="recent-posts-wrapper">
-                            <h2><span class="recent-posts-title page-articles-title">Family Law Articles <img src="images/arrow_sm_black_top.gif" title="Open/Close Family Law Articles" alt="Open/Close Family Law Articles" class="page-articles-title-img"></span></h2>
+                            <h2><span class="recent-posts-title page-articles-title">Family Law Articles <span class="page-articles-twistie collapsed" aria-hidden="true">&#9650;</span></span></h2>
                             <ul class="recent-posts-list page-articles hide">
                                 <li><a href="school-records-denied-access.html">School Records | Denied Access?</a></li>
                                 <li><a href="astroworld-festival-ends-in-injuries.html">Astroworld Festival Ends in Injuries</a></li>

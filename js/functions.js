@@ -20,18 +20,7 @@ let opens = _____WB$wombat$assign$function_____("opens");
 (function ($) {
   /* trigger when page is ready */
   $(document).ready(function () {
-    $(".page-articles-title").on("click", function (event) {
-      $(".page-articles").slideToggle(function (event) {
-        var img_src = $(".page-articles-title-img").attr("src");
-        if ($(".page-articles").is(":visible") == false) {
-          img_src = img_src.replace("down", "top");
-          $(".page-articles-title-img").attr("src", img_src);
-        } else {
-          img_src = img_src.replace("top", "down");
-          $(".page-articles-title-img").attr("src", img_src);
-        }
-      });
-    });
+    // Family Law Articles toggle is handled by inline script on each page
 
 		var currentLocationPhoneNum = document.getElementById('Current_Location_Phone_Num_Val').value;
 		var $location_phone_numbers = document.getElementsByClassName('location_phone_number');

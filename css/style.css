@@ -555,11 +555,22 @@ height: 0;
 }
 .recent-posts-list li a {
 	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .page-articles.hide { display: none; }
 .page-articles-title { cursor: pointer; }
-.page-articles-title img { position: relative; bottom: 3px; }
+.page-articles-twistie {
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 5px;
+	transition: transform 0.3s ease;
+	position: relative;
+	bottom: 2px;
+}
+.page-articles-twistie.collapsed {
+	transform: rotate(180deg);
+}
 
 .post-contact-information { margin-bottom: 25px; }
 .post-contact-information-hr { margin-top: 20px !important; margin-bottom: 1.5rem; }
