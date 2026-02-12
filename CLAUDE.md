@@ -9,8 +9,9 @@
   
 ## Project Changes  
   
-Changes to make to `aflc-website-backup` project website:  
-- Update the robots.txt, sitemap.xml and any other such places as to not allow bots to index or crawl any pages on this website, especially the Wayback Machine, and regardless of which domain name may be used to access the site (other domain names may be set up to point to this site). If the Wayback Machine attempts to crawl or access any page on this site block it or serve up a blank page.   
+Changes to make to `aflc-website-backup` project website:
+
+<!-- - On the `../privacy-policy.html` and `../terms-of-use.html` pages add some space between the text/content and the Contact Us panel. See highlighted area on images `Screenshot 2026-02-12 104330.png` and `Screenshot 2026-02-12 102945.png`. -->
   
 ---  
   
