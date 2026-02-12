@@ -598,12 +598,13 @@
     <script src="../js/flexslider-min.js"></script>
     <script src="../js/functions.js"></script>
     <script>
-        $(document).ready(function() {
+        $(window).load(function() {
             $('.flexslider').flexslider({
                 animation: "slide",
                 direction: "horizontal",
                 slideshowSpeed: 5000,
-                animationSpeed: 600
+                animationSpeed: 600,
+                slideshow: true
             });
         });
         // Location switcher
