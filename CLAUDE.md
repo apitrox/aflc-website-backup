@@ -10,7 +10,8 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:
-- Fix the carousel on the `../custodial-parent.html` page, it is duplicated multiple times.
+- Fix the Family Law Articles expand/collapse functionality on th `../divorce-checklist-for-parent.html` page. When you click the twistie to expand, it immediately collapses. When you click the twistie to expand, it should stay expanded. When you click the twistie to collapse, it should stay collapsed.
+- Check the Family Law Articles expand/collapse functionality on every page to be sure it works properly.
 <!-- - Rollback the last change you made to the footer area, all other changes remain. -->
   
 ---  
