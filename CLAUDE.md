@@ -10,8 +10,7 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:
-
-- When a menu other than the Topics menu is selected, such as the Services menu, and the user hovers over the Topics menu, the multi-dimensional menu is displayed with a gray background, see image `AFLC-topics-menu-39-gray.png`. However, when the Topics menu is selected and the user hovers over the Topics menu, the multi-dimensional menu is displayed with a red background, see image `AFLC-topics-menu-39-red.png`. Update so that when the when the Topics menu is selected and the user hovers over the Topics menu, the multi-dimensional menu is displayed with a gray background.
+- Update the footer on every pages so that the text at the bottom of the footer, highlighted in yellow on the image `Screenshot 2026-02-12 110001.png`, is the same size of font as the text highlighted in blue on the same image.
   
 ---  
   
