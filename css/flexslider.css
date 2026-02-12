@@ -22,17 +22,6 @@
 
 /* Icon Fonts
 *********************************/
-/* Font-face Icons */
-@font-face {
-	font-family: 'flexslider-icon';
-	src:url('/web/20220625161358im_/https://americafamilylawcenter.org/wp-content/themes/aflc/_/fonts/flexslider-icon.eot');
-	src:url('/web/20220625161358im_/https://americafamilylawcenter.org/wp-content/themes/aflc/_/fonts/flexslider-icon.eot#iefix') format('embedded-opentype'),
-		url('/web/20220625161358im_/https://americafamilylawcenter.org/wp-content/themes/aflc/_/fonts/flexslider-icon.woff') format('woff'),
-		url('/web/20220625161358im_/https://americafamilylawcenter.org/wp-content/themes/aflc/_/fonts/flexslider-icon.ttf') format('truetype'),
-		url('/web/20220625161358im_/https://americafamilylawcenter.org/wp-content/themes/aflc/_/fonts/flexslider-icon.svg#flexslider-icon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
 
 /* FlexSlider Necessary Styles
 *********************************/
@@ -68,8 +57,8 @@ html[xmlns] .slides {display: block;}
 .flexslider:hover .flex-next { opacity: 0.7; right: 10px; }
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
 .flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
-.flex-direction-nav a:before  { font-family: "flexslider-icon"; font-size: 40px; line-height:1; display: inline-block; content: '\f001'; }
-.flex-direction-nav a.flex-next:before  { content: '\f002'; }
+.flex-direction-nav a:before  { font-family: Arial, sans-serif; font-size: 40px; line-height:1; display: inline-block; content: '\2039'; }
+.flex-direction-nav a.flex-next:before  { content: '\203A'; }
 
 /* Pause/Play */
 .flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
@@ -95,24 +84,3 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
 }
 
-/*
-     FILE ARCHIVED ON 16:13:58 Jun 25, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 17:50:02 Feb 05, 2026.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.707
-  exclusion.robots: 0.052
-  exclusion.robots.policy: 0.041
-  esindex: 0.014
-  cdx.remote: 16.088
-  LoadShardBlock: 514.971 (3)
-  PetaboxLoader3.datanode: 189.429 (5)
-  PetaboxLoader3.resolve: 1745.578 (2)
-  load_resource: 1479.232
-  loaddict: 51.277
-*/
