@@ -10,10 +10,7 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:
-- Update every page necessary to ensure that every page on the site has the carousel at the top of the page content and under the carousel has "Family Law Articles" with a twistie triangle symbol, see image `Screenshot 2026-02-12 121552.png`.
-- On all pages except the Home page the Family Law Articles is to default to collapsed. On the Home page it will default to expanded.
-- The list of article links in the "Family Law Articles" listing are to be listed in Roboto font.
-- The collapse/expand twistie should never show alt text, placeholder text or any text as highlighted in image `Screenshot 2026-02-12 122032.png`.
+- Fix the carousel on the `../custodial-parent.html` page, it is duplicated multiple times.
 <!-- - Rollback the last change you made to the footer area, all other changes remain. -->
   
 ---  
