@@ -11,7 +11,7 @@
   
 Changes to make to `aflc-website-backup` project website:
 
-<!-- - On the `../privacy-policy.html` and `../terms-of-use.html` pages add some space between the text/content and the Contact Us panel. See highlighted area on images `Screenshot 2026-02-12 104330.png` and `Screenshot 2026-02-12 102945.png`. -->
+- When a menu other than the Topics menu is selected, such as the Services menu, and the user hovers over the Topics menu, the multi-dimensional menu is displayed with a gray background, see image `AFLC-topics-menu-39-gray.png`. However, when the Topics menu is selected and the user hovers over the Topics menu, the multi-dimensional menu is displayed with a red background, see image `AFLC-topics-menu-39-red.png`. Update so that when the when the Topics menu is selected and the user hovers over the Topics menu, the multi-dimensional menu is displayed with a gray background.
   
 ---  
   
