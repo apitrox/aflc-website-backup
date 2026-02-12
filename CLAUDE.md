@@ -10,11 +10,14 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:  
-- You will be updating the footer area of every page
-- At the bottom of the footer the line reads `Copyright © 2010 - 2025. All rights reserved.` Make the to date, which is now 2025 to be a dynamic date and to be the current year.
-- After the current text that ends with `reserved.`, add the text ` | Terms of Use | Privacy Policy` on the same line.  
-- Create a Terms of Use page, linked to from the Terms of Use you are adding to the footer, and model the page after the page `https://txlrs.org/terms-of-use.html`, which can also be found in our `txlrs-website` project, updating the name from Texas Lawyer Referral Service to America Family Law Center, keeping the rest of the language consistent.  
-- Create a Privacy Policy page, linked to from the Privacy Policy you are adding to the footer, and model the page after the page `https://txlrs.org/privacy-policy.html`, which can also be found in our `txlrs-website` project, updating the name from Texas Lawyer Referral Service to America Family Law Center, keeping the rest of the language consistent.  
+- Update the robots.txt, sitemap.xml and any other such places as to not allow bots to index or crawl any pages on this website, especially the Wayback Machine, and regardless of which domain name may be used to access the site (other domain names may be set up to point to this site). If the Wayback Machine attempts to crawl or access any page on this site block it or serve up a blank page.   
+  
+---  
+  
+## No Bot Access  
+  
+- Do not allow bots to index or crawl any pages on this website, especially the Wayback Machine, and regardless of which domain name may be used to access the site (other domain names may be set up to point to this site). If the Wayback Machine attempts to crawl or access any page on this site block it or serve up a blank page. 
+- Whenever new pages are added to the site or existing pages modified, be sure this restriction is applied.  
   
 ---  
   
