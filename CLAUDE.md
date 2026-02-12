@@ -10,8 +10,11 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:  
-- You will be updating the blog listing page at `../blog.html`.
-- At the bottom of the `../blog.html` page, insert a space between the word "at" and the dynamic phone number. See highlighted area on image `Screenshot 2026-02-12 074913.png`.  
+- You will be updating the footer area of every page
+- At the bottom of the footer the line reads `Copyright © 2010 - 2025. All rights reserved.` Make the to date, which is now 2025 to be a dynamic date and to be the current year.
+- After the current text that ends with `reserved.`, add the text ` | Terms of Use | Privacy Policy` on the same line.  
+- Create a Terms of Use page, linked to from the Terms of Use you are adding to the footer, and model the page after the page `https://txlrs.org/terms-of-use.html`, which can also be found in our `txlrs-website` project, updating the name from Texas Lawyer Referral Service to America Family Law Center, keeping the rest of the language consistent.  
+- Create a Privacy Policy page, linked to from the Privacy Policy you are adding to the footer, and model the page after the page `https://txlrs.org/privacy-policy.html`, which can also be found in our `txlrs-website` project, updating the name from Texas Lawyer Referral Service to America Family Law Center, keeping the rest of the language consistent.  
   
 ---  
   
