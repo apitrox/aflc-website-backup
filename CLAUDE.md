@@ -11,7 +11,7 @@
   
 Changes to make to `aflc-website-backup` project website:  
 - You will be updating the blog listing page at `../blog.html`.
-- Create a summary description for the blog post listing "Family Law Pro Bono Lawyers". Make it consistent with other blog post listing descriptions. Use the individual post page the listing is linked to.  
+- At the bottom of the `../blog.html` page, insert a space between the word "at" and the dynamic phone number. See highlighted area on image `Screenshot 2026-02-12 074913.png`.  
   
 ---  
   
