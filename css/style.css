@@ -531,9 +531,13 @@ height: 0;
 /* Slider
 -------------------------------------------------------------------------------*/
 #slider {
-	max-width: 960px;
-	margin: 0 auto 20px auto;
+	max-width: 100%;
+	margin: 0 0 20px 0;
 	background: #fff;
+}
+#slider .twelve.columns {
+	width: 100%;
+	margin-left: 0;
 }
 
 /* Recent Posts

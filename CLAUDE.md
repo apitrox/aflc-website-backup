@@ -10,8 +10,14 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:
-- Fix the Family Law Articles expand/collapse functionality on th `../divorce-checklist-for-parent.html` page. When you click the twistie to expand, it immediately collapses. When you click the twistie to expand, it should stay expanded. When you click the twistie to collapse, it should stay collapsed.
-- Check the Family Law Articles expand/collapse functionality on every page to be sure it works properly.
+- Fix the carousel on every page. The carousel is on every page above the Content Area and above the Family Law Articles section, not above the Contact Us section. See the image `carousel-positioning.png`.
+<!-- - We are defining the Content Area of a page to be the content below the Family Law Articles section and above the Call To Action section, which is immediately above the footer area.
+- When replicating page content, we are replicating only the Content area of the page.
+- When replicating page content, the page content shall never use links to a Wayback Machine page. The first portion of any such links that starts with `https://web.archive.org/web/20250709154749/` (identification number may vary), shall be removed and therefore using the second portion of the link.
+- When replicating page content, the images are probably already in our project files, use the image if it is already in our project files and do not create a duplicate image file.
+- When replicating page content, the source content may have a pipe "|" character on its own paragraph. We do not want to replicate this pipe character paragraph. It was used to create additional spacing between paragraphs. Instead, add the amount of space the pipe character paragraph creates but without the pipe character paragraph.
+- When replicating page content, be sure the image sizes, placement and text wrapping is replicated to match the source.
+- Replicate the Content Area from the page `https://web.archive.org/web/20250709154749/https://americafamilylawcenter.org/` to the page `../aflc-website-backup/index.html` in our project files/repository. -->
 <!-- - Rollback the last change you made to the footer area, all other changes remain. -->
   
 ---  
