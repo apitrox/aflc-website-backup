@@ -10,7 +10,8 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:
-- Update the footer on every pages by increasing the font size of the text at the very bottom of the footer, cicled in red on the image `Screenshot 2026-02-12 111357.png`, so it is the same size of font circled in green on the same image.
+- Update the footer area on every pages by increasing the size of text in the footer (the text outlined in green on the image `Screenshot 2026-02-12 120108.png`) by one size or one font size.
+- Also, on the last line of the footer, put 2 spaces before and after each of the two pipe `|` characters.
 <!-- - Rollback the last change you made to the footer area, all other changes remain. -->
   
 ---  
