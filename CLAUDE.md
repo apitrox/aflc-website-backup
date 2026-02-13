@@ -19,10 +19,17 @@ Changes to make to `aflc-website-backup` project website:
 - When replicating page content or the Content Area of a page, replicate images and styling and be sure the image sizes, placement, text wrapping, and text styling is replicated to match the source; however, it is recommended that you fix obvious display or formatting type errors and fill in missing images. If an image is missing on the source pages where there is a placeholder but no image, and there is an image on the target page, reuse the image on the target page, if there is no image on the target page then select an appropriate image from the `../images/..` folder. Notwithstanding, on the target page always use site standards such as H1, H2, H3, etc. without editing those standards.  
 - When using `..web.archive.org..` as a source, it can take a long time for a page to load, you must be patient and wait for the page to finish loading before reading/copying content.  
 - Replicate the Content Area from each of these source pages to the Content Area of the corresponding target page, which is located in our project files/repository. 
-  - from source page `https://web.archive.org/web/20250525054458/https://americafamilylawcenter.org/restraining-order/`, to target page `../topics/restraining-order.html`  
-  - from source page `https://web.archive.org/web/20250714054145/https://americafamilylawcenter.org/protective-order/`, to target page `../topics/protective-order.html`  
-  - from source page `https://web.archive.org/web/20250714064831/https://americafamilylawcenter.org/property-division/`, to target page `../topics/property-division.html`  
-  - from source page `https://web.archive.org/web/20250326045644/https://americafamilylawcenter.org/pro-bono-lawyers/`, to target page `../topics/pro-bono-lawyers.html`  
+  - from source page `https://web.archive.org/web/20250714062530/https://americafamilylawcenter.org/visitation-rights/`, to target page `../topics/visitation-rights.html`  
+  - from source page `https://web.archive.org/web/20250326043107/https://americafamilylawcenter.org/visitation-lawyers/`, to target page `../topics/visitation-lawyers.html`  
+  - from source page `https://web.archive.org/web/20250525052023/https://americafamilylawcenter.org/visitation-enforcement/`, to target page `../topics/visitation-enforcement.html`  
+  <!-- - from source page `https://web.archive.org/web/20250714061506/https://americafamilylawcenter.org/visitation-assistance/`, to target page `../topics/visitation-assistance.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714054721/https://americafamilylawcenter.org/visitation/`, to target page `../topics/visitation.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250425025614/https://americafamilylawcenter.org/spousal-support/`, to target page `../topics/spousal-support.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714063522/https://americafamilylawcenter.org/shared-parenting/`, to target page `../topics/shared-parenting.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250525054458/https://americafamilylawcenter.org/restraining-order/`, to target page `../topics/restraining-order.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714054145/https://americafamilylawcenter.org/protective-order/`, to target page `../topics/protective-order.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714064831/https://americafamilylawcenter.org/property-division/`, to target page `../topics/property-division.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250326045644/https://americafamilylawcenter.org/pro-bono-lawyers/`, to target page `../topics/pro-bono-lawyers.html`   -->
   <!-- - from source page `https://web.archive.org/web/20250326035607/https://americafamilylawcenter.org/pro-bono-attorney/`, to target page `../topics/pro-bono-attorney.html`   -->
   <!-- - from source page `https://web.archive.org/web/20250623092339/https://americafamilylawcenter.org/parental-rights/`, to target page `../topics/parental-rights.html`   -->
   <!-- - from source page `https://web.archive.org/web/20250623095458/https://americafamilylawcenter.org/parenting-plans/`, to target page `../topics/parenting-plans.html`   -->
