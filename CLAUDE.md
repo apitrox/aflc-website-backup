@@ -18,7 +18,7 @@ Changes to make to `aflc-website-backup` project website:
 - When replicating page content, be sure the image sizes, placement, text wrapping, and text styling is replicated to match the source.  
 - When using `..web.archive.org..` as a source, it can take a long time for a page to load, you must be patient and wait for the page to finish loading before reading/copying content.  
 - Replicate only the Content Area from the page `https://web.archive.org/web/20250427095429/https://americafamilylawcenter.org/services/` to the Content Area on the `../services.html` page in our project files/repository.   -->
-- Update paragraph spacing on the `../services.html` page to have the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example.  
+- Update paragraph spacing on the `../programs.html` page to have the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example.  
 <!-- - Rollback the last change you made to the footer area, all other changes remain. -->
   
 ---  
