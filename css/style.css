@@ -631,6 +631,16 @@ height: 0;
 	font-size: 14px;
 }
 
+#footer #footerone {
+	display: flex;
+	justify-content: center;
+}
+
+#footer #footerone > .columns {
+	float: none;
+	margin-left: 0;
+}
+
 
 /* Print styles!
 -------------------------------------------------------------------------------*/
@@ -676,6 +686,7 @@ height: 0;
 */
 @media only screen and (max-width: 1150px) {
 	.g-recaptcha { transform:scale(0.60) !important; -webkit-transform:scale(0.60) !important; }
+	#footer #footerone { flex-wrap: wrap; }
 	#footer .logo img { top: 0px; }
 	#footer .contact-info { float: none; width: 240px; margin: auto; clear: both; }
 	#footer .contact-info h2 { text-align: center; }
