@@ -10,15 +10,20 @@
 ## Project Changes  
   
 Changes to make to `aflc-website-backup` project website:  
-<!-- - We are defining the Content Area of a page to be the content below the Family Law Articles section and above the Call To Action section, which is immediately above the footer area.  
-- When replicating page content, we are replicating only the Content area of the page.  
-- When replicating page content, the page content shall never use links to a Wayback Machine page. The first portion of any such links that starts with `https://web.archive.org/web/..`, shall be removed and therefore using the second portion of the link.  
-- When replicating page content, the images are probably already in our project files, use the image if it is already in our project files and do not create a duplicate image file.  
+- We are defining the Content Area of a page to be the content below the Family Law Articles section and above the Call To Action section, which is immediately above the footer area and is shown in the image `Call-To-Action-Section.png`.  
+- When replicating page content or the Content Area of a page, we are replicating only the Content area of the page. Entirely replace the Content Area of the target page with the Content Area of the source page, but do not change anything else on the target page.  
+- When replicating page content or the Content Area of a page, the page content shall never use links to a Wayback Machine page. The first portion of any such links that starts with `https://web.archive.org/web/..`, shall be removed and therefore using the second portion of the link.  
+- When replicating page content or the Content Area of a page, the images are probably already in our project files, use the image if it is already in our project files and do not create a duplicate image file.  
 - When replicating page content, the source content may have a pipe "|" character on its own paragraph. We do not want to replicate this pipe character paragraph. It was used to create additional spacing between paragraphs. Instead, add the amount of space the pipe character paragraph creates but without the pipe character paragraph. Regardless, be sure there is the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example.  
-- When replicating page content, be sure the image sizes, placement, text wrapping, and text styling is replicated to match the source.  
+- When replicating page content or the Content Area of a page, replicate images and styling and be sure the image sizes, placement, text wrapping, and text styling is replicated to match the source.  
 - When using `..web.archive.org..` as a source, it can take a long time for a page to load, you must be patient and wait for the page to finish loading before reading/copying content.  
-- Replicate only the Content Area from the page `https://web.archive.org/web/20250427095429/https://americafamilylawcenter.org/services/` to the Content Area on the `../services.html` page in our project files/repository.   -->
-- Update paragraph spacing on the `../faqs.html` page to have the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example.  
+<!-- - Replicate only the Content Area from the page `https://web.archive.org/web/20250813122902/https://americafamilylawcenter.org/child-custody/` to the Content Area on the `../posts/child-custody.html` page in our project files/repository.   -->
+<!-- - Replicate only the Content Area from the page `https://web.archive.org/web/20250623101121/https://americafamilylawcenter.org/divorce-checklist-for-parent/` to the Content Area on the `../posts/divorce-checklist-for-parent.html` page in our project files/repository.   -->
+- Replicate the Content Area from each of these source pages to the Content Area of the corresponding target page, which is located in our project files/repository. 
+  - from source page `https://web.archive.org/web/20250714063306/https://americafamilylawcenter.org/third-round-stimulus-checks-and-child-support/`, to target page `../posts/third-round-stimulus-checks-and-child-support.html`
+  - from source page `https://web.archive.org/web/20250714053503/https://americafamilylawcenter.org/what-factors-effect-your-stimulus-check-back-child-support/`, to target page `../posts/what-factors-effect-your-stimulus-check-back-child-support.html`
+<!-- - Update paragraph spacing on the `../posts/astroworld-festival-ends-in-injuries.html` page to have the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example.   -->
+<!-- - For each post page `../posts/..` remove the posted date from the page. The Posted date should be displayed on the listing page at `../blog.html`, but not on individual post pages.   -->
 <!-- - Rollback the last change you made to the footer area, all other changes remain. -->
   
 ---  
