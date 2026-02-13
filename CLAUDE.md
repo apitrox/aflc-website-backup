@@ -9,23 +9,23 @@
   
 ## Project Changes  
   
-Changes to make to `aflc-website-backup` project website:
-- Fix the carousel on every page. After the page displays it takes a while for the carousel to display. The carousel should display immediately when the page displays. If it needs slow loading due to size, and needs something like lazy loading, then show a placeholder in its place while the image is downloading.
-<!-- - We are defining the Content Area of a page to be the content below the Family Law Articles section and above the Call To Action section, which is immediately above the footer area.
-- When replicating page content, we are replicating only the Content area of the page.
-- When replicating page content, the page content shall never use links to a Wayback Machine page. The first portion of any such links that starts with `https://web.archive.org/web/20250709154749/` (identification number may vary), shall be removed and therefore using the second portion of the link.
-- When replicating page content, the images are probably already in our project files, use the image if it is already in our project files and do not create a duplicate image file.
-- When replicating page content, the source content may have a pipe "|" character on its own paragraph. We do not want to replicate this pipe character paragraph. It was used to create additional spacing between paragraphs. Instead, add the amount of space the pipe character paragraph creates but without the pipe character paragraph.
-- When replicating page content, be sure the image sizes, placement and text wrapping is replicated to match the source.
-- When using `..web.archive.org..` as a source, it can take a long time for a page to load, you must be patient and wait for the page to finish loading before reading/copying content.
-- Replicate the Content Area from the page `https://web.archive.org/web/20250709154749/https://americafamilylawcenter.org/` to the page `../aflc-website-backup/index.html` in our project files/repository. -->
+Changes to make to `aflc-website-backup` project website:  
+<!-- - We are defining the Content Area of a page to be the content below the Family Law Articles section and above the Call To Action section, which is immediately above the footer area.  
+- When replicating page content, we are replicating only the Content area of the page.  
+- When replicating page content, the page content shall never use links to a Wayback Machine page. The first portion of any such links that starts with `https://web.archive.org/web/..`, shall be removed and therefore using the second portion of the link.  
+- When replicating page content, the images are probably already in our project files, use the image if it is already in our project files and do not create a duplicate image file.  
+- When replicating page content, the source content may have a pipe "|" character on its own paragraph. We do not want to replicate this pipe character paragraph. It was used to create additional spacing between paragraphs. Instead, add the amount of space the pipe character paragraph creates but without the pipe character paragraph. Regardless, be sure there is the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example.  
+- When replicating page content, be sure the image sizes, placement, text wrapping, and text styling is replicated to match the source.  
+- When using `..web.archive.org..` as a source, it can take a long time for a page to load, you must be patient and wait for the page to finish loading before reading/copying content.  
+- Replicate only the Content Area from the page `https://web.archive.org/web/20250427095429/https://americafamilylawcenter.org/services/` to the Content Area on the `../services.html` page in our project files/repository.   -->
+- Update paragraph spacing on the `../services.html` page to have the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example.  
 <!-- - Rollback the last change you made to the footer area, all other changes remain. -->
   
 ---  
   
 ## No Bot Access  
   
-- Do not allow bots to index or crawl any pages on this website, especially the Wayback Machine, and regardless of which domain name may be used to access the site (other domain names may be set up to point to this site). If the Wayback Machine attempts to crawl or access any page on this site block it or serve up a blank page. 
+- Do not allow bots to index or crawl any pages on this website, especially the Wayback Machine, and be sure to enforce this regardless of which domain name may be used to access the site (other domain names may be set up to point to this site). If the Wayback Machine attempts to crawl or access any page on this site block it or serve up a blank page.  
 - Whenever new pages are added to the site or existing pages modified, be sure this restriction is applied.  
   
 ---  
@@ -79,8 +79,11 @@ When complete:
 - delete any temporary files you created while doing the work  
 
 
-<!-- - Rebuild/replicate the FAQs page of our website from `https://web.archive.org/web/20250709154805/https://americafamilylawcenter.org/faqs/`.  -->
-<!-- - Rebuild/replicate the Contact page of our website from `https://web.archive.org/web/20250709154805/https://americafamilylawcenter.org/contact/`.  -->
+<!-- `https://web.archive.org/web/20250709154749/https://americafamilylawcenter.org/` -->
+<!-- `https://web.archive.org/web/20250714053349/https://americafamilylawcenter.org/mission/` -->
+<!-- `https://web.archive.org/web/20250427095429/https://americafamilylawcenter.org/services/` -->
+<!-- `https://web.archive.org/web/20250709154805/https://americafamilylawcenter.org/faqs/` -->
+<!-- `https://web.archive.org/web/20250709154805/https://americafamilylawcenter.org/contact/` -->
 <!-- - Rebuild/replicate the Topics page of our website from `https://web.archive.org/web/20250525043431/https://americafamilylawcenter.org/topics/`.  -->
 <!-- - Rebuild/replicate the multi-dimensional menu for Topics with each of the 43 different topics listed in alphabetical order, gray background. Included in the project repository is an image of the Topics multi-dimensional menu with only 7 items, named `AFLC-topics-menu-7.png`, another image with 39 menu items in gray named `AFLC-topics-menu-39-gray.png`, and another with 39 menu items in red named `AFLC-topics-menu-39-red.png`.  -->
 
