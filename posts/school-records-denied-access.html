@@ -69,6 +69,77 @@
         .page-articles.hide {
             display: none;
         }
+        .content-spacer {
+            height: 1.2em;
+        }
+        /* Gallery alignment */
+        .wp-block-gallery.alignright {
+            float: right;
+            margin: 0 0 1em 1em;
+            max-width: 250px;
+        }
+        .wp-block-gallery.alignright figure.wp-block-image {
+            margin: 0;
+        }
+        .wp-block-gallery.alignright img {
+            max-width: 100%;
+            height: auto;
+        }
+        .wp-block-gallery.alignright figcaption {
+            text-align: center;
+            font-size: 13px;
+            margin-top: 4px;
+        }
+        /* Media-text block */
+        .wp-block-media-text {
+            display: grid;
+            grid-template-columns: 50% 1fr;
+            margin: 1em 0;
+        }
+        .wp-block-media-text.is-stacked-on-mobile {
+            grid-template-columns: 50% 1fr;
+        }
+        .wp-block-media-text__media {
+            margin: 0;
+            min-height: 250px;
+            background-size: cover;
+        }
+        .wp-block-media-text__media img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .wp-block-media-text.is-image-fill .wp-block-media-text__media img {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+        .wp-block-media-text__content {
+            display: flex;
+            align-items: center;
+            padding: 0 8% 0 8%;
+            background-color: #f0f0f0;
+        }
+        .has-large-font-size {
+            font-size: 1.5em;
+            line-height: 1.4;
+        }
+        @media (max-width: 600px) {
+            .wp-block-media-text.is-stacked-on-mobile {
+                grid-template-columns: 1fr;
+            }
+            .wp-block-gallery.alignright {
+                float: none;
+                max-width: 100%;
+                margin: 1em 0;
+            }
+        }
     </style>
 
     <script>
@@ -399,56 +470,64 @@
 
                     <article class="post">
                         <div class="entry">
-                            <h1>School Records | Denied Access?</h1>
+                            <h1 id="h-how-to-access-school-records">How to access school records</h1>
 
-                            <p class="post-date">Posted: August 17, 2022</p>
+                            <div class="content-spacer"></div>
 
-                            <div class="featured-image">
-                                <img src="../images/blog/dreamstimeextrasmall_16383080-edited-150x150.jpg" alt="School Records" width="150" height="150">
+                            <p>Non-custodial parents frequently have trouble getting their children&#8217;s school records.  If the school is denying you those records the school may be in violation of Federal and State law. Federal and State laws govern public schools or any school that accepts Federal or State funding and any private school that is a 501(c)(3) non-profit.  You have a right to your child&#8217;s school records as long as your rights have not been terminated or your child custody order (or divorce decree) does not bar you have access to those records.</p>
+
+                            <figure class="wp-block-gallery alignright has-nested-images columns-default is-cropped">
+                                <figure class="wp-block-image size-large"><a href="../images/blog/dreamstimeextrasmall_16383080-edited-150x150.jpg"><img src="../images/blog/dreamstimeextrasmall_16383080-edited-150x150.jpg" alt="School Records" class="wp-image-1726"></a><figcaption><strong>School Records</strong></figcaption></figure>
+                            </figure>
+
+                            <div class="content-spacer"></div>
+
+                            <p>As the parent, you have access to your children&#8217;s records under Public Law PL 93-380 also known as the <a href="https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html" target="_blank" rel="noreferrer noopener">Family Education Rights and Privacy Act of 1974 (FERPA)</a>, 88 Stat. 571(1974): 20  USCA 12232g.  <a href="https://www.govinfo.gov/content/pkg/FR-1976-06-17/pdf/FR-1976-06-17.pdf" target="_blank" rel="noreferrer noopener">Federal Register on June 17, 1976, found on page 24672 - subpart B, Section 99.11</a> GUARANTEES your right to view school records in their entirety.</p>
+
+                            <div class="content-spacer"></div>
+
+                            <p>Also in 1983, Texas Legislative Session amended <a href="https://statutes.capitol.texas.gov/Docs/FA/htm/FA.153.htm" target="_blank" rel="noreferrer noopener">Section 153.073</a>, effective September 1, 1983, requiring schools to allow non-custodial parents access to student records. It states &#8220;A parent appointed as a conservator of a child has at all times the right of access to medical, dental, psychological, and education records of the child.&#8221;</p>
+
+                            <div class="content-spacer"></div>
+
+                            <p>When refused this access after making the Principal aware of the Federal and State laws seek assistance from the school Superintendent.  Do not be afraid to exercise your rights to take an active part in your children&#8217;s education.</p>
+
+                            <div class="content-spacer"></div>
+
+                            <h2>Still having trouble getting access to school records</h2>
+
+                            <div class="content-spacer"></div>
+
+                            <p>Write a letter to the school Principal informing him/her of your intent to view your children&#8217;s school records.  Inform the Principal of the applicable Federal and State laws that grant access to your children&#8217;s records. Inform him/her of your intent to take action if he/she failed to comply with your request.  Send copies of the letter to the school Superintendent and the School District Trustees.</p>
+
+                            <div class="content-spacer"></div>
+
+                            <h2 id="h-get-involved-and-stay-involved">Get involved and stay involved</h2>
+
+                            <div class="content-spacer"></div>
+
+                            <p>Become involved.  Call the teacher. Ask for a parent/teacher conference.  Attend or join the PTA.  Volunteer for school activities.  Volunteer to be a &#8220;room parent&#8221;.</p>
+
+                            <div class="content-spacer"></div>
+
+                            <p>Show your children and school that you are a loving and caring parent.</p>
+
+                            <div class="content-spacer"></div>
+
+                            <div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill">
+                                <figure class="wp-block-media-text__media" style="background-image:url(../images/blog/dreamstimemaximum_136309085-1024x683.jpg);background-position:50% 50%"><img src="../images/blog/dreamstimemaximum_136309085-1024x683.jpg" alt="Parent Involvement" class="wp-image-1720 size-full"></figure>
+                                <div class="wp-block-media-text__content">
+                                    <p class="has-large-font-size">Don&#8217;t give them a reason to think of you as a part-time parent.</p>
+                                </div>
                             </div>
 
-                            <p>Trouble accessing your child's school records? The school may be in violation of Federal and State laws. What you need to know is right here.</p>
+                            <div class="content-spacer"></div>
 
-                            <h2>Your Rights to Access School Records</h2>
+                            <h2 id="h-additional-help">Additional help</h2>
 
-                            <p>As a parent, you have the legal right to access your child's educational records. This right is protected by federal law, specifically the Family Educational Rights and Privacy Act (FERPA). Understanding your rights is the first step in ensuring you can stay informed about your child's education.</p>
+                            <div class="content-spacer"></div>
 
-                            <h2>What is FERPA?</h2>
-
-                            <p>The Family Educational Rights and Privacy Act (FERPA) is a federal law that protects the privacy of student education records. Under FERPA, parents have the right to:</p>
-
-                            <ul>
-                                <li>Inspect and review their child's education records maintained by the school</li>
-                                <li>Request that a school correct records they believe to be inaccurate or misleading</li>
-                                <li>Have some control over the disclosure of personally identifiable information from education records</li>
-                            </ul>
-
-                            <h2>When Can Access Be Denied?</h2>
-
-                            <p>There are limited circumstances when a school may deny access to records:</p>
-
-                            <ul>
-                                <li>A court order specifically restricts access</li>
-                                <li>A legally binding agreement between parents removes access rights</li>
-                                <li>The requesting party is not a legal parent or guardian</li>
-                            </ul>
-
-                            <h2>What To Do If You Are Denied Access</h2>
-
-                            <p>If you believe you are being wrongfully denied access to your child's school records, here are steps you can take:</p>
-
-                            <ol>
-                                <li>Request the denial in writing, including the specific reason for denial</li>
-                                <li>Review any court orders related to custody to ensure they do not restrict your access</li>
-                                <li>File a complaint with the U.S. Department of Education's Family Policy Compliance Office</li>
-                                <li>Consult with a family law attorney to understand your rights and options</li>
-                            </ol>
-
-                            <h2>How America Family Law Center Can Help</h2>
-
-                            <p>America Family Law Center can help parents understand their rights when it comes to accessing their children's school records. If you are being denied access and believe it is unlawful, we can help guide you through the process of asserting your parental rights.</p>
-
-                            <p>Contact us today if you need assistance with school record access or any other family law matter.</p>
+                            <p>If you have trouble seeing your child or need to modify your custody order then contact America Family Law Center for help.</p>
 
                             <hr class="post-contact-information-hr">
                             <div class="post-contact-information">
