@@ -633,12 +633,25 @@ height: 0;
 
 #footer #footerone {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
 #footer #footerone > .columns {
 	float: none;
 	margin-left: 0;
+}
+
+#footer .legal,
+#footer .copyright {
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer .legal p,
+#footer .copyright p {
+	text-align: center;
 }
 
 
