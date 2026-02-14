@@ -12,7 +12,7 @@
 Changes to make to `aflc-website-backup` project website:  
 - We are defining the Content Area of a page to be the content below the Family Law Articles section and above the Call To Action section, which is immediately above the footer area and is shown in the image `Call-To-Action-Section.png`.  
 <!-- - Review and update each of the pages in the `../posts/..` folder by checking, and updating if necessary, the spacing before and after text paragraphs and also before and after images. Be sure there is 20 pixels of white space (basically a blank line) before and after each text paragraph and before and after each image.   -->
-- Review and update the `../mission.html` page to update the spacing before and after text paragraphs and also before and after each images, to be 18 pixels of white space (basically a blank line). Do not put extra space between bullets or numbered lists, put them at 1.15 line spacing.
+- Review and update the `../services.html` page to update the spacing before and after text paragraphs and also before and after each images, to be 18 pixels of white space (basically a blank line). Do not put extra space between bullets, numbered or starred lists, put them at 1.15 line spacing.
 <!-- - Rollback the last change you made to the footer area, all other changes remain. -->
   
 ---  
