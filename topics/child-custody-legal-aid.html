@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,16 +413,22 @@
                     <article class="post">
                         <div class="entry">
                             <h1>Child Custody Legal Aid</h1>
+                            <div class="content-spacer"></div>
 
                             <p>When an individual is involved in any child custody dispute access to legal help is essential. Decisions that are made have a long-lasting impact on the welfare of both the parents and the children involved. Setting up agreements that are fair to both parents as well as ensures the protection of the children now and in the future is desirable. Child custody legal aid can help ensure that agreements are binding and fair.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Low-income individuals may think that they cannot get the legal representation need when they are involved in a child custody dispute. There is legal aid available. The legal aid can come in many forms. It could include a referral to a lawyer that will provide affordable representation or even limited scope representation. You may also be able to find an attorney that will take your case Pro Bono, but access to Pro Bono Services often depends on the caseload of the attorney and the amount of time he or she commits to providing Pro Bono Services as part of their law practice.</p>
+                            <div class="content-spacer"></div>
 
                             <p>In many areas, there are also Legal Aid Organizations. Legal Aid Organization typically help with a variety of legal situations. The ability of the Legal Aid Organization to take on your case will depend on their available funding, your income, the complexity of your case. Unfortunately, that is more need for free legal assistance then there are resources. Another option may be non-profit organizations that offer a variety of legal aid and assistance.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Child custody legal aid can also help settle a child custody dispute. Legal Aid can help complete necessary paperwork in matters related to child custody. Child custody legal aid provides access to people that might otherwise not have access to legal assistance.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of question:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>How do I get free legal aid for child support?</li>

@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,16 +413,22 @@
                     <article class="post">
                         <div class="entry">
                             <h1>Child Support Collection</h1>
+                            <div class="content-spacer"></div>
 
                             <p>Child support is the money that one parent pays to their guardian of their children. Child support can be paid when a parent has custody of the child and when they live with the other custodial parent. In most cases, child support is paid when one parent does not live with the child and does not have full custody. The child support can be used for general expenses, or it can be used to pay for specific things for the child.</p>
+                            <div class="content-spacer"></div>
 
                             <p><img class="alignnone" src="../images/topics/money.jpg" alt="Child Support Collection" width="299" height="192"></p>
+                            <div class="content-spacer"></div>
 
                             <p>When the child support is not paid in a timely fashion, the problems can become severe. Not paying child support that has been ordered by a court can be a serious offense. Paying late or not paying the full amount of child support that is owed can also be problematic. The <a href="https://www.texasattorneygeneral.gov/cs/contact-the-child-support-division">Office of the Attorney General</a> is often responsible for overseeing the payment of child support that has been agreed upon or ordered.</p>
+                            <div class="content-spacer"></div>
 
                             <p>If a guardian is not receiving the child support due, resolving it is not always easy. The person that is supposed to pay the child support may be difficult to find, or it may be difficult to collect the money. By working with the OAG, it becomes easier to find ways to get the money including using wage garnishment and the withholding of the funds directly from a paycheck.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions;</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>Can I pay my child support directly to the mom?</li>

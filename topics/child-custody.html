@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,18 +413,25 @@
                     <article class="post">
                         <div class="entry">
                             <h1>Child Custody - Understanding Factors that Affect Child Custody</h1>
+                            <div class="content-spacer"></div>
 
                             <p>Child custody refers to the legal and practical relationship between a parent and a child, including the right to make decisions about the child&#8217;s upbringing and the responsibility for the child&#8217;s care. When parents separate or divorce, child custody determines where the child will live and how major decisions about the child&#8217;s education, health care, and welfare will be made. Courts generally recognize two types of custody: physical custody, which addresses where the child resides, and legal custody, which involves the authority to make important decisions on behalf of the child.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Child custody is one of the most significant issues that families face during a separation or divorce. The outcome of a custody arrangement directly affects the daily lives of children and parents alike. Because custody decisions shape a child&#8217;s living situation, schooling, and overall stability, it is important that these arrangements are carefully considered and clearly documented. Having a formal custody order in place helps provide structure and consistency for the child and can reduce conflict between parents.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Courts consider a variety of factors when making custody determinations. The primary consideration is generally the best interest of the child. Factors that may be examined include each parent&#8217;s ability to provide a safe and stable home, the emotional and physical needs of the child, the existing relationship between the child and each parent, and the willingness of each parent to support the child&#8217;s relationship with the other parent. In some cases, the court may also consider the preferences of the child, depending on the child&#8217;s age and maturity.</p>
+                            <div class="content-spacer"></div>
 
                             <p>There are several common custody arrangements. Sole custody grants one parent both physical and legal custody of the child. Joint custody allows both parents to share physical custody, legal custody, or both. The specific terms of a custody arrangement are typically outlined in a parenting plan or custody order, which may address visitation schedules, holiday arrangements, decision-making responsibilities, and other details relevant to the child&#8217;s care.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Seeking legal assistance can be important in child custody matters. An attorney or legal aid service can help ensure that custody agreements are fair, enforceable, and focused on the well-being of the child. Legal assistance can also be valuable when modifying an existing custody order due to a change in circumstances.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What is child custody?</li>

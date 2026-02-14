@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,18 +413,25 @@
                     <article class="post">
                         <div class="entry">
                             <h1>Adoption | Understanding Adoption Before You Proceed</h1>
+                            <div class="content-spacer"></div>
 
                             <p>Adoption is very exciting. In fact, it is the act of legally taking a non-biological child as one&#8217;s own. Hence is not only a legal commitment but it is also an emotional and financial commitment.</p>
+                            <div class="content-spacer"></div>
 
                             <h2>Types of Adoption</h2>
+                            <div class="content-spacer"></div>
 
                             <p>There are many types. For instance, historically most adoptions were closed. Accordingly, the biological parent would not receive information about who adopted their child.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Currently, more parents are embracing open adoption. This allows the birth parents to continue a relationship with the child and the adoptive parents.</p>
+                            <div class="content-spacer"></div>
 
                             <p><img src="../images/topics/adoption-sign.jpeg" alt="Adoption" width="330" height="494" style="float: right; margin: 0 0 15px 20px;"></p>
+                            <div class="content-spacer"></div>
 
                             <p>Other types:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>Open</li>
@@ -407,18 +440,25 @@
                                 <li>Older Child</li>
                                 <li><a href="https://www.parents.com/parenting/adoption/international/everything-you-need-to-know-about-international-adoption/" target="_blank" rel="noreferrer noopener">International</a></li>
                             </ul>
+                            <div class="content-spacer"></div>
 
                             <h2>Who is Adopting</h2>
+                            <div class="content-spacer"></div>
 
                             <p>Married heterosexual couples are not the only people adopting children. In fact, same-sex couples and single-parent households are also adopting.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Grandparent, aunts, and uncles are adopting family member&#8217;s child to provide security and stability for the child. Obviously, it also includes step-parent are formalizing their parent role to step-children.</p>
+                            <div class="content-spacer"></div>
 
                             <h2>Steps in Adoption</h2>
+                            <div class="content-spacer"></div>
 
                             <p>The decision to adopt should be carefully considered as this is a lifelong commitment to a child that likely has already suffered from loss. Once you have made the decision to adopt the step will vary depending on the type of adoption. Now the fees. It can cost from a few hundred dollars to several thousands of dollars. International adoption will likely involve a trip or two overseas.</p>
+                            <div class="content-spacer"></div>
 
                             <p>It is likely that you will have to complete a home study as part of the process. This is to make sure that you and your home are ready to receive the child. In some cases, the courts require an ad litem attorney. The ad litem represents the child, to ensure the best interest of the child is truly served. After all, many situations involve the termination of the <a href="parental-rights.html">parental rights</a> of a biological parent.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Adoption day is &#8220;Gotcha Day&#8221;. It is a day to celebrate the new family member.</p>
 

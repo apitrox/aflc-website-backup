@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,18 +413,25 @@
                     <article class="post">
                         <div class="entry">
                             <h1>Child Support</h1>
+                            <div class="content-spacer"></div>
 
                             <p><img class="alignnone" src="../images/topics/MoneyGavel1.jpg" alt="Child Support" width="266" height="152"></p>
+                            <div class="content-spacer"></div>
 
                             <p>Children can be expensive. When two parents are not living together, the issue of child support will come into play. One parent may have to provide the other with financial support for the child. Child support can be agreed upon by the parents, or it can be ordered by the courts. In Texas, the <a href="https://www.texasattorneygeneral.gov/cs/contact-the-child-support-division">Office of the Attorney General</a> almost always oversees the child support collection.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Deciding how much child support is fair to can be difficult. The needs of the child have to be considered. Some children require more care that can be costly and that cost should be the responsibility of both parents. Each decision regarding child support is handled on a case by case basis. Factors such as the number of children, the income of both parents can be taken into consideration. Texas considers only the income of the parent that has to pay the support in their decisions.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Child support can be ordered for both custodial parents and non-custodial parent. It can also be ordered for someone to pay that is not the parent of the child. Weaving through all of the legal aspects of determining who is responsible for the support can require the help of a lawyer.</p>
+                            <div class="content-spacer"></div>
 
                             <p>A child can receive support for many years. It is possible that during the time that the support is being paid, situations change. There may be a need for an increase or a decrease in child support payments, or it can be terminated in other cases. If a person is not paying their support, there are legal remedies that can be used to collect the money. Legal representation can be helpful in these situations. Mistakes made during these proceedings can cause harm to all of the parties that are involved.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of question:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>How to get my child support?</li>
