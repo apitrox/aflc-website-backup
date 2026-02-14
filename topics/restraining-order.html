@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -388,13 +414,21 @@
                         <div class="entry">
                             <h1>Restraining Order</h1>
 
+                            <div class="content-spacer"></div>
+
                             <p>In Texas, a restraining order is different from a protective order.  A restraining order is a temporary court order issued to prohibit an individual from carrying out a particular action, especially approaching or contacting a specified person. It is often used to maintain the status quo during a divorce. A restraining order is usually issued to prevent one spouse from harassing the other. It also protects the petitioner from having their spouse empty their bank account incurring new debt in the couples name. It can also prevent the served spouse from talking poorly in front of the children about the petitioner or hiding the children.</p>
+
+                            <div class="content-spacer"></div>
 
                             <div style="margin-top: 30px; margin-bottom: 30px;">
                                 <img decoding="async" class="alignnone" src="../images/topics/restraining-order.png" alt="Restraining Order" width="212" height="238">
                             </div>
 
+                            <div class="content-spacer"></div>
+
                             <p>People often have the following types of questions:</p>
+
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What is a restraining order?</li>

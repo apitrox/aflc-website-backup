@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -388,17 +414,29 @@
                         <div class="entry">
                             <h1>Visitation</h1>
 
+                            <div class="content-spacer"></div>
+
                             <p>Visitation, in the United States, is the right of a non-custodial parent to have visits with their children. Children need to be able to spend time with both of their parents. In many cases, the problems that parents have with each other are taken out on the children. The rights of one parent may be withheld because of the disputes between the adults.</p>
+
+                            <div class="content-spacer"></div>
 
                             <div style="margin-top: 30px; margin-bottom: 30px;">
                                 <img decoding="async" class="alignnone" src="../images/topics/Children-3.jpg" alt="Visitation" width="216" height="144">
                             </div>
 
+                            <div class="content-spacer"></div>
+
                             <p>Visitation agreements are designed to make sure that both of the parents are provided with time with their children. The agreement will spell out all of the terms of the agreement. Things such as how often a parent will have visitation with the child, how long the visit will last, where the visit can be done, how the exchange of the child will take place, the need for additional supervision during the visitation, the financial responsibilities of both parents and many other areas need to be covered in the agreement.</p>
+
+                            <div class="content-spacer"></div>
 
                             <p>The agreement is designed to not only protect the parents of the child and help them to see their child, it is also meant to protect the child to make sure that they are not caught in the middle of the disputes of the parents. The agreement also needs to include ways to resolve disputes about visitation, when and how the agreement can be amended or revoked and how it will be enforced.</p>
 
+                            <div class="content-spacer"></div>
+
                             <p>People often have the following types of questions:</p>
+
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What is child visitation?</li>

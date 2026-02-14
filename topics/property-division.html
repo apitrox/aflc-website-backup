@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -388,15 +414,25 @@
                         <div class="entry">
                             <h1>Property Division</h1>
 
+                            <div class="content-spacer"></div>
+
                             <p>In Texas, all income and purchase property earned during the marriage is <a href="http://www.statutes.legis.state.tx.us/Docs/FA/htm/FA.3.htm">community property</a>. That means it belongs to both spouses equally. During a divorce, the property must be divided equally. This also includes debts incurred during the marriage. However, if the court determines there is a &#8220;just and right&#8221; reason assets should not be divide equal a court order may result in unequal division.</p>
+
+                            <div class="content-spacer"></div>
 
                             <div style="margin-top: 30px; margin-bottom: 30px;">
                                 <img decoding="async" class="alignnone" src="../images/topics/property-division-divorce-assets.jpeg" alt="Property Division" width="257" height="161">
                             </div>
 
+                            <div class="content-spacer"></div>
+
                             <p>Common types of community property include the family home, clothing, cars, investments, savings, clothing, jewelry. All community property and debts will be divided when the marriage ends unless the spouse can prove that the property is a separate property since they owned it before the marriage took place.</p>
 
+                            <div class="content-spacer"></div>
+
                             <p style="margin-top: 30px;">Considered questions:</p>
+
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>Who gets the house?</li>

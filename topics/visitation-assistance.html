@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -388,15 +414,25 @@
                         <div class="entry">
                             <h1>Visitation Assistance</h1>
 
+                            <div class="content-spacer"></div>
+
                             <p>There are many parents that are not able to see their children as much as they want. When the reason for this is because one parent does not allow the other parent access to the child, there may be a remedy. The courts and lawyers can help establish visitation agreements that spell out exactly when, where, how long and what type of visitation apparent should have. To get an agreement like this, it may be necessary to turn to some form of visitation assistance.</p>
+
+                            <div class="content-spacer"></div>
 
                             <div style="margin-top: 30px; margin-bottom: 30px;">
                                 <img decoding="async" class="alignnone" src="../images/blog/child-coloring-1.jpg" alt="Visitation Assistance" width="210" height="149">
                             </div>
 
+                            <div class="content-spacer"></div>
+
                             <p>Visitation assistance can come in different forms. It could help with filling out the forms and collecting the documents that are needed to appear in court. It could be visitation assistance determining what types of visitation a person should get. For people that already have a visitation agreement in place, the visitation assistance could come in the form of working to change or amend the visitation agreement. This type of assistance could be the key to a parent getting the type of visitation that they and their child need and deserve.</p>
 
+                            <div class="content-spacer"></div>
+
                             <p>People often have the following types of questions:</p>
+
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What do I do when the mother says I can't see my child?</li>

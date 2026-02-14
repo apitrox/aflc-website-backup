@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -388,13 +414,21 @@
                         <div class="entry">
                             <h1>Protective Order</h1>
 
+                            <div class="content-spacer"></div>
+
                             <p>Protective orders are issued by a civil court in the hopes of preventing further acts of family violence. Family violence occurs when one member of the family or household intends to physically harm another family member. Protective orders are issued when serious violence that results in physical harm, the abuse of a spouse or child, is likely to continue or happen again. Protective orders prohibit the person responsible for the violence from harassing or threatening the other party.</p>
+
+                            <div class="content-spacer"></div>
 
                             <div style="margin-top: 30px; margin-bottom: 30px;">
                                 <img decoding="async" class="alignnone" src="../images/topics/family-violence.jpg" alt="Family Violence" width="276" height="183">
                             </div>
 
+                            <div class="content-spacer"></div>
+
                             <p>People often have the following types of questions:</p>
+
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What is a protective order?</li>

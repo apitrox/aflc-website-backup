@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -388,17 +414,29 @@
                         <div class="entry">
                             <h1>Shared Parenting</h1>
 
+                            <div class="content-spacer"></div>
+
                             <p>Raising a child is difficult. It often requires both parents making decisions for the child for them to do well. In cases of divorce or when a child is not able to live with both of the parents, it can be difficult for the parents to work together. Shared parenting agreements can help in these cases. This parenting agreement will give both parents the rights and responsibility of making decisions for the child.</p>
+
+                            <div class="content-spacer"></div>
 
                             <div style="margin-top: 30px; margin-bottom: 30px;">
                                 <img decoding="async" class="alignnone" src="../images/topics/Shared-Parenting-2-1.png" alt="Shared Parenting" width="178" height="147">
                             </div>
 
+                            <div class="content-spacer"></div>
+
                             <p>It needs to include agreements on how decisions will be made for the child. The shared parenting agreement also needs to cover the areas that will be shared by the parents and what areas are the responsibility of each parent. Another critical element of the agreement is some way to resolve disputes that will arise when making decisions for the child. This can be informed about the use of arbitration or mediation to resolve the conflicts.</p>
+
+                            <div class="content-spacer"></div>
 
                             <p>Relationships will change as a child grows older and it is possible that a shared parenting agreement will need to be revised. Knowing when and how to reopen and renegotiate a shared parenting agreement may require legal assistance and a lawyer that specializes in this parenting plan.</p>
 
+                            <div class="content-spacer"></div>
+
                             <p>People often have the following types of questions:</p>
+
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What is shared parenting?</li>

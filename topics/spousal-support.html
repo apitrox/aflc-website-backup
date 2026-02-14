@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -388,15 +414,25 @@
                         <div class="entry">
                             <h1>Spousal Support</h1>
 
+                            <div class="content-spacer"></div>
+
                             <p>In Texas, spousal support, alimony, or spousal maintenance is not automatic. When a court order is issued for spousal support, it is generally intended to provide the spouse with periodic payments from the former spouse's income. The spouse receiving the support typically must show that they lack sufficient resources to provide for his/her reasonable needs. The requesting spouse may be required to show that they are not able to find gainful employment because of a disability, lack of employable skill sets, or lack of suitable education.</p>
+
+                            <div class="content-spacer"></div>
 
                             <div style="margin-top: 30px; margin-bottom: 30px;">
                                 <img decoding="async" class="alignnone" src="../images/topics/Spousal-Support.jpg" alt="Spousal Support" width="373" height="135">
                             </div>
 
+                            <div class="content-spacer"></div>
+
                             <p>The Family Code of Texas states that spousal support orders are not effective after three years from the date of the divorce decree being signed. Texas courts may limit spousal support to the shortest time possible for the spouse to begin employment that will meet his/her reasonable needs. Each support order is decided on a case by case basis.</p>
 
+                            <div class="content-spacer"></div>
+
                             <p>The following types of questions:</p>
+
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>Can I receive spousal support?</li>
