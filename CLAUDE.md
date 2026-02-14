@@ -37,6 +37,18 @@ Changes to make to `aflc-website-backup` project website:
   
 ---  
   
+## Language Tottle Area  
+  
+The Language Toggle Area of a page to be an area between the Content Area and the Call To Action Section. The Language Tottle Area is highlighted in Yellow on the image `Language-Toggle-Area.png`. The Language Toggle Area contains the text "English  |  Español" with 40px above (below the Content Area text) and 10px below (above the horizontal rule line). Every page in the project has a Language Toggle Area. The Language Toggle Area is used to toggle between the English language version and Spanish language version of the same page. When on the English language version the word "Español" will be a hyperlink to the Spanish language version of the page and the word "English" will be plain text, when on the Spanish language version the word "English" will be a hyperlink to the English language version of the page and the word "Español" will be plain text. The URL of the Spanish language version of each page will be exactly the same as the English language version except that the Spanish language version will end with "-es". For example, for an English language page with URL "..my-page.html", the Spanish lanugage version of that page will be "..my-page-es.html".  
+  
+---  
+  
+## Call To Action Section  
+  
+The Language Toggle Area of a page to be an area between the Content Area and the Call To Action Section. The Language Tottle Area is highlighted in Yellow on the image `Language-Toggle-Area.png`. The Language Toggle Area contains the text "English  |  Español" with 40px above (below the Content Area text) and 10px below (above the horizontal rule line). Every page in the project has a Language Toggle Area. The Language Toggle Area is used to toggle between the English language version and Spanish language version of the same page. When on the English language version the word "Español" will be a hyperlink to the Spanish language version of the page and the word "English" will be plain text, when on the Spanish language version the word "English" will be a hyperlink to the English language version of the page and the word "Español" will be plain text. The URL of the Spanish language version of each page will be exactly the same as the English language version except that the Spanish language version will end with "-es". For example, for an English language page with URL "..my-page.html", the Spanish lanugage version of that page will be "..my-page-es.html".  
+  
+---  
+  
 ## Permissions  
   
 - `..\.claude\settings.json` - contains Claude Code permissions for file operations, load these permissions at the beginning of each conversation for use throughout the conversation.  
