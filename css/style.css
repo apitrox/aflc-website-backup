@@ -580,6 +580,7 @@ height: 0;
 .post-contact-information-text { float: left; margin-left: 20px; margin-top: 20px; font: 400 16px / 24px 'Roboto', sans-serif; }
 .post-contact-information-text .location_phone_number { font-weight: bold; }
 .post-contact-information-text .location_phone_number a { color: #000000 !important; text-decoration: none; }
+.language-toggle { margin-top: 40px; margin-bottom: 10px; }
 .post-separator { width: 100%; }
 
 /* Footer
