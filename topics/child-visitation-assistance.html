@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,12 +413,16 @@
                     <article class="post" id="post-topic">
                         <div class="entry">
                             <h1>Child Visitation Assistance</h1>
+                            <div class="content-spacer"></div>
 
                             <p>Childs visitation agreements can include many different things. They can include the length of visits and what is allowed during the visitation. Sometime supervised visitation is ordered. Child custody and visitation agreements can be complicated. Child visitation assistance can help.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Child visitation assistance can make sure that all of the terms of the agreement are being followed or the agreement needs to be changed. It can also help take the steps when the agreement is not being followed by one or both of the parents.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What is child visitation assistance?</li>

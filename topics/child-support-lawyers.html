@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,18 +413,25 @@
                     <article class="post">
                         <div class="entry">
                             <h1>Child Support Lawyer</h1>
+                            <div class="content-spacer"></div>
 
                             <p>It is possible that two adults can agree when it comes to providing financial support for their children. Families that live in one household do this all of the time. When a child does not live with both parents, the ability to provide fair and equitable child support can be more difficult.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Two parents that no longer live together can agree with how much each will contribute to the care of their children on their own. These agreements are complicated to enforce and do not always work well. A legal agreement is more binding, and a court order of child support is often the best way to make sure that the children have the financial support they need.</p>
+                            <div class="content-spacer"></div>
 
                             <p><img decoding="async" class="alignnone" src="../images/topics/child-support-lawyer.jpg" alt="Child Support Lawyer" width="257" height="193"></p>
+                            <div class="content-spacer"></div>
 
                             <p>Child support lawyers can create the agreements or work to get the court ordered child support so that the <a href="https://childsupport.oag.state.tx.us/wps/portal/CSIMobile/MobileCSIHome/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOJ9_H1MDN1NjHwsPA1NDRwDfILNnD18DQ0MDfULsh0VAXHbQ8M!/">payments are enforceable</a>. The child support lawyers can also work with existing agreements that are not working well or that are unfair to one or both parties. They can work to increase, decrease and eliminate child support agreements and orders. Things can change over time, and that could affect the child support agreement.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Lawyers specializing in either getting a court to order child support or working to collect child support. If you don&#8217;t already know a good child support lawyer, try a lawyer referral service such as the Texas Lawyer Referral Service, or TxLRS, and look for Divorce Lawyers or Family Law Lawyers.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>How do I find a family law attorney?</li>

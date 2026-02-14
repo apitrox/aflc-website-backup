@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,16 +413,22 @@
                     <article class="post">
                         <div class="entry">
                             <h1>Child Support Enforcement</h1>
+                            <div class="content-spacer"></div>
 
                             <p>During child custody battles, one of the parties may be ordered by the court to pay child support. This money can be used in many ways for the welfare of the child. The court will decide how much child support is to be paid by an individual, when it is supposed to be paid and to who it is supposed to be paid. All of this will take the form of a court order.</p>
+                            <div class="content-spacer"></div>
 
                             <p><img decoding="async" class="alignnone" src="../images/topics/child-support-enforcement.jpg" alt="Child Support Enforcement" width="294" height="196"></p>
+                            <div class="content-spacer"></div>
 
                             <p>Getting the court order of child support is only the beginning; the enforcement of this order may require more effort. There is no guarantee that the court order for child support will be filed. The Office of the Attorney General monitors child support orders, but much of the enforcement depends on the individuals involved in the case. If a person is owed child support, they can bring a suit for the enforcement of the order. If a person paying child support feels the receiving party of the child support is not using the money as ordered, they can also bring a suit for enforcement.</p>
+                            <div class="content-spacer"></div>
 
                             <p>In either case, legal representation for child support enforcement is essential. Working with the OAG, the legal team can help get results quickly. They can make sure payments are timely.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>Do I get credit for child support paid to the mom?</li>

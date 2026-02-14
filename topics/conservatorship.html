@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,20 +413,28 @@
                     <article class="post" id="post-topic">
                         <div class="entry">
                             <h1>Conservatorship</h1>
+                            <div class="content-spacer"></div>
 
                             <p>Guardianship is also called a conservatorship. In most cases, the need to establish a legally binding conservatorship is not needed. When parents are together, it is not required has they automatically accept this role and the child as their responsibility.</p>
+                            <div class="content-spacer"></div>
 
                             <h2>When is Conservatorship Needed?</h2>
+                            <div class="content-spacer"></div>
 
                             <p>The <a href="http://www.statutes.legis.state.tx.us/Docs/FA/htm/FA.153.htm">conservatorship</a> may be needed for a variety of reason. The child&#8217;s parent may no longer live together and be jointly making decisions for the child. The parents of the child may no longer be able to care for the minor child requiring another adult is named conservator of the child.</p>
+                            <div class="content-spacer"></div>
 
                             <p>However, the most common is when parents no longer live together. Typically one parent is appointed as the managing conservator or possessory conservator of the child. The person appointed as possessory conservator of the child is the person primarily responsible for determining major decision for the child, such as, where the child lives.</p>
+                            <div class="content-spacer"></div>
 
                             <p><img src="../images/topics/conservatorship.jpg" alt="Conservatorship" width="266" height="190"></p>
+                            <div class="content-spacer"></div>
 
                             <p>The need to establish conservatorship can happen for many reasons. It is important that both the conservator and the child is protected under this agreement. It is also important to make sure the terms of the agreement are followed. Legal representation can make sure that this happens without the emotions that can become involved. It is in the best interest of all parties to include proper legal help for conservator issues.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Referenced questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What does conservatorship mean?</li>

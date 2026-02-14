@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,14 +413,19 @@
                     <article class="post">
                         <div class="entry">
                             <h1>Child Visitation</h1>
+                            <div class="content-spacer"></div>
 
                             <p>Just because a child does not live with both parents doesn&#8217;t mean that both parent shouldn&#8217;t be involved in the child&#8217;s life. It is important that the parents are able to work out a child visitation agreement that is fair. It should also be safe for the child.</p>
+                            <div class="content-spacer"></div>
 
                             <p>The legal representation can make sure that all of the terms of the child visitation are written into a visitation agreement. These included areas such as how often a child stays with a parent, where the child lives and specific a holiday schedule. It can include the way that the child is transferred from the custody of one parent to the other. In some cases, it can also include supervised visitation.</p>
+                            <div class="content-spacer"></div>
 
                             <p>It is vital that all of the terms of the agreement are clearly spelled out so that there is no question of what will happen with the child. It is important to seek legal assistance if the visitation agreement is being violated. Reaching a child visitation agreement that focuses on the child often times requires the parents to put aside some emotions to come up with the best plan for the child. Child custody lawyers and divorce attorneys can help formalize visitation agreements and file them with the courts making them enforceable.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What is child visitation?</li>

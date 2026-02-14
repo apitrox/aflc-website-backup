@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,22 +413,31 @@
                     <article class="post" id="post-topic">
                         <div class="entry">
                             <h1>Divorce</h1>
+                            <div class="content-spacer"></div>
 
                             <p>Many couples do not get divorced because it is complicated. The issues surrounding assets of both individuals involved and the problems that arise when children are involved complicate the legal separation proceedings. There are plenty of reasons that people get a <a href="https://en.wikipedia.org/wiki/Legal_separation">legal separation</a> and just as many reasons why people avoid getting a divorce even though they do not want to remain together.</p>
+                            <div class="content-spacer"></div>
 
                             <p><img src="../images/topics/divorce.jpg" alt="Divorce" width="287" height="191"></p>
+                            <div class="content-spacer"></div>
 
                             <h2>How to deal with divorce</h2>
+                            <div class="content-spacer"></div>
 
                             <p>What most people do not realize is that a divorce can be dealt with in many different ways. The proceedings can be handled by an arbiter, or there can be a court case involved. Deciding what type of help is needed is the first step towards getting the divorce that people need. Both parties may want legal representation to make sure that their interests are fairly represented. There are no winners in a divorce, but there can be losers if the people involved are not careful.</p>
+                            <div class="content-spacer"></div>
 
                             <h2>Pro Bono or Affordable Assistance</h2>
+                            <div class="content-spacer"></div>
 
                             <p>You can also look for pro bono or affordable assistance through various services. America Family Law Center is one such service.</p>
+                            <div class="content-spacer"></div>
 
                             <h2>Other Questions</h2>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>When and Why should I get a divorce?</li>
