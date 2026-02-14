@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,20 +413,28 @@
                     <article class="post" id="post-1615">
                         <div class="entry">
                             <h2>Pro Bono Attorney | What does it mean?</h2>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">First, let&#8217;s dispel a myth. Attorneys do not go to school or gets licensed in the practice of pro bono work. So although we commonly refer to them a pro bono attorney the more factual way of thinking is they are a licensed attorney that provides their legal service at no cost.</p>
+                            <div class="content-spacer"></div>
 
                             <h2>Who Provide Pro Bono Services?</h2>
+                            <div class="content-spacer"></div>
 
                             <div style="margin-bottom: 30px;"><img class="alignleft" src="../images/topics/pro-bono-attorney.jpeg" alt="Pro Bono Attorney" width="500" height="333" style="float: left; margin-right: 15px; margin-bottom: 10px;"></div>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">Some are private practice attorneys that will take on a case where the client is not able to pay their fee. In most cases, the facts in the case must be compelling to warrant the attorney to want to take on the case without pay. Private practices attorney only spend about <a href="https://www.lawyersmutualnc.com/blog/lawyers-spend-37-hours-a-year-in-pro-bono-service-2" target="_blank" rel="noreferrer noopener">37 hours a year</a> doing pro bono work. Their private practice client has to provide enough income so that the attorney can time away from paying clients to take on the pro bono client.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">Large law firms will often times encourage their attorneys to do some pro bono work as a community service project. Often times the attorneys are providing services in areas such as <a href="family-law.html">family law</a> that is not their legal area of expertise. So although, this is a valuable resource and their efforts should not be diminished they often will take simpler cases. The law firm pays the lawyer&#8217;s salary while they are providing these legal services.</p>
+                            <div class="content-spacer"></div>
 
                             <h2>What About Legal Aid?</h2>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">In addition, government-funded legal aid organizations provide pro bono legal assistance through employee staff attorneys. Fund limited the number of clients they can help. Experts say that 85% of all who qualify will not get assistance. Limited funding from state and federal dollars can only go so far in providing services. They must prioritize assistance putting at-risk cases to the top.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">Finally, there are non-profit and non-government-funded legal aid organizations. These programs typically have staff attorneys. Their funding is the most diverse with a blending of co-pays, donations, and grants. They also may offer services in a non-traditional way such as limited scope to be able to assist more individuals in the most efficient way. America Family Law Center is one such program.</p>
 

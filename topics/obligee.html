@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,16 +413,22 @@
                     <article class="post" id="post-obligee">
                         <div class="entry">
                             <h1>Obligee</h1>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">Debt is normal in the United States. When a person takes on any debt or if they agree to be financially responsible for paying an amount to another person, they become an obligor. In some case this a person may become the Obligee through a judgment imposed by the court. The party that is receiving the money is the obligee.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;"><img class="alignnone" src="../images/topics/obligee.jpg" alt="Obligee" width="198" height="101"></p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">In child support cases there is a court order that determines the obligee and obligor.  The person receiving the child support is the obligee.  This person is typically the custodial parent who the child reside with the majority of the time.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">If the obligor (paying party) doesn&#8217;t pay the child support the obligee has few options other than going back to court.  In this case, the obligee would be asking for an Enforcement of the existing child support order to compel the obligor to pay.  If the obligor does not pay they may be held in contempt of court and even face jail time.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>How do I collect child support?</li>

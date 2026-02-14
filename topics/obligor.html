@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,18 +413,25 @@
                     <article class="post" id="post-127">
                         <div class="entry">
                             <h1>Obligor</h1>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">In general terms, the obligor is the individual that has made an agreement to pay another person. This often happens when someone borrows money from a bank. The person that borrowed the money from the bank must agree to pay it back. In the financial agreement, they are referred to as the obligor.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">In child support agreements the same term is used. When child support is established by the courts they determine where the child will reside and which parent gets to determine where the child resides. The parent that is granted the authority to determine where the child resides is the custodial parent. The other parent is referred to as the non-custodial parent.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;"><img class="alignnone" src="../images/topics/obligor.jpg" alt="Obligor" width="275" height="183"></p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">In the court-ordered child support set out a financial obligation between the two parents. The custodial parent becomes the obligee or the one receiving the child support. The non-custodial parent becomes the obligor or the one that is required to pay the child support. This financial obligation is set forth by the courts. If the obligor does not pay in accordance with the court order they may be taken back to court on an <a href="https://childrenfirstalways.org/child-support-enforcement/">Enforcement of Child Support</a> and potentially face a contempt of court charge that could include jail time.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">Changes to child support must also be done in the courts through a Modification of the Child Support. Both parties agreeing to something other than what the court has ordered will not change the court-order obligation set forth in the child support order.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What do I do if I owe child support?</li>

@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,18 +413,25 @@
                     <article class="post" id="post-129">
                         <div class="entry">
                             <h1>Parental Rights</h1>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">Parental rights are automatically assumed when two people living together have a child. It is assumed that both parents have <a href="https://childrenfirstalways.org/parents-rights-texas/">parental rights</a> over the child. They will be empowered to make important decisions for that child until that child is an adult. Those rights include the right to have legal and physical custody of the child, the right to make medical and religious decisions for the child, the right to enter into contracts for the child and many other choices that arise.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;"><img class="alignnone" src="../images/topics/parental-rights.jpg" alt="Parental Rights" width="275" height="184"></p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">In cases where the parents are not living together, there is often the need for an agreement to determine the parental rights of each parent and how the decisions for the child will be made as well as who will make the decision. Agreements about parental rights will also be needed in the cases of adoption and other instances where the non-biological parent will assume the rights of a child.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">There will be times when a person will maintain the physical parental rights when the child is in their custody, but will not have the legal parental rights. This needs to be spelled out in the agreement between the parents and included in the <a href="https://childrenfirstalways.org/child-visitation/">visitation agreement</a> that is done.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">In many cases, the parental rights are assumed, and there is no need for a formal agreement, but if there is one, it should be carefully worded and understood by all parties so that the welfare of the child is protected.</p>
+                            <div class="content-spacer"></div>
 
                             <p style="margin-bottom: 30px;">People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What are parental rights in Texas?</li>
