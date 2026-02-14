@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,16 +413,22 @@
                     <article class="post" id="post-topic">
                         <div class="entry">
                             <h1>Joint Custody</h1>
+                            <div class="content-spacer"></div>
 
                             <p>There are many times when parents cannot live together. In these cases, there needs to be a decision about who has custody of the child. Custody can be awarded solely to one person; there can be an agreement where one person has custody of the child while the other still retains some of their parental rights and there can be times when joint custody is awarded.</p>
+                            <div class="content-spacer"></div>
 
                             <p><img src="../images/topics/joint-custody.jpg" alt="Joint Custody" width="241" height="126"></p>
+                            <div class="content-spacer"></div>
 
                             <p>In the case of joint custody, both of the parents will have custody of the child. This could be due to the child spending a significant amount of time with both parent or because both parents want to have a say in the decisions that are made for the child. Joint custody requires an agreement between the parties about the care of the child and how decisions are to be made.</p>
+                            <div class="content-spacer"></div>
 
                             <p>There are two types of joint custody that are usually decided by the courts. Joint physical custody will refer to where the child lives at different times. A schedule for this type of custody is usually agreed upon by both parties. Joint legal custody is awarded when both parties want access to all of the legal records of a child. Making decisions about this type of custody should be done with the help of legal representation.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What is joint custody in Texas?</li>

@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,22 +413,31 @@
                     <article class="post" id="post-topic">
                         <div class="entry">
                             <h1>Family Law Center</h1>
+                            <div class="content-spacer"></div>
 
                             <p>A family law center can help individuals find the various resource to assist them in handling their family law issues. These resources may include the assistance of a licensed attorney, free materials, and guidance, or referrals to other helpful resources. Many of these services are provided pro bono.</p>
+                            <div class="content-spacer"></div>
 
                             <p>At a family law center, all legal advice comes from licensed family law attorneys. Family Law Attorney can help with divorce, custody, a situation with child protective services, child support, or a variety of other family law situation.</p>
+                            <div class="content-spacer"></div>
 
                             <p>In addition, there are other team members that are there to help guide the individual through different processes that may be involved in the individual&#8217;s situation. Team members are there to help identify additional resources that may be helpful. The focus of the family law center is the individual and their family law situation.</p>
+                            <div class="content-spacer"></div>
 
                             <p><img src="../images/topics/family-law-center.jpg" alt="Family Law Center" width="281" height="187"></p>
+                            <div class="content-spacer"></div>
 
                             <h2>Family Law</h2>
+                            <div class="content-spacer"></div>
 
                             <p>Family law involves issues surrounding family matters and domestic disputes. It can include areas such as adoption and domestic partnerships. It can include disputes arising from divorce or custody issues. Family law can cover a full breadth of topics. It is essential that these issues are handled properly. They need to follow the laws that exist in the place where a person lives. Most people do not have the expertise to handle these issues on their own.</p>
+                            <div class="content-spacer"></div>
 
                             <h2>Other Questions</h2>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What is a domestic dispute?</li>

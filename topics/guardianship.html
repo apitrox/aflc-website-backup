@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,20 +413,28 @@
                     <article class="post" id="post-topic">
                         <div class="entry">
                             <h1>Guardianship</h1>
+                            <div class="content-spacer"></div>
 
                             <p>Not everyone can make their own decisions. In some situations, adult children are not mature enough and do not have the experience to make some decisions that will impact them. People with physical disabilities may not be able to make some decisions about their care and other things. Mental disorders can be a reason for a person not to be able to make the right choices in their life. In these cases, a guardianship can be established so that the decisions are made by a person that is capable of doing so.</p>
+                            <div class="content-spacer"></div>
 
                             <p>The parents of a minor child are usually assumed to have guardianship or, in Texas, <a href="conservatorship.html">conservatorship</a>. In Texas, guardianship is the term of adults over the age of 18 that may need to have another adult appointed to assist them in making daily decisions. Adults that need help making decisions can have someone who has the guardian over their affairs. The guardianship may be complete and cover all of the care of an individual or it can include just some areas such as financial decisions for an individual.</p>
+                            <div class="content-spacer"></div>
 
                             <p>Guardianship may also be established for an elder adult that needs assistance with managing their affairs. Many time adult child need to seek guardianship of a frail or ill parent.</p>
+                            <div class="content-spacer"></div>
 
                             <p><img src="../images/topics/guardianship.jpg" alt="Guardianship" width="287" height="191"></p>
+                            <div class="content-spacer"></div>
 
                             <h2>Establishing Guardianship</h2>
+                            <div class="content-spacer"></div>
 
                             <p>The documents needed to establish and determine guardianship needs to be correctly filled out and filed with the courts. Proper documents will prevent any problems that could arise in the future regarding the guardian of an individual. It is always best to create a guardian in this manner to make sure that there are no disputes about what and who is supposed to be caring for an individual.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What is guardianship?</li>

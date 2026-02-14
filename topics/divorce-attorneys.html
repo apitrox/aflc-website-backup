@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,16 +413,22 @@
                     <article class="post" id="post-topic">
                         <div class="entry">
                             <h1>Divorce Attorneys</h1>
+                            <div class="content-spacer"></div>
 
                             <p>There are plenty of jokes about divorce attorneys. Many of them do not put the divorce attorney in a good light. Whether you like a divorce attorney or you hate a divorce attorney, does not matter. If you are involved in a divorce, the divorce attorney you choose will have a tremendous impact on what your life. Ensuring your divorce is done correctly and in your best interest will have an enormous effect on your life after the finalization of the divorce.</p>
+                            <div class="content-spacer"></div>
 
                             <p><img src="../images/topics/divorce-attorneys.jpg" alt="Divorce Settlement Agreement" width="265" height="199" class="alignnone"></p>
+                            <div class="content-spacer"></div>
 
                             <p>A divorce attorney is an advocate for their client. They can remove the emotions involved in a divorce. They can make sure that the client can get everything they need from the divorce agreement. Financial support, the <a href="https://texaslawhelp.org/article/dividing-your-property-debt-divorce">distribution of assets</a>, the agreement about custody and parenting of any children can all be handled by the divorce attorney.</p>
+                            <div class="content-spacer"></div>
 
                             <p>The services that a divorce attorney provides will vary. The attorney can make sure that all of the proper paperwork is filed. Divorce attorney advocate for their clients and work represent their interests in a divorce proceeding. Divorce attorneys can work through the legal process of divorce in different manners depending on the needs of their clients. A good divorce attorney will understand how to handle any divorce case.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>How do I find a divorce attorney?</li>

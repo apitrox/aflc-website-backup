@@ -39,8 +39,34 @@
     <style>
         /* Custom overrides */
         #main p {
-            margin-top: -5px;
-            margin-bottom: -10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .content-spacer {
+            height: 8px;
+        }
+        /* Headings: consistent spacing with content-spacer pattern */
+        .entry h1, .entry h2, .entry h3 {
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+        /* Images/figures: match paragraph padding for consistent 18px spacing */
+        .entry > figure,
+        .entry > .wp-block-image,
+        .entry p > img {
+            padding: 5px 0;
+        }
+        /* Lists: no extra space between items, 1.15 line spacing */
+        .entry ul, .entry ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .entry ul li, .entry ol li {
+            line-height: 1.15;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
         #footer .logo img {
             height: 36px;
@@ -387,16 +413,22 @@
                     <article class="post" id="post-topic">
                         <div class="entry">
                             <h1>DNA Paternity Testing</h1>
+                            <div class="content-spacer"></div>
 
                             <p>Technology has made DNA paternity testing a common occurrence. Establishing paternity of a child is very important. It can be used to determine who is the custodial parent of the child, what type of visitation parent is entitled to and for the financial support of a child. All of these things will impact how a child is raised.</p>
+                            <div class="content-spacer"></div>
 
                             <p>When paternity of a child is in question, the DNA paternity testing is the most accurate way to resolve the problem. A parent that wants to have someone tested may need assistance in getting the DNA paternity testing done. It also needs to be done in a way that is enforceable. The results of the testing have a tremendous impact on the lives of the child and the parents, so it is crucial to accurately complete the test.</p>
+                            <div class="content-spacer"></div>
 
                             <p><img src="../images/topics/dna-paternity-testing.jpg" alt="DNA Paternity Testing" width="296" height="167" class="alignnone"></p>
+                            <div class="content-spacer"></div>
 
                             <p>Once DNA paternity testing has been completed and paternity has been established, the results of the test need to be used to decide custody, support, and visitation among other issues. All of this can be handled when a person has the legal understanding of how <a href="https://en.wikipedia.org/wiki/DNA_paternity_testing">DNA paternity testing</a> and the results work.</p>
+                            <div class="content-spacer"></div>
 
                             <p>People often have the following types of questions:</p>
+                            <div class="content-spacer"></div>
 
                             <ul>
                                 <li>What is a DNA paternity test?</li>
