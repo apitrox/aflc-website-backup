@@ -1,19 +1,27 @@
 # Robots.txt for America Family Law Center
 # Block all bots from crawling this site
 
+
+
 # Block all robots
+
 User-agent: *
 Disallow: /
 
+
+
 # Block Wayback Machine / Internet Archive
+
 User-agent: ia_archiver
 Disallow: /
 
-# Block Wayback Machine / Internet Archive
 User-agent: archive.org_bot
 Disallow: /
 
+
+
 # Block other common crawlers/archivers
+
 User-agent: Googlebot
 Disallow: /
 
