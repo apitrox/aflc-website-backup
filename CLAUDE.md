@@ -11,8 +11,9 @@
   
 Changes to make to `aflc-website-backup` project website:  
 - We are defining the Content Area of a page to be the content below the Family Law Articles section and above the Call To Action section, which is immediately above the footer area and is shown in the image `Call-To-Action-Section.png`.  
+<!-- - Write content for the `../topics/child-custody.html` page, replacing "Write content for this page". Write in a similar quantity and style as on `../topics/child-custody-legal-aid.html` and `../topics/child-visitation.html`. Do not give legal advice. Do not make predictions. To not make promises. Do not write something unless you know it is accurate. Just write about what child custody is, why it is important to people, and common questions people may have. There will be no images in the Content Area of this page. -->
 <!-- - Review and update each of the pages in the `../posts/..` folder by checking, and updating if necessary, the spacing before and after text paragraphs and also before and after images. Be sure there is 20 pixels of white space (basically a blank line) before and after each text paragraph and before and after each image.   -->
-- Review and update the `../services.html` page to update the spacing before and after text paragraphs and also before and after each images, to be 18 pixels of white space (basically a blank line). Do not put extra space between bullets, numbered or starred lists, put them at 1.15 line spacing.
+<!-- - Review and update the `../services.html` page to update the spacing before and after text paragraphs and also before and after each images, to be 18 pixels of white space (basically a blank line). Do not put extra space between bullets, numbered or starred lists, put them at 1.15 line spacing. -->
 <!-- - Rollback the last change you made to the footer area, all other changes remain. -->
   
 ---  
