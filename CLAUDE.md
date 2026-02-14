@@ -11,58 +11,8 @@
   
 Changes to make to `aflc-website-backup` project website:  
 - We are defining the Content Area of a page to be the content below the Family Law Articles section and above the Call To Action section, which is immediately above the footer area and is shown in the image `Call-To-Action-Section.png`.  
-- When replicating page content or the Content Area of a page, we are replicating only the Content area of the page. Entirely replace the Content Area of the target page with the Content Area of the source page, but do not change anything else on the target page.  
-- When replicating page content or the Content Area of a page, the page content shall never use links to a Wayback Machine page. The first portion of any such links that starts with `https://web.archive.org/web/..`, shall be removed and therefore using the second portion of the link.  
-- When replicating page content or the Content Area of a page, the images are probably already in our project files, use the image if it is already in our project files and do not create a duplicate image file.  
-<!-- - If, after replicating the Content Area, the target page has a missing image, use the image from that pages corresponding listing that links to the page on the `../blog.html` page.  -->
-- When replicating page content, the source content may have a pipe "|" character on its own paragraph. We do not want to replicate this pipe character paragraph. It was used to create additional spacing between paragraphs. Instead, add the amount of space the pipe character paragraph creates but without the pipe character paragraph. Regardless, be sure there is the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example. Be sure to always put a minimum of 30 pixels of blank space between each text paragraph and between text paragraph and an image.  
-- When replicating page content or the Content Area of a page, replicate images and styling and be sure the image sizes, placement, text wrapping, and text styling is replicated to match the source; however, it is recommended that you fix obvious display or formatting type errors and fill in missing images. If an image is missing on the source pages where there is a placeholder but no image, and there is an image on the target page, reuse the image on the target page, if there is no image on the target page then select an appropriate image from the `../images/..` folder. Notwithstanding, on the target page always use site standards such as H1, H2, H3, etc. without editing those standards.  
-- When using `..web.archive.org..` as a source, it can take a long time for a page to load, you must be patient and wait for the page to finish loading before reading/copying content.  
-- Replicate the Content Area from each of these source pages to the Content Area of the corresponding target page, which is located in our project files/repository. 
-  - from source page `https://web.archive.org/web/20250714062530/https://americafamilylawcenter.org/visitation-rights/`, to target page `../topics/visitation-rights.html`  
-  - from source page `https://web.archive.org/web/20250326043107/https://americafamilylawcenter.org/visitation-lawyers/`, to target page `../topics/visitation-lawyers.html`  
-  - from source page `https://web.archive.org/web/20250525052023/https://americafamilylawcenter.org/visitation-enforcement/`, to target page `../topics/visitation-enforcement.html`  
-  <!-- - from source page `https://web.archive.org/web/20250714061506/https://americafamilylawcenter.org/visitation-assistance/`, to target page `../topics/visitation-assistance.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714054721/https://americafamilylawcenter.org/visitation/`, to target page `../topics/visitation.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250425025614/https://americafamilylawcenter.org/spousal-support/`, to target page `../topics/spousal-support.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714063522/https://americafamilylawcenter.org/shared-parenting/`, to target page `../topics/shared-parenting.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250525054458/https://americafamilylawcenter.org/restraining-order/`, to target page `../topics/restraining-order.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714054145/https://americafamilylawcenter.org/protective-order/`, to target page `../topics/protective-order.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714064831/https://americafamilylawcenter.org/property-division/`, to target page `../topics/property-division.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250326045644/https://americafamilylawcenter.org/pro-bono-lawyers/`, to target page `../topics/pro-bono-lawyers.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250326035607/https://americafamilylawcenter.org/pro-bono-attorney/`, to target page `../topics/pro-bono-attorney.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250623092339/https://americafamilylawcenter.org/parental-rights/`, to target page `../topics/parental-rights.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250623095458/https://americafamilylawcenter.org/parenting-plans/`, to target page `../topics/parenting-plans.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250425024204/https://americafamilylawcenter.org/obligor/`, to target page `../topics/obligor.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250326050218/https://americafamilylawcenter.org/obligee/`, to target page `../topics/obligee.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714062603/https://americafamilylawcenter.org/mediation/`, to target page `../topics/mediation.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714060358/https://americafamilylawcenter.org/limited-scope-representation/`, to target page `../topics/limited-scope-representation.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250427103654/https://americafamilylawcenter.org/legal-aid/`, to target page `../topics/legal-aid.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250425030617/https://americafamilylawcenter.org/law-help/`, to target page `../topics/law-help.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714063936/https://americafamilylawcenter.org/joint-custody/`, to target page `../topics/joint-custody.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714061025/https://americafamilylawcenter.org/guardianship/`, to target page `../topics/guardianship.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714063654/https://americafamilylawcenter.org/family-law-center/`, to target page `../topics/family-law-center.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714051016/https://americafamilylawcenter.org/family-law/`, to target page `../topics/family-law.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714051315/https://americafamilylawcenter.org/dna-paternity-testing/`, to target page `../topics/dna-paternity-testing.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250525041312/https://americafamilylawcenter.org/divorce-lawyers/`, to target page `../topics/divorce-lawyers.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250623084941/https://americafamilylawcenter.org/divorce-attorneys/`, to target page `../topics/divorce-attorneys.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250525044540/https://americafamilylawcenter.org/divorce/`, to target page `../topics/divorce.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250427095530/https://americafamilylawcenter.org/custodial-parent/`, to target page `../topics/custodial-parent.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250427093901/https://americafamilylawcenter.org/conservatorship/`, to target page `../topics/conservatorship.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714064103/https://americafamilylawcenter.org/co-parenting/`, to target page `../topics/co-parenting.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20170705163523/http://americafamilylawcenter.org/family-topics/child-visitation-assistance/`, to target page `../topics/child-visitation-assistance.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20170705170721/http://americafamilylawcenter.org/family-topics/child-visitation/`, to target page `../topics/child-visitation.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250425030327/https://americafamilylawcenter.org/child-support-lawyers/`, to target page `../topics/child-support-lawyers.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250427101753/https://americafamilylawcenter.org/child-support-enforcement/`, to target page `../topics/child-support-enforcement.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250709154811/https://americafamilylawcenter.org/child-support-collection/`, to target page `../topics/child-support-collection.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250709154822/https://americafamilylawcenter.org/child-support/`, to target page `../topics/child-support.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250709154818/https://americafamilylawcenter.org/child-custody-legal-aid/`, to target page `../topics/child-custody-legal-aid.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20160820040203/http://americafamilylawcenter.org/family-topics/child-custody-lawyers/`, to target page `../topics/child-custody-lawyers.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250714063341/https://americafamilylawcenter.org/adjudicate-parentage-in-texas-steps-to-adjudicate-parentage/`, to target page `../topics/adjudicate-parentage.html`   -->
-  <!-- - from source page `https://web.archive.org/web/20250427092922/https://americafamilylawcenter.org/adoption/`, to target page `../topics/adoption.html`   -->
-<!-- - Update paragraph spacing on the `../posts/family-law-pro-bono-lawyer.html` page to have the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example.   -->
-<!-- - Update paragraph spacing on the `../posts/denied-visitation-rights.html` page to have the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example.   -->
-<!-- - For each post page `../posts/..` remove the posted date from the page. The Posted date should be displayed on the listing page at `../blog.html`, but not on individual post pages.   -->
+<!-- - Review and update each of the pages in the `../posts/..` folder by checking, and updating if necessary, the spacing before and after text paragraphs and also before and after images. Be sure there is 20 pixels of white space (basically a blank line) before and after each text paragraph and before and after each image.   -->
+- Review and update the `../mission.html` page to update the spacing before and after text paragraphs and also before and after each images, to be 18 pixels of white space (basically a blank line). Do not put extra space between bullets or numbered lists, put them at 1.15 line spacing.
 <!-- - Rollback the last change you made to the footer area, all other changes remain. -->
   
 ---  
@@ -240,3 +190,57 @@ When complete:
   <!-- - from source page `https://web.archive.org/web/20250326050035/https://americafamilylawcenter.org/visitation-schedules-and-school-cancellation-due-to-covid-19/`, to target page `../posts/visitation-schedules-and-school-cancellation-due-to-covid-19.html` -->
   <!-- - from source page `https://web.archive.org/web/20250714063306/https://americafamilylawcenter.org/third-round-stimulus-checks-and-child-support/`, to target page `../posts/third-round-stimulus-checks-and-child-support.html` -->
   <!-- - from source page `https://web.archive.org/web/20250714053503/https://americafamilylawcenter.org/what-factors-effect-your-stimulus-check-back-child-support/`, to target page `../posts/what-factors-effect-your-stimulus-check-back-child-support.html` -->
+
+  
+<!-- - When replicating page content or the Content Area of a page, we are replicating only the Content area of the page. Entirely replace the Content Area of the target page with the Content Area of the source page, but do not change anything else on the target page.   -->
+<!-- - When replicating page content or the Content Area of a page, the page content shall never use links to a Wayback Machine page. The first portion of any such links that starts with `https://web.archive.org/web/..`, shall be removed and therefore using the second portion of the link.   -->
+<!-- - When replicating page content or the Content Area of a page, the images are probably already in our project files, use the image if it is already in our project files and do not create a duplicate image file.   -->
+<!-- - If, after replicating the Content Area, the target page has a missing image, use the image from that pages corresponding listing that links to the page on the `../blog.html` page.  -->
+<!-- - When replicating page content, the source content may have a pipe "|" character on its own paragraph. We do not want to replicate this pipe character paragraph. It was used to create additional spacing between paragraphs. Instead, add the amount of space the pipe character paragraph creates but without the pipe character paragraph. Regardless, be sure there is the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example. Be sure to always put a minimum of 30 pixels of blank space between each text paragraph and between text paragraph and an image.   -->
+<!-- - When replicating page content or the Content Area of a page, replicate images and styling and be sure the image sizes, placement, text wrapping, and text styling is replicated to match the source; however, it is recommended that you fix obvious display or formatting type errors and fill in missing images. If an image is missing on the source pages where there is a placeholder but no image, and there is an image on the target page, reuse the image on the target page, if there is no image on the target page then select an appropriate image from the `../images/..` folder. Notwithstanding, on the target page always use site standards such as H1, H2, H3, etc. without editing those standards.   -->
+<!-- - When using `..web.archive.org..` as a source, it can take a long time for a page to load, you must be patient and wait for the page to finish loading before reading/copying content.   -->
+<!-- - Replicate the Content Area from each of these source pages to the Content Area of the corresponding target page, which is located in our project files/repository.  -->
+  <!-- - from source page `https://web.archive.org/web/20250714062530/https://americafamilylawcenter.org/visitation-rights/`, to target page `../topics/visitation-rights.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250326043107/https://americafamilylawcenter.org/visitation-lawyers/`, to target page `../topics/visitation-lawyers.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250525052023/https://americafamilylawcenter.org/visitation-enforcement/`, to target page `../topics/visitation-enforcement.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714061506/https://americafamilylawcenter.org/visitation-assistance/`, to target page `../topics/visitation-assistance.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714054721/https://americafamilylawcenter.org/visitation/`, to target page `../topics/visitation.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250425025614/https://americafamilylawcenter.org/spousal-support/`, to target page `../topics/spousal-support.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714063522/https://americafamilylawcenter.org/shared-parenting/`, to target page `../topics/shared-parenting.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250525054458/https://americafamilylawcenter.org/restraining-order/`, to target page `../topics/restraining-order.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714054145/https://americafamilylawcenter.org/protective-order/`, to target page `../topics/protective-order.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714064831/https://americafamilylawcenter.org/property-division/`, to target page `../topics/property-division.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250326045644/https://americafamilylawcenter.org/pro-bono-lawyers/`, to target page `../topics/pro-bono-lawyers.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250326035607/https://americafamilylawcenter.org/pro-bono-attorney/`, to target page `../topics/pro-bono-attorney.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250623092339/https://americafamilylawcenter.org/parental-rights/`, to target page `../topics/parental-rights.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250623095458/https://americafamilylawcenter.org/parenting-plans/`, to target page `../topics/parenting-plans.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250425024204/https://americafamilylawcenter.org/obligor/`, to target page `../topics/obligor.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250326050218/https://americafamilylawcenter.org/obligee/`, to target page `../topics/obligee.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714062603/https://americafamilylawcenter.org/mediation/`, to target page `../topics/mediation.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714060358/https://americafamilylawcenter.org/limited-scope-representation/`, to target page `../topics/limited-scope-representation.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250427103654/https://americafamilylawcenter.org/legal-aid/`, to target page `../topics/legal-aid.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250425030617/https://americafamilylawcenter.org/law-help/`, to target page `../topics/law-help.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714063936/https://americafamilylawcenter.org/joint-custody/`, to target page `../topics/joint-custody.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714061025/https://americafamilylawcenter.org/guardianship/`, to target page `../topics/guardianship.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714063654/https://americafamilylawcenter.org/family-law-center/`, to target page `../topics/family-law-center.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714051016/https://americafamilylawcenter.org/family-law/`, to target page `../topics/family-law.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714051315/https://americafamilylawcenter.org/dna-paternity-testing/`, to target page `../topics/dna-paternity-testing.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250525041312/https://americafamilylawcenter.org/divorce-lawyers/`, to target page `../topics/divorce-lawyers.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250623084941/https://americafamilylawcenter.org/divorce-attorneys/`, to target page `../topics/divorce-attorneys.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250525044540/https://americafamilylawcenter.org/divorce/`, to target page `../topics/divorce.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250427095530/https://americafamilylawcenter.org/custodial-parent/`, to target page `../topics/custodial-parent.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250427093901/https://americafamilylawcenter.org/conservatorship/`, to target page `../topics/conservatorship.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714064103/https://americafamilylawcenter.org/co-parenting/`, to target page `../topics/co-parenting.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20170705163523/http://americafamilylawcenter.org/family-topics/child-visitation-assistance/`, to target page `../topics/child-visitation-assistance.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20170705170721/http://americafamilylawcenter.org/family-topics/child-visitation/`, to target page `../topics/child-visitation.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250425030327/https://americafamilylawcenter.org/child-support-lawyers/`, to target page `../topics/child-support-lawyers.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250427101753/https://americafamilylawcenter.org/child-support-enforcement/`, to target page `../topics/child-support-enforcement.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250709154811/https://americafamilylawcenter.org/child-support-collection/`, to target page `../topics/child-support-collection.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250709154822/https://americafamilylawcenter.org/child-support/`, to target page `../topics/child-support.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250709154818/https://americafamilylawcenter.org/child-custody-legal-aid/`, to target page `../topics/child-custody-legal-aid.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20160820040203/http://americafamilylawcenter.org/family-topics/child-custody-lawyers/`, to target page `../topics/child-custody-lawyers.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250714063341/https://americafamilylawcenter.org/adjudicate-parentage-in-texas-steps-to-adjudicate-parentage/`, to target page `../topics/adjudicate-parentage.html`   -->
+  <!-- - from source page `https://web.archive.org/web/20250427092922/https://americafamilylawcenter.org/adoption/`, to target page `../topics/adoption.html`   -->
+<!-- - Update paragraph spacing on the `../posts/family-law-pro-bono-lawyer.html` page to have the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example.   -->
+<!-- - Update paragraph spacing on the `../posts/denied-visitation-rights.html` page to have the equivalent of at least one blank line between each content/text paragraph, you may use the Home page at `../index.html` as an example.   -->
+<!-- - For each post page `../posts/..` remove the posted date from the page. The Posted date should be displayed on the listing page at `../blog.html`, but not on individual post pages.   -->
