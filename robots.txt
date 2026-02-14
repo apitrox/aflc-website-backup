@@ -5,10 +5,11 @@
 User-agent: *
 Disallow: /
 
-# Specifically block Wayback Machine / Internet Archive
+# Block Wayback Machine / Internet Archive
 User-agent: ia_archiver
 Disallow: /
 
+# Block Wayback Machine / Internet Archive
 User-agent: archive.org_bot
 Disallow: /
 
