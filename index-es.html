@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Block all search engines and bots -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="archive" content="noarchive">
+
+    <title>AFLC - Servicios Asistidos Pro Se para Divorcio, Custodia, Visitaci&#243;n</title>
+    <meta name="description" content="Obtenga ayuda y asistencia en derecho familiar en Texas; divorcio, custodia, manutenci&#243;n infantil, visitaci&#243;n, derechos parentales, adopci&#243;n o colocaci&#243;n de parentesco, 713-239-5200.">
+    <meta name="Copyright" content="Copyright &#169; America Family Law Center 2025. All Rights Reserved.">
+
+    <!-- Open Graph Meta -->
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AFLC - Servicios Asistidos Pro Se para Divorcio, Custodia, Visitaci&#243;n">
+    <meta property="og:description" content="America Family Law Center (sin fines de lucro) Asistimos a su familia en diferentes situaciones que involucran divorcio, custodia, visitaci&#243;n infantil e inmigraci&#243;n.">
+    <meta property="og:url" content="https://americafamilylawcenter.org/">
+    <meta property="og:site_name" content="America Family Law Center">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" sizes="32x32">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <style>
+        /* Custom overrides */
+        #main p {
+            margin-top: -5px;
+            margin-bottom: -10px;
+        }
+        #footer .logo img {
+            height: 36px;
+        }
+        .slides li {
+            margin-bottom: 0 !important;
+        }
+        .has-white-color {
+            color: #ffffff;
+        }
+        img.lazyload {
+            opacity: 1;
+        }
+        .content-spacer {
+            height: 24px;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function(){
+            $(".nav-button").click(function () {
+                $(".nav-button,.primary-nav").toggleClass("open");
+            });
+
+            // Toggle Family Law Articles section
+            $(".page-articles-title").click(function() {
+                $(".page-articles").slideToggle(function() {
+                    $(".page-articles-twistie").toggleClass("collapsed", !$(".page-articles").is(":visible"));
+                });
+            });
+        });
+    </script>
+</head>
+
+<body class="home page-template-default page page-id-25">
+    <div id="wrapper">
+        <!-- Mobile Navigation -->
+        <div id="mobile_nav">
+            <button class="nav-button">Menu</button>
+            <div class="nav">
+                <ul id="menu-mobile" class="primary-nav">
+                    <li class="current-menu-item"><a href="index-es.html">Inicio</a></li>
+                    <li><a href="mission-es.html">Misi&#243;n</a></li>
+                    <li><a href="services-es.html">Servicios</a></li>
+                    <li><a href="programs-es.html">Programas</a></li>
+                    <li><a href="topics-es.html">Temas</a></li>
+                    <li><a href="blog-es.html">Blog</a></li>
+                    <li><a href="faqs-es.html">Preguntas Frecuentes</a></li>
+                    <li><a href="contact-es.html">Contacto</a></li>
+                    <li><a href="donate-es.html">Donar</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <div id="top">
+            <div id="header" role="banner">
+                <div id="logo">
+                    <a href="index-es.html"><img src="images/logo.png" alt="America Family Law Center"></a>
+                </div>
+                <div id="header-right">
+                    <div id="phone">
+                        <p id="phone-title" class="phone-title">
+                            <span><span class="text_phone_num_link">Env&#237;e un Mensaje de Texto</span> o <span class="call_phone_num_link">Llame</span></span>
+                            <span class="location_phone_number">
+                                <a id="tel_btn" href="tel:1-214-516-7700">214-516-7700</a>
+                            </span>
+                        </p>
+                        <select id="Locations_Dropdown" onchange="SwitchLocation(this.value);">
+                            <option value="|602-691-5000">AZ - Phoenix</option>
+                            <option value="|904-615-8880">FL - Jacksonville</option>
+                            <option value="|305-424-2970">FL - Miami</option>
+                            <option value="|404-905-3000">GA - Atlanta</option>
+                            <option value="|312-548-7700">IL - Chicago</option>
+                            <option value="|217-906-4040">IL - Springfield</option>
+                            <option value="|913-305-5000">MO - Kansas City</option>
+                            <option value="|314-667-4000">MO - St. Louis</option>
+                            <option value="|216-616-8100">OH - Cleveland</option>
+                            <option value="|614-820-1100">OH - Columbus</option>
+                            <option value="|215-607-8000">PA - Philadelphia</option>
+                            <option value="|412-385-7900">PA - Pittsburgh</option>
+                            <option value="|325-330-8800">TX - Abilene</option>
+                            <option value="|806-305-2200">TX - Amarillo</option>
+                            <option value="|512-271-8700">TX - Austin</option>
+                            <option value="|409-509-7700">TX - Beaumont</option>
+                            <option value="|361-320-8800">TX - Corpus Christi</option>
+                            <option value="|214-516-7700" selected>TX - Dallas</option>
+                            <option value="|915-348-5500">TX - El Paso</option>
+                            <option value="|817-932-9500">TX - Fort Worth</option>
+                            <option value="|713-239-5200">TX - Houston</option>
+                            <option value="|956-625-9900">TX - Laredo</option>
+                            <option value="|903-355-2000">TX - Longview</option>
+                            <option value="|806-515-3300">TX - Lubbock</option>
+                            <option value="|956-758-8300">TX - McAllen</option>
+                            <option value="|432-280-2200">TX - Midland</option>
+                            <option value="|325-423-8800">TX - San Angelo</option>
+                            <option value="|210-390-8600">TX - San Antonio</option>
+                            <option value="|940-204-5500">TX - Wichita Falls</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div id="nav-shell">
+                <div id="nav-iner-shell">
+                    <nav id="nav" role="navigation">
+                        <a href="donate-es.html" class="donate">Donar</a>
+                        <div class="menu-primary-container">
+                            <ul id="menu-primary" class="menu">
+                                <li class="current-menu-item"><a href="index-es.html">Inicio</a></li>
+                                <li><a href="mission-es.html">Misi&#243;n</a></li>
+                                <li><a href="services-es.html">Servicios</a></li>
+                                <li><a href="programs-es.html">Programas</a></li>
+                                <li><a href="blog-es.html">Blog</a></li>
+                                <li><a href="faqs-es.html">Preguntas Frecuentes</a></li>
+                                <li class="menu-item-has-children">
+                                    <a href="topics-es.html">Temas</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="topics/adjudicate-parentage-es.html">Adjudicar Paternidad</a></li>
+                                        <li><a href="topics/adoption-es.html">Adopci&#243;n</a></li>
+                                        <li><a href="topics/affordable-family-law-es.html">Derecho Familiar Asequible</a></li>
+                                        <li><a href="topics/child-custody-es.html">Custodia Infantil</a></li>
+                                        <li><a href="topics/child-custody-lawyers-es.html">Abogados de Custodia Infantil</a></li>
+                                        <li><a href="topics/child-custody-legal-aid-es.html">Ayuda Legal para Custodia Infantil</a></li>
+                                        <li><a href="topics/child-support-es.html">Manutenci&#243;n Infantil</a></li>
+                                        <li><a href="topics/child-support-collection-es.html">Cobro de Manutenci&#243;n Infantil</a></li>
+                                        <li><a href="topics/child-support-enforcement-es.html">Cumplimiento de Manutenci&#243;n Infantil</a></li>
+                                        <li><a href="topics/child-support-lawyers-es.html">Abogados de Manutenci&#243;n Infantil</a></li>
+                                        <li><a href="topics/child-visitation-es.html">Visitaci&#243;n Infantil</a></li>
+                                        <li><a href="topics/child-visitation-assistance-es.html">Asistencia de Visitaci&#243;n Infantil</a></li>
+                                        <li><a href="topics/co-parenting-es.html">Coparentalidad</a></li>
+                                        <li><a href="topics/conservatorship-es.html">Tutela Legal</a></li>
+                                        <li><a href="topics/custodial-parent-es.html">Padre Custodio</a></li>
+                                        <li><a href="topics/divorce-es.html">Divorcio</a></li>
+                                        <li><a href="topics/divorce-attorneys-es.html">Abogados de Divorcio</a></li>
+                                        <li><a href="topics/divorce-lawyers-es.html">Abogados de Divorcio</a></li>
+                                        <li><a href="topics/dna-paternity-testing-es.html">Prueba de Paternidad ADN</a></li>
+                                        <li><a href="topics/family-law-es.html">Derecho Familiar</a></li>
+                                        <li><a href="topics/family-law-center-es.html">Centro de Derecho Familiar</a></li>
+                                        <li><a href="topics/guardianship-es.html">Tutela</a></li>
+                                        <li><a href="topics/joint-custody-es.html">Custodia Compartida</a></li>
+                                        <li><a href="topics/law-help-es.html">Ayuda Legal</a></li>
+                                        <li><a href="topics/legal-aid-es.html">Asistencia Legal</a></li>
+                                        <li><a href="topics/limited-scope-representation-es.html">Representaci&#243;n de Alcance Limitado</a></li>
+                                        <li><a href="topics/mediation-es.html">Mediaci&#243;n</a></li>
+                                        <li><a href="topics/obligee-es.html">Acreedor</a></li>
+                                        <li><a href="topics/obligor-es.html">Deudor</a></li>
+                                        <li><a href="topics/parenting-plans-es.html">Planes de Crianza</a></li>
+                                        <li><a href="topics/parental-rights-es.html">Derechos Parentales</a></li>
+                                        <li><a href="topics/pro-bono-attorney-es.html">Abogado Pro Bono</a></li>
+                                        <li><a href="topics/pro-bono-lawyers-es.html">Abogados Pro Bono</a></li>
+                                        <li><a href="topics/property-division-es.html">Divisi&#243;n de Bienes</a></li>
+                                        <li><a href="topics/protective-order-es.html">Orden de Protecci&#243;n</a></li>
+                                        <li><a href="topics/restraining-order-es.html">Orden de Restricci&#243;n</a></li>
+                                        <li><a href="topics/shared-parenting-es.html">Crianza Compartida</a></li>
+                                        <li><a href="topics/spousal-support-es.html">Pensi&#243;n Alimenticia Conyugal</a></li>
+                                        <li><a href="topics/visitation-es.html">Visitaci&#243;n</a></li>
+                                        <li><a href="topics/visitation-assistance-es.html">Asistencia de Visitaci&#243;n</a></li>
+                                        <li><a href="topics/visitation-enforcement-es.html">Cumplimiento de Visitaci&#243;n</a></li>
+                                        <li><a href="topics/visitation-lawyers-es.html">Abogados de Visitaci&#243;n</a></li>
+                                        <li><a href="topics/visitation-rights-es.html">Derechos de Visitaci&#243;n</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact-es.html">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Main Content -->
+        <div id="main" class="container">
+            <div class="row">
+                <!-- Sidebar -->
+                <div id="sidebar" class="four columns">
+                    <aside id="contact">
+                        <p class="sidebanner">Cont&#225;ctenos</p>
+                        <div class="contact_wrapper">
+                            <div class="tag-line">
+                                <h4 class="tag-line-1"><strong>&#161;Podemos ayudarle!</strong></h4>
+                                <h2 class="tag-line-2">
+                                    <span class="text_phone_num_link">Env&#237;e un Mensaje de Texto</span> o <span class="call_phone_num_link">Llame</span>&nbsp;&nbsp;
+                                    <span class="location_phone_number"><a href="tel:1-214-516-7700">214-516-7700</a></span>
+                                </h2>
+                                <h4 class="tag-line-3"><span>o env&#237;enos un mensaje usando el formulario a continuaci&#243;n</span></h4>
+                            </div>
+                            <div class="form">
+                                <form method="post" action="#" id="contact_form">
+                                    <div class="row">
+                                        <div class="twelve columns" id="formtitle">
+                                            <p>Nombre&nbsp;<span>*</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="six columns"><input class="form-input name" name="First_Name" placeholder="Nombre" type="text" required></div>
+                                        <div class="six columns"><input class="form-input name" name="Last_Name" placeholder="Apellido" type="text" required></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="twelve columns" id="formtitle">
+                                            <p>N&#250;mero de Tel&#233;fono&nbsp;<span>*</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="four columns phone_first"><input class="form-input phone_num" name="Phone_Num_1" placeholder="###" maxlength="3" type="text" required></div>
+                                        <div class="four columns phone_second"><input class="form-input phone_num" name="Phone_Num_2" placeholder="###" maxlength="3" type="text" required></div>
+                                        <div class="four columns phone_third"><input class="form-input phone_num3" name="Phone_Num_3" placeholder="####" maxlength="4" type="text" required></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="twelve columns accept-texts" id="formtitle">
+                                            <input type="checkbox" name="Accept_Texts" value="1" checked>
+                                            <span>Acepta mensajes de texto</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="twelve columns" id="formtitle">
+                                            <p>Correo Electr&#243;nico</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="twelve columns"><input class="form-input" name="Email" placeholder="nombre@ejemplo.com" type="email"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="twelve columns sidebar-how-can-we-help" id="formtitle">
+                                            <p>&#191;C&#243;mo podemos ayudarle?</p>
+                                            <span class="counter" id="Situation_Chars_Left">500</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="twelve columns">
+                                            <textarea class="form-input" name="Situation" rows="7" cols="31" maxlength="500"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="twelve columns">
+                                            <input class="form-btn-send" value="Enviar" type="submit">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <p class="sidebanner"><span class="text_phone_num_link">MENSAJE DE TEXTO</span> O <span class="call_phone_num_link">LLAMAR</span></p>
+                        <div class="contact_wrapper">
+                            <div class="row">
+                                <div class="u-pull-left">
+                                    <span>AZ - Phoenix</span><br>
+                                    <span>FL - Jacksonville</span><br>
+                                    <span>FL - Miami</span><br>
+                                    <span>GA - Atlanta</span><br>
+                                    <span>IL - Chicago</span><br>
+                                    <span>IL - Springfield</span><br>
+                                    <span>MO - Kansas City</span><br>
+                                    <span>MO - St. Louis</span><br>
+                                    <span>OH - Cleveland</span><br>
+                                    <span>OH - Columbus</span><br>
+                                    <span>PA - Philadelphia</span><br>
+                                    <span>PA - Pittsburgh</span><br>
+                                    <span>TX - Abilene</span><br>
+                                    <span>TX - Amarillo</span><br>
+                                    <span>TX - Austin</span><br>
+                                    <span>TX - Beaumont</span><br>
+                                    <span>TX - Corpus Christi</span><br>
+                                    <span>TX - Dallas</span><br>
+                                    <span>TX - El Paso</span><br>
+                                    <span>TX - Fort Worth</span><br>
+                                    <span>TX - Houston</span><br>
+                                    <span>TX - Laredo</span><br>
+                                    <span>TX - Longview</span><br>
+                                    <span>TX - Lubbock</span><br>
+                                    <span>TX - McAllen</span><br>
+                                    <span>TX - Midland</span><br>
+                                    <span>TX - San Angelo</span><br>
+                                    <span>TX - San Antonio</span><br>
+                                    <span>TX - Wichita Falls</span><br>
+                                </div>
+                                <div class="u-pull-right">
+                                    <span><a href="tel:1-602-691-5000">602-691-5000</a></span><br>
+                                    <span><a href="tel:1-904-615-8880">904-615-8880</a></span><br>
+                                    <span><a href="tel:1-305-424-2970">305-424-2970</a></span><br>
+                                    <span><a href="tel:1-404-905-3000">404-905-3000</a></span><br>
+                                    <span><a href="tel:1-312-548-7700">312-548-7700</a></span><br>
+                                    <span><a href="tel:1-217-906-4040">217-906-4040</a></span><br>
+                                    <span><a href="tel:1-913-305-5000">913-305-5000</a></span><br>
+                                    <span><a href="tel:1-314-667-4000">314-667-4000</a></span><br>
+                                    <span><a href="tel:1-216-616-8100">216-616-8100</a></span><br>
+                                    <span><a href="tel:1-614-820-1100">614-820-1100</a></span><br>
+                                    <span><a href="tel:1-215-607-8000">215-607-8000</a></span><br>
+                                    <span><a href="tel:1-412-385-7900">412-385-7900</a></span><br>
+                                    <span><a href="tel:1-325-330-8800">325-330-8800</a></span><br>
+                                    <span><a href="tel:1-806-305-2200">806-305-2200</a></span><br>
+                                    <span><a href="tel:1-512-271-8700">512-271-8700</a></span><br>
+                                    <span><a href="tel:1-409-509-7700">409-509-7700</a></span><br>
+                                    <span><a href="tel:1-361-320-8800">361-320-8800</a></span><br>
+                                    <span><a href="tel:1-214-516-7700">214-516-7700</a></span><br>
+                                    <span><a href="tel:1-915-348-5500">915-348-5500</a></span><br>
+                                    <span><a href="tel:1-817-932-9500">817-932-9500</a></span><br>
+                                    <span><a href="tel:1-713-239-5200">713-239-5200</a></span><br>
+                                    <span><a href="tel:1-956-625-9900">956-625-9900</a></span><br>
+                                    <span><a href="tel:1-903-355-2000">903-355-2000</a></span><br>
+                                    <span><a href="tel:1-806-515-3300">806-515-3300</a></span><br>
+                                    <span><a href="tel:1-956-758-8300">956-758-8300</a></span><br>
+                                    <span><a href="tel:1-432-280-2200">432-280-2200</a></span><br>
+                                    <span><a href="tel:1-325-423-8800">325-423-8800</a></span><br>
+                                    <span><a href="tel:1-210-390-8600">210-390-8600</a></span><br>
+                                    <span><a href="tel:1-940-204-5500">940-204-5500</a></span><br>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+                <!-- Main Content Area -->
+                <div>
+                    <!-- Slider -->
+                    <div id="slider" class="eight columns">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li><img src="images/slide7.png" alt="Slide 7"></li>
+                                <li><img src="images/slide6.png" alt="Slide 6"></li>
+                                <li><img src="images/slide5.png" alt="Slide 5"></li>
+                                <li><img src="images/slide4.png" alt="Slide 4"></li>
+                                <li><img src="images/slide3.png" alt="Slide 3"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Content -->
+                    <div id="content" class="eight columns padding-right20">
+                        <div class="recent-posts-wrapper">
+                            <h2><span class="recent-posts-title page-articles-title">Art&#237;culos de Derecho Familiar <span class="page-articles-twistie" aria-hidden="true">&#9650;</span></span></h2>
+                            <ul class="recent-posts-list page-articles">
+                                <li><a href="posts/school-records-denied-access-es.html">Registros Escolares | &#191;Acceso Denegado?</a></li>
+                                <li><a href="posts/astroworld-festival-ends-in-injuries-es.html">El Festival Astroworld Termina con Heridos</a></li>
+                                <li><a href="topics/child-custody-es.html">Custodia Infantil</a></li>
+                                <li><a href="posts/divorce-checklist-for-parent-es.html">Lista de Verificaci&#243;n de Divorcio para Padres</a></li>
+                                <li><a href="posts/third-round-stimulus-checks-and-child-support-es.html">Tercera Ronda de Cheques de Est&#237;mulo y Manutenci&#243;n Infantil</a></li>
+                                <li><a href="posts/what-factors-effect-your-stimulus-check-back-child-support-es.html">Qu&#233; Factores Afectan Su Cheque de Est&#237;mulo | Manutenci&#243;n Infantil Atrasada</a></li>
+                                <li><a href="posts/unemployed-and-cant-pay-child-support-es.html">Desempleado y con Dificultades para Pagar la Manutenci&#243;n Infantil</a></li>
+                                <li><a href="posts/shelter-in-place-due-to-covid-19-visitation-es.html">Refugio en el Lugar por COVID-19 | Visitaci&#243;n</a></li>
+                                <li><a href="posts/visitation-schedules-and-school-cancellation-due-to-covid-19-es.html">Horarios de Visitaci&#243;n y Cancelaci&#243;n Escolar por COVID-19</a></li>
+                                <li><a href="posts/what-can-be-done-about-parental-alienation-es.html">Qu&#233; Se Puede Hacer Sobre la Alienaci&#243;n Parental</a></li>
+                            </ul>
+                        </div>
+
+                        <article class="post" id="post-25">
+                            <div class="entry">
+                                <h1 id="h-family-law-legal-assistance">Asistencia Legal en Derecho Familiar</h1>
+
+                                <div class="content-spacer"></div>
+
+                                <p>La misi&#243;n de America Family Law Center es ayudar a los ni&#241;os ayudando a sus padres y cuidadores a resolver situaciones familiares.&nbsp; &nbsp;America Family Law Center proporciona servicios legales a trav&#233;s de su programa de servicio Asistido Pro Se, el cual est&#225; disponible para clientes pagados o con exenci&#243;n en buena posici&#243;n. America Family Law Center es el servicio Asistido Pro Se #1 para asuntos de derecho familiar. America Family Law Center es reconocido como el proveedor l&#237;der, m&#225;s avanzado y principal de servicios Asistidos Pro Se. Comprender c&#243;mo navegar un divorcio, custodia infantil, visitaci&#243;n infantil, manutenci&#243;n infantil y derechos parentales puede ser abrumador &#8211; estamos aqu&#237; para ayudar.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>America Family Law Center es una&nbsp;organizaci&#243;n ben&#233;fica sin fines de lucro 501(c)(3) cuya&nbsp;misi&#243;n se basa en la creencia&nbsp;de que&nbsp;los ni&#241;os deben tener relaciones amorosas con sus padres o cuidadores.&nbsp; Las relaciones amorosas entre ni&#241;os y padres pueden continuar despu&#233;s del divorcio o la separaci&#243;n. &nbsp;Cuando los ni&#241;os son criados de manera segura y amorosa por ambos padres o cuidadores, no solo se beneficia el ni&#241;o, sino que nuestra sociedad y comunidades tambi&#233;n estar&#225;n mejor.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <h2>Servicio Asistido Pro Se</h2>
+
+                                <div class="content-spacer"></div>
+
+                                <p>Cuando America Family Law Center se fund&#243;, model&#243; su servicio Asistido Pro Se utilizando los mismos principios fundamentales de la <a href="https://drive.google.com/file/d/1eM1kEqjHomIYC8f7vdi75LPjWUDA1NzJ/" target="_blank" rel="noopener nofollow">Norma de la American Bar Association (ABA) para la Provisi&#243;n de Ayuda Legal Civil</a>. America Family Law Center sigue de cerca a la ABA en <a href="https://drive.google.com/file/d/1eM1kEqjHomIYC8f7vdi75LPjWUDA1NzJ/" target="_blank" rel="noopener nofollow">representaci&#243;n de alcance limitado (ver Norma ABA 3.4), asesor&#237;a legal (ver Norma ABA 3.4-1 &amp; 3.4-2)</a>, y <a href="https://drive.google.com/file/d/1eM1kEqjHomIYC8f7vdi75LPjWUDA1NzJ/" target="_blank" rel="noopener nofollow">asistencia a litigantes pro se o autorepresentados (ver Norma ABA 3.5)</a> en asuntos de derecho familiar e incorpora esto con el <a href="https://drive.google.com/file/d/1eM1kEqjHomIYC8f7vdi75LPjWUDA1NzJ/" target="_blank" rel="noopener nofollow">uso efectivo de la tecnolog&#237;a (ver Norma ABA 2.10)</a>. America Family Law Center supera las mejores pr&#225;cticas recomendadas por la Texas Access to Justice Commission en su documento sobre las <a href="https://drive.google.com/file/d/1FRA1wXGVMjKH4iL4m74p_8ap7nkuIXtr/view" target="_blank" rel="noopener nofollow">Mejores Pr&#225;cticas en Modelos Asistidos Pro Se para los No Representados</a>.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>La&nbsp;<a href="https://www.texasatj.org/pro-se-litigants" target="_blank" rel="noopener">Texas Access to Justice Commission (TAJC)</a>&nbsp;define Asistido Pro Se como &#8220;<em>ayudar a los litigantes autorepresentados a ayudarse a s&#237; mismos con asistencia limitada de abogados</em>.&#8221; America Family Law Center es reconocido como el proveedor m&#225;s prominente y principal de servicios Asistidos Pro Se para asuntos de derecho familiar.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>A continuaci&#243;n se muestra la Matriz de Servicios Legales, que ilustra c&#243;mo el servicio Asistido Pro Se de America Family Law Center est&#225; posicionado en la industria de servicios legales.</p>
+
+                                <h2>Matriz de Servicios Legales</h2>
+
+                                <div class="content-spacer"></div>
+
+                                <figure class="wp-block-image size-full">
+                                    <a href="images/Civil-Legal-Aid-Diagram.png">
+                                        <img src="images/Civil-Legal-Aid-Diagram.png" alt="Diagrama de Ayuda Legal Civil" width="682" height="637">
+                                    </a>
+                                </figure>
+
+                                <p><sup>*</sup> <a href="https://www.teajf.org/grants/docs/2023/2023%20-%20TAJF%20Grants%20Household%20Income%20Eligibility%20Chart.pdf" target="_blank" rel="noopener nofollow">Pautas de elegibilidad de ingresos financieros de TAJF 2023 para el uso de fondos de subvenci&#243;n</a></p>
+
+                                <p><sup>**</sup> <a href="https://drive.google.com/file/d/17V1z4xXobtbP19_JOKEJhqkBKvpPeDJn/view" target="_blank" rel="noopener nofollow">Estudio de 2023 realizado por la Texas Access to Justice Commission</a></p>
+
+                                <p><sup>***</sup> <a href="https://www.teajf.org/grants/docs/2024/Grantees%202023-25.pdf" target="_blank" rel="noopener">Lista de receptores de fondos p&#250;blicos de subvenci&#243;n de TAJF 2023</a></p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>El&nbsp;Estado de Texas promueve y fomenta tan fuertemente los servicios Asistidos Pro Se que otorga millones de d&#243;lares en subvenciones con fondos p&#250;blicos. La Texas Access to Justice Commission lleg&#243; al punto de crear un <a href="https://drive.google.com/file/d/17k-fWS-pJQ2uZJ08EmNWLEryBrWPME-m/view" target="_blank" rel="noopener nofollow">Comit&#233; de Litigantes Autorepresentados (&#8220;Comit&#233; SRL&#8221;)</a> y tambi&#233;n un subcomit&#233; enfocado en ayudar a los proveedores con programas de servicio Asistido Pro Se. El <a href="https://texaslawhelp.org/assisted-pro-se-services" target="_blank" rel="noopener nofollow">sitio web de Texas Law Help promueve servicios Asistidos Pro Se tanto gratuitos como de bajo costo</a>. Tanto la <a href="https://www.txcourts.gov/media/1456988/239056.pdf" target="_blank" rel="noopener nofollow">Corte Suprema de Texas (SCOT), a trav&#233;s de la Texas Access to Justice Foundation (TAJF)</a>, como la <a href="https://www.texasattorneygeneral.gov/grants" target="_blank" rel="noopener nofollow">Oficina del Fiscal General de Texas</a> proporcionan financiamiento de subvenciones para muchos programas de servicio Asistido Pro Se, como el <a href="https://www.texasadvocacyproject.org/free-legal-services/support-representing-yourself" target="_blank" rel="noopener nofollow">Texas Advocacy Project</a>, <a href="https://dallasvolunteerattorneyprogram.org/about-us/" target="_blank" rel="noopener nofollow">Dallas Volunteer Attorneys Program</a>, <a href="https://drive.google.com/file/d/1N1U4B9E2mZdAkuoQfffdKIcG4zJzvtEW/view" target="_blank" rel="noopener nofollow">Texas Legal Services Center</a>, <a href="https://www.vlsoct.org/pro-se-clinics/" target="_blank" rel="noopener nofollow">Volunteer Legal Services of Central Texas</a>, <a href="https://bpsos.org/us-programs/legal" target="_blank" rel="noopener nofollow">Boat People SOS</a>, <a href="https://disabilityrightstx.org/en/what-we-do/how-we-help/" target="_blank" rel="noopener nofollow">Disability Rights Texas</a>, <a href="https://www.hba.org/?pg=Programs" target="_blank" rel="noopener nofollow">Houston Volunteer Lawyers</a>, las tres principales <a href="https://guides.sll.texas.gov/legal-help/aid" target="_blank" rel="noopener">ayudas legales de Texas</a>, <a href="https://guides.sll.texas.gov/legal-help/hotlines" target="_blank" rel="noopener">l&#237;neas de ayuda legal</a>, y <a href="https://guides.sll.texas.gov/legal-help/clinics" target="_blank" rel="noopener">cl&#237;nicas legales</a>.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>A trav&#233;s de sus servicios Asistidos Pro Se, America Family Law Center se esfuerza por ayudar a resolver la mayor cantidad de situaciones posible de manera colaborativa, sin litigio ni intervenci&#243;n judicial. &nbsp;Con la ayuda de los servicios Asistidos Pro Se de America Family Law Center, la mayor&#237;a de los casos legales se trabajan fuera del tribunal y se resuelven sin un juicio contencioso. America Family Law Center opera como un modelo de servicio de pago directo, lo que le permite ser mucho m&#225;s eficiente y ofrecer mayor valor al cliente que los servicios basados en un modelo de pago por terceros. <a href="services-es.html">Por favor haga clic aqu&#237; para visitar nuestra p&#225;gina de Servicios y leer m&#225;s sobre nuestros servicios Asistidos Pro Se.</a></p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>America Family Law Center ha atendido a clientes durante m&#225;s de una d&#233;cada con su servicio Asistido Pro Se, con clientes residentes en los 50 estados. Aprovechando la tecnolog&#237;a avanzada, America Family Law Center puede proporcionar servicios a las personas de manera virtual, independientemente de su ubicaci&#243;n, desde la comodidad y privacidad de sus hogares a trav&#233;s de sus tel&#233;fonos. Los servicios Asistidos Pro Se de America Family Law Center se proporcionan completamente por tel&#233;fono, mensaje de texto o en l&#237;nea, no en persona, para que pueda colaborar con AFLC desde la comodidad de su hogar. Ir al tribunal o a la biblioteca de derecho para usar un quiosco de computadora p&#250;blica que puede o no estar disponible o funcionando es innecesario y desperdiciado, y ha estado desactualizado durante muchos a&#241;os. Los servicios que no son m&#225;s que l&#237;neas telef&#243;nicas de ayuda tambi&#233;n son anticuados y a menudo son superados por Siri, Google y Alexa.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <h2>Brecha de Justicia</h2>
+
+                                <div class="content-spacer"></div>
+
+                                <p>America Family Law Center anima a quienes califican y reciben acceso a asistencia legal gratuita a aprovechar esa asistencia gratuita. America Family Law Center anima a quienes tienen el dinero para contratar a un abogado de servicio completo de manera tradicional a que lo hagan. America Family Law Center est&#225; aqu&#237; para ayudar a esos litigantes pro se y autorepresentados con casos de derecho familiar que no obtienen ayuda legal gratuita y no pueden pagar miles de d&#243;lares a un abogado tradicional de servicio completo &#8211; aquellos en la Brecha de Justicia.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <div class="wp-block-image">
+                                    <figure class="aligncenter size-full is-resized">
+                                        <a href="images/Justice-Gap.png">
+                                            <img src="images/Justice-Gap.png" alt="Brecha de Justicia - America Family Law Center" width="687" height="130" style="width:717px;height:auto">
+                                        </a>
+                                    </figure>
+                                </div>
+
+                                <div class="content-spacer"></div>
+
+                                <h2>Escala de Asequibilidad de Servicios Legales</h2>
+
+                                <div class="content-spacer"></div>
+
+                                <div class="wp-block-image">
+                                    <figure class="aligncenter size-full">
+                                        <a href="images/Legal-Services-Affordability-Scale.png">
+                                            <img src="images/Legal-Services-Affordability-Scale.png" alt="Escala de Asequibilidad de Servicios Legales" width="951" height="832">
+                                        </a>
+                                    </figure>
+                                </div>
+
+                                <div class="content-spacer"></div>
+
+                                <p>La Escala de Asequibilidad de Servicios Legales se ilustra arriba. En Texas, con raras excepciones, las leyes de ayuda legal proh&#237;ben el uso de fondos de ayuda legal para asistir a personas por encima del <a href="https://www.teajf.org/grants/docs/2023/2023%20-%20TAJF%20Grants%20Household%20Income%20Eligibility%20Chart.pdf" target="_blank" rel="noopener">125% del nivel de pobreza</a>.&nbsp; Adem&#225;s, seg&#250;n el&nbsp;<a href="https://justicegap.lsc.gov/the-report/" target="_blank" rel="noopener">informe de la Brecha de Justicia de LSC</a>, solo alrededor del 8%&nbsp;de los elegibles para ayuda legal tienen sus necesidades atendidas por la ayuda legal; el resto queda Sin Servicio.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>La Escala de Asequibilidad de Servicios Legales muestra dos &#225;reas de personas que no pueden contratar a un abogado tradicional y no pueden obtener la ayuda legal que necesitan: (1) <strong>Sin Servicio</strong> &#8211; personas que califican para ayuda legal pero no son atendidas por la ayuda legal, y (2) <strong>Brecha de Justicia</strong> &#8211; personas que no califican para ayuda legal pero no pueden pagar un abogado. La definici&#243;n de la Brecha de Justicia puede variar; a veces incluye a los Sin Servicio, y otras no (como en el diagrama anterior).</p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>Algunos estados permiten que la ayuda legal atienda a personas por encima del 125% del nivel de pobreza, hasta el 200% o m&#225;s. Desafortunadamente, esto solo mueve hacia arriba la L&#237;nea de Elegibilidad de Ayuda Legal, reclasificando a las personas de la Brecha de Justicia a Sin Servicio. No ayuda a m&#225;s personas.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>Seg&#250;n las estad&#237;sticas de la Texas Access to Justice Foundation y la Encuesta de la Comunidad Americana de la Oficina del Censo de EE.UU., aproximadamente 5 millones de adultos en Texas son elegibles para ayuda legal, con alrededor del 90% de las necesidades legales civiles de esas personas quedando Sin Servicio. Aproximadamente 8 millones de texanos est&#225;n en la Brecha de Justicia. Seg&#250;n los <a href="https://www.census.gov/quickfacts/fact/table/TX/PST045224" target="_blank" rel="noopener">datos del Censo de EE.UU.</a>, Texas tiene una poblaci&#243;n de aproximadamente 31 millones, con una <a href="https://datausa.io/profile/geo/texas" target="_blank" rel="noopener">tasa de pobreza del 13.9%</a>. Seg&#250;n <a href="https://justicegap.lsc.gov/the-report/" target="_blank" rel="noopener">El informe de la Brecha de Justicia por la Legal Services Corporation (LSC)</a>, aproximadamente 35 millones de adultos en EE.UU. viven por debajo del 125% del nivel de pobreza. Un <a href="https://www.cbsnews.com/news/saving-money-emergency-expenses-2025/" target="_blank" rel="noopener">estudio de Bankrate</a> &#8220;<em>encontr&#243; que el 59% de los estadounidenses no tienen suficientes ahorros para cubrir un gasto de emergencia inesperado de $1,000.</em>&#8221; Usamos eso como gu&#237;a para aproximar cu&#225;ntas personas no pueden pagar un abogado tradicional y est&#225;n en la Brecha de Justicia.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>Durante muchos a&#241;os, Texas, al igual que muchos otros estados, ha intentado expandir los servicios legales para ayudar a quienes est&#225;n en la Brecha de Justicia. En&nbsp;<a href="https://www.txcourts.gov/media/1295148/Order-15-9233.pdf" target="_blank" rel="noopener">2015, la Corte Suprema de Texas emiti&#243; la orden 15-9233, creando una Comisi&#243;n para Expandir los Servicios Legales Civiles</a>, com&#250;nmente llamada la&nbsp;<a href="https://www.txcourts.gov/supreme/news/justice-gap-commission/" target="_blank" rel="noopener">Comisi&#243;n de la Brecha de Justicia</a>.&nbsp;La Comisi&#243;n de la Brecha de Justicia est&#225; &#8220;<em>encargada de explorar medios para llevar servicios legales m&#225;s asequibles a peque&#241;as empresas y personas que no pueden calificar para ayuda legal.</em>&#8221; La Comisi&#243;n de la Brecha de Justicia public&#243; su primer informe el 6 de diciembre de 2016, titulado <a href="https://www.txcourts.gov/media/1436563/complete-cecls-report.pdf" target="_blank" rel="noopener">Informe de la Comisi&#243;n de Texas para Expandir los Servicios Legales Civiles</a>. Para construir sobre este informe de diciembre de 2016 por la Comisi&#243;n de Texas para Expandir los Servicios Legales Civiles, en octubre de 2022, la <a href="https://drive.google.com/file/d/19VYFfmoxImk190I4aa_1dWLyJhbSeUDU/view" target="_blank" rel="noopener">Corte Suprema de Texas pidi&#243; a la Texas Access to Justice Commission (TAJC) que realizara un estudio e informe sobre algunas ideas espec&#237;ficas sobre c&#243;mo ayudar a las personas en la Brecha de Justicia</a>, pero para este estudio, defini&#243; la Brecha de Justicia para incluir a los Sin Servicio. La Texas Access to Justice Commission form&#243; un Grupo de Trabajo de Acceso a Servicios Legales de Texas para trabajar en la solicitud. Public&#243; su informe el 5 de diciembre de 2023, titulado <a href="https://www.texasatj.org/sites/default/files/2023.12.05%20Final%20Report.pdf" target="_blank" rel="noopener">Informe y Recomendaciones del Grupo de Trabajo de Acceso a Servicios Legales de Texas</a>. No est&#225; claro el nivel de participaci&#243;n que la Comisi&#243;n para Expandir los Servicios Legales Civiles (tambi&#233;n conocida como la Comisi&#243;n de la Brecha de Justicia) tuvo en el estudio y el informe resultante de diciembre de 2023 producido por el reci&#233;n formado Grupo de Trabajo de Acceso a Servicios Legales de Texas de la TAJC.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>Seg&#250;n documentos gubernamentales, incluyendo los formularios IRS 990 y &#243;rdenes de la Corte Suprema que otorgan financiamiento de ayuda legal, en 2015, las organizaciones de ayuda legal de Texas recibieron $81.3 millones en financiamiento p&#250;blico y atendieron a <a href="https://www.txcourts.gov/media/1295148/Order-15-9233.pdf" target="_blank" rel="noopener">100,000 personas</a>, lo que equivale a $812.75 por persona atendida. En 2022, las organizaciones de ayuda legal de Texas recibieron $145.1 millones en financiamiento p&#250;blico y atendieron a <a href="https://www.texasatj.org/sites/default/files/2023.12.05%20Final%20Report.pdf" target="_blank" rel="noopener">120,000 personas</a>, lo que equivale a $1,209.46 por persona atendida. El financiamiento aument&#243; un 78%, mientras que las personas atendidas aumentaron solo un 20%. Lo que es m&#225;s alarmante es que la necesidad de servicios aument&#243; m&#225;s del 20% durante este mismo per&#237;odo, por lo que los servicios proporcionados cayeron a&#250;n m&#225;s atr&#225;s de los servicios necesarios.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>Es f&#225;cil para las personas malinterpretar lo que se entiende por &#8220;persona atendida,&#8221; a veces llamado &#8220;caso cerrado.&#8221; Esto no significa que alguien fue representado en el tribunal, o que hubo un caso judicial, o que se llev&#243; a cabo alg&#250;n tipo de procedimiento legal. A menudo es tan simple como darle a una persona asesor&#237;a legal por tel&#233;fono o en una cl&#237;nica de atenci&#243;n inmediata, o darle un formulario legal para completar. Una &#8220;persona atendida&#8221; ciertamente no significa que su problema fue resuelto.</p>
+
+                                <div class="content-spacer"></div>
+
+                                <p>Adem&#225;s, la misma persona y situaci&#243;n pueden contarse m&#250;ltiples veces. Parte del &#8220;servicio&#8221; proporcionado por muchas organizaciones de ayuda legal a menudo implica referir a la persona necesitada a otras organizaciones de ayuda legal o programas dentro de la misma organizaci&#243;n, llamadas &#8220;referencias de recursos.&#8221; Una &#8220;referencia de recurso&#8221; cuenta como una &#8220;persona atendida.&#8221; Cada vez que una persona necesitada es referida a otra organizaci&#243;n o programa, se cuenta como una &#8220;persona atendida.&#8221; Cuando llaman a la siguiente organizaci&#243;n o programa para pedir ayuda, se cuentan de nuevo, y de nuevo, y de nuevo. Esta pr&#225;ctica se llama t&#237;picamente el &#8220;multiplicador de servicio&#8221; o &#8220;duplicador de servicio.&#8221;</p>
+
+                                <div class="content-spacer"></div>
+
+                                <h2>Ayuda y Asistencia en Derecho Familiar</h2>
+
+                                <div class="content-spacer"></div>
+
+                                <p>America Family Law Center est&#225; dedicado a ayudar a personas de bajos ingresos y desatendidas a obtener ayuda y asistencia en derecho familiar.&nbsp; Esto incluye asistencia para diversos asuntos de derecho familiar como custodia infantil, divorcio y derechos parentales.&nbsp; El servicio Asistido Pro Se de America Family Law Center est&#225; disponible para clientes pagados o con exenci&#243;n en buena posici&#243;n. Algunas de las &#225;reas de derecho familiar en las que la organizaci&#243;n puede ayudar incluyen:</p>
+
+                                <figure class="alignright">
+                                    <img src="images/visitation.jpg" alt="Custodia Infantil en Texas" width="275" height="183">
+                                </figure>
+
+                                <ul>
+                                    <li><a href="topics/child-custody-es.html">custodia infantil (acceso y posesi&#243;n),</a></li>
+                                    <li><a href="topics/conservatorship-es.html">tutela legal,</a></li>
+                                    <li><a href="topics/child-support-es.html">manutenci&#243;n infantil,</a></li>
+                                    <li><a href="topics/adjudicate-parentage-es.html">adjudicar paternidad,</a></li>
+                                    <li><a href="topics/divorce-es.html">divorcio, y</a></li>
+                                    <li><a href="topics/parental-rights-es.html">derechos parentales</a></li>
+                                    <li>cambio de nombre</li>
+                                    <li>adopci&#243;n, y</li>
+                                    <li>colocaci&#243;n de parentesco.</li>
+                                </ul>
+
+                                <h2>Otras Preguntas &#8211; Derechos Parentales, Custodia Infantil, Manutenci&#243;n Infantil y Derechos de los Abuelos</h2>
+
+                                <div class="content-spacer"></div>
+
+                                <p>Los padres e individuos a menudo necesitan informaci&#243;n adicional sobre una situaci&#243;n antes de tomar acci&#243;n legal.&nbsp; America Family Law Center puede ayudar a proporcionar una mejor comprensi&#243;n de muchos temas, incluyendo:</p>
+
+                                <ul>
+                                    <li>&#191;Cu&#225;les son mis derechos parentales?</li>
+                                    <li>&#191;C&#243;mo obtengo la custodia de mis hijos?</li>
+                                    <li>&#191;C&#243;mo obtengo manutenci&#243;n infantil del otro padre de mi hijo?</li>
+                                    <li>&#191;C&#243;mo me deshago de la manutenci&#243;n infantil atrasada?</li>
+                                    <li>&#191;C&#243;mo cambio mi manutenci&#243;n infantil?</li>
+                                    <li>&#191;Cu&#225;les son los derechos del padre?</li>
+                                    <li>&#191;C&#243;mo detengo la manutenci&#243;n infantil cuando mi hijo o hija cumple 18 a&#241;os?</li>
+                                    <li>&#191;C&#243;mo establezco la visitaci&#243;n con mis hijos?</li>
+                                    <li>&#191;Qu&#233; es un Reconocimiento de Paternidad, o AOP?</li>
+                                    <li>&#191;C&#243;mo obtengo una prueba de paternidad de ADN para determinar si soy el padre?</li>
+                                    <li>&#191;Qu&#233; significa adjudicar paternidad?</li>
+                                    <li>&#191;Qu&#233; significa tutela legal?</li>
+                                    <li>&#191;C&#243;mo encuentro a mi hijo?</li>
+                                    <li>&#191;C&#243;mo hago cumplir mi visitaci&#243;n?</li>
+                                    <li>&#191;Puede la madre ir a la c&#225;rcel por no dejarme ver a mi hijo?</li>
+                                    <li>&#191;Los abuelos tienen derechos?</li>
+                                    <li>&#191;Por qu&#233; podr&#237;a ir a la c&#225;rcel por no pagar la manutenci&#243;n infantil?</li>
+                                    <li>&#191;Tengo que dejar que mi hijo vaya a la visitaci&#243;n?</li>
+                                </ul>
+
+                                <div class="content-spacer"></div>
+
+                                <h2>Otros Recursos</h2>
+
+                                <div class="content-spacer"></div>
+
+                                <p>America Family Law Center colabora con muchas otras agencias y recursos para ayudar a las personas a obtener acceso a asistencia para situaciones que pueden involucrar:</p>
+
+                                <figure class="alignright">
+                                    <img src="images/question-mark.jpg" alt="Obtenga Respuestas a Sus Preguntas" style="width:262px;height:auto">
+                                    <figcaption>Obtenga Respuestas a Sus Preguntas</figcaption>
+                                </figure>
+
+                                <ul>
+                                    <li><a href="http://www.tyla.org/tyla/assets/File/ProSeDivorceHandBookENG14RevisedP1WEB.pdf" target="_blank" rel="noopener">divorcio,</a></li>
+                                    <li><a href="https://dro.harriscountytx.gov/Pages/MediationRequest.aspx" target="_blank" rel="noopener">mediaci&#243;n,</a></li>
+                                    <li><a href="https://www.ourfamilywizard.com/blog/benefits-shared-parenting" target="_blank" rel="noopener">crianza compartida,</a></li>
+                                    <li><a href="http://www.thethreadalliance.org/resources/parenting-classes-open-to-public/" target="_blank" rel="noopener">programas de crianza,</a></li>
+                                    <li><a href="http://www.familyhouston.org/" target="_blank" rel="noopener">clases de crianza,</a></li>
+                                    <li><a href="https://www.texasattorneygeneral.gov/cs/welcome-to-the-child-support-division" target="_blank" rel="noopener">establecimiento de manutenci&#243;n infantil,</a></li>
+                                    <li><a href="https://www.texasattorneygeneral.gov/cs/child-support-publications" target="_blank" rel="noopener">cobro de manutenci&#243;n infantil,</a></li>
+                                    <li><a href="https://texaslawhelp.org/toolkit/sapcr-i-need-custody-order-i-am-childs-parent" target="_blank" rel="noopener">custodia infantil, y</a></li>
+                                    <li><a href="http://www.txaccess.org/standard-possession-order-and-parenting-time/" target="_blank" rel="noopener">visitaci&#243;n.</a></li>
+                                </ul>
+
+                                <div class="content-spacer"></div>
+
+                                <h2>Llame Hoy</h2>
+
+                                <div class="content-spacer"></div>
+
+                                <p>Estamos aqu&#237; para ayudar.&nbsp; Llame hoy para encontrar la ayuda que necesita.</p>
+
+                                <div class="language-toggle"><h6><a href="index.html" title="View English version.">English</a>&nbsp;&nbsp;|&nbsp;&nbsp;Espa&#241;ol</h6></div>
+
+                                <hr class="post-contact-information-hr">
+                                <div class="post-contact-information">
+                                    <div class="post-contact-information-logo">
+                                        <img src="images/AFLC_Logo_BelowPost.png" width="200" alt="America Family Law Center">
+                                    </div>
+                                    <div class="post-contact-information-text">
+                                        <span><a href="index-es.html"><strong>America Family Law Center</strong></a></span><br>
+                                        <span>puede ser contactado por</span><br>
+                                        <span>tel&#233;fono o mensaje de texto al <span class="location_phone_number"><a href="tel:1-214-516-7700"><strong>214-516-7700</strong></a></span></span><br>
+                                        <span><i>Los ni&#241;os necesitan a sus padres</i></span>
+                                    </div>
+                                    <div class="u-cf"></div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer">
+            <div class="container">
+                <div class="row" id="footerone">
+                    <div class="three columns logo">
+                        <img src="images/AFLC_white.png" alt="America Family Law Center">
+                    </div>
+                    <div class="three columns en-links">
+                        <h2></h2>
+                        <p>
+                            <a href="index.html">Home</a><br>
+                            <a href="mission.html">Mission</a><br>
+                            <a href="services.html">Services</a><br>
+                            <a href="programs.html">Programs</a><br>
+                            <a href="blog.html">Blog</a><br>
+                            <a href="faqs.html">FAQs</a><br>
+                            <a href="topics.html">Topics</a><br>
+                            <a href="contact.html">Contact</a><br>
+                        </p>
+                    </div>
+                    <div class="three columns es-links">
+                        <h2></h2>
+                        <p>
+                            <a href="inicio.html">Inicio</a><br>
+                            <a href="mision.html">Misión</a><br>
+                            <a href="servicios.html">Servicios</a><br>
+                            <a href="programas.html">Programas</a><br>
+                            <a href="blog-es.html">Blog</a><br>
+                            <a href="preguntas-frecuentes.html">Preguntas Frecuentes</a><br>
+                            <a href="temas.html">Temas</a><br>
+                            <a href="contacto.html">Contacto</a><br>
+                        </p>
+                    </div>
+                    <div class="three columns u-pull-right contact-info">
+                        <h2>Text or Call</h2>
+                        <div class="row">
+                            <div class="u-pull-left">
+                                <span>AZ - Phoenix</span><br>
+                                <span>FL - Jacksonville</span><br>
+                                <span>FL - Miami</span><br>
+                                <span>GA - Atlanta</span><br>
+                                <span>IL - Chicago</span><br>
+                                <span>IL - Springfield</span><br>
+                                <span>MO - Kansas City</span><br>
+                                <span>MO - St. Louis</span><br>
+                                <span>OH - Cleveland</span><br>
+                                <span>OH - Columbus</span><br>
+                                <span>PA - Philadelphia</span><br>
+                                <span>PA - Pittsburgh</span><br>
+                                <span>TX - Abilene</span><br>
+                                <span>TX - Amarillo</span><br>
+                                <span>TX - Austin</span><br>
+                                <span>TX - Beaumont</span><br>
+                                <span>TX - Corpus Christi</span><br>
+                                <span>TX - Dallas</span><br>
+                                <span>TX - El Paso</span><br>
+                                <span>TX - Fort Worth</span><br>
+                                <span>TX - Houston</span><br>
+                                <span>TX - Laredo</span><br>
+                                <span>TX - Longview</span><br>
+                                <span>TX - Lubbock</span><br>
+                                <span>TX - McAllen</span><br>
+                                <span>TX - Midland</span><br>
+                                <span>TX - San Angelo</span><br>
+                                <span>TX - San Antonio</span><br>
+                                <span>TX - Wichita Falls</span><br>
+                            </div>
+                            <div class="u-pull-right">
+                                <span><a href="tel:1-602-691-5000">602-691-5000</a></span><br>
+                                <span><a href="tel:1-904-615-8880">904-615-8880</a></span><br>
+                                <span><a href="tel:1-305-424-2970">305-424-2970</a></span><br>
+                                <span><a href="tel:1-404-905-3000">404-905-3000</a></span><br>
+                                <span><a href="tel:1-312-548-7700">312-548-7700</a></span><br>
+                                <span><a href="tel:1-217-906-4040">217-906-4040</a></span><br>
+                                <span><a href="tel:1-913-305-5000">913-305-5000</a></span><br>
+                                <span><a href="tel:1-314-667-4000">314-667-4000</a></span><br>
+                                <span><a href="tel:1-216-616-8100">216-616-8100</a></span><br>
+                                <span><a href="tel:1-614-820-1100">614-820-1100</a></span><br>
+                                <span><a href="tel:1-215-607-8000">215-607-8000</a></span><br>
+                                <span><a href="tel:1-412-385-7900">412-385-7900</a></span><br>
+                                <span><a href="tel:1-325-330-8800">325-330-8800</a></span><br>
+                                <span><a href="tel:1-806-305-2200">806-305-2200</a></span><br>
+                                <span><a href="tel:1-512-271-8700">512-271-8700</a></span><br>
+                                <span><a href="tel:1-409-509-7700">409-509-7700</a></span><br>
+                                <span><a href="tel:1-361-320-8800">361-320-8800</a></span><br>
+                                <span><a href="tel:1-214-516-7700">214-516-7700</a></span><br>
+                                <span><a href="tel:1-915-348-5500">915-348-5500</a></span><br>
+                                <span><a href="tel:1-817-932-9500">817-932-9500</a></span><br>
+                                <span><a href="tel:1-713-239-5200">713-239-5200</a></span><br>
+                                <span><a href="tel:1-956-625-9900">956-625-9900</a></span><br>
+                                <span><a href="tel:1-903-355-2000">903-355-2000</a></span><br>
+                                <span><a href="tel:1-806-515-3300">806-515-3300</a></span><br>
+                                <span><a href="tel:1-956-758-8300">956-758-8300</a></span><br>
+                                <span><a href="tel:1-432-280-2200">432-280-2200</a></span><br>
+                                <span><a href="tel:1-325-423-8800">325-423-8800</a></span><br>
+                                <span><a href="tel:1-210-390-8600">210-390-8600</a></span><br>
+                                <span><a href="tel:1-940-204-5500">940-204-5500</a></span><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="legal">
+                        <p>Este sitio es solo para fines informativos generales. La informaci&#243;n en este sitio no es asesor&#237;a legal y no debe usarse en lugar de asesor&#237;a legal. Consulte a un abogado para obtener asesor&#237;a legal.</p>
+                    </div>
+                    <div class="copyright u-pull-right" role="contentinfo">
+                        <p>Copyright &copy; 2010 - <script>document.write(new Date().getFullYear())</script>. Todos los derechos reservados. &nbsp;&nbsp;| &nbsp;&nbsp;<a href="terms-of-use-es.html">T&#233;rminos de Uso</a> &nbsp;&nbsp;| &nbsp;&nbsp;<a href="privacy-policy-es.html">Pol&#237;tica de Privacidad</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/flexslider-min.js"></script>
+    <script src="js/functions.js"></script>
+    <script>
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                direction: "horizontal",
+                slideshowSpeed: 5000,
+                animationSpeed: 600,
+                slideshow: true
+            });
+        });
+
+        // Location switcher
+        function SwitchLocation(value) {
+            var parts = value.split('|');
+            if (parts.length > 1) {
+                var phoneNum = parts[1];
+                $('.location_phone_number a').text(phoneNum);
+                $('.location_phone_number a').attr('href', 'tel:1-' + phoneNum);
+                $('#tel_btn').text(phoneNum);
+                $('#tel_btn').attr('href', 'tel:1-' + phoneNum);
+            }
+        }
+
+        // Form character counter
+        document.addEventListener('DOMContentLoaded', function() {
+            var situation = document.querySelector('textarea[name="Situation"]');
+            var counter = document.getElementById('Situation_Chars_Left');
+            if (situation && counter) {
+                situation.addEventListener('input', function() {
+                    var remaining = 500 - this.value.length;
+                    counter.textContent = remaining;
+                });
+            }
+        });
+    </script>
+</body>
+</html>
