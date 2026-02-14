@@ -28,8 +28,8 @@
 
 /* Importing fonts */
 
-@import url("https://web.archive.org/web/20250424025822cs_/http://americafamilylawcenter.org/wp-content/themes/aflc/_/css/fonts.css");
-@import url('https://web.archive.org/web/20250424025822cs_/https://fonts.googleapis.com/css?family=Nunito+Sans|Open+Sans|Roboto');
+@import url("http://americafamilylawcenter.org/wp-content/themes/aflc/_/css/fonts.css");
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Open+Sans|Roboto');
 
 /* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
 body {
@@ -260,7 +260,7 @@ textarea:-moz-placeholder {
 #menu-primary li {position: relative; padding: 0; list-style: none; line-height: normal !important; margin-bottom: 0 !important;}
 #menu-primary a {float: left; outline: none; display: block; margin: 0; padding: 0 15px; height: 58px; font-weight: 300; line-height: 58px; font-family: Gotham, sans-serif; text-decoration: none; text-transform: capitalize !important; font-size: 15px; color: #848484; transition: box-shadow 0.3s ease, color 0.3s ease;}
 #menu-primary a:hover {text-decoration: none; outline: none; text-decoration: none; text-decoration: none; color: #4b4b4b; box-shadow: 0px 0px 0px 5px #f00; -webkit-box-shadow: inset 0px 5px 0px 0px rgba(170, 29, 32, 1); -moz-box-shadow: inset 0px 5px 0px 0px rgba(170, 29, 32, 1); box-shadow: inset 0px 5px 0px 0px rgba(170, 29, 32, 1);}
-#menu-primary li + li {background: url("https://web.archive.org/web/20250424025822im_/https://americafamilylawcenter.org/wp-content/themes/aflc/_/img/nav-separator.gif") no-repeat top left; padding-left: 1px; margin-left: -5px;}
+#menu-primary li + li {background: url("https://americafamilylawcenter.org/wp-content/themes/aflc/_/img/nav-separator.gif") no-repeat top left; padding-left: 1px; margin-left: -5px;}
 #menu-primary li ul {display: none;}
 #menu-primary li:hover > ul {display: block;}
 .sub-menu {margin-left: 5px;}
@@ -290,9 +290,9 @@ textarea:-moz-placeholder {
 #mobile_nav{display: none;}
 #mobile_nav .mobile-language { float: right; position: absolute; top: 5px; right: 10px; z-index: 999; }
 @media only screen and (min-width: 0px) and (max-width: 1024px) {
-	.nav-button {display: block; position: relative; top: -7px; left: 7px; width: 50px; height: 35px; background: url("https://web.archive.org/web/20250424025822im_/https://americafamilylawcenter.org/wp-content/themes/aflc/_/img/menu-icon-large.png"); background-position: center center; background-repeat: no-repeat; background-size: 21px, 100%; cursor: pointer; border: 0 none; border: 0.2em solid #192857; z-index: 999; text-indent: -9999px; -webkit-appearance: none; border-radius: 4px;}
+	.nav-button {display: block; position: relative; top: -7px; left: 7px; width: 50px; height: 35px; background: url("https://americafamilylawcenter.org/wp-content/themes/aflc/_/img/menu-icon-large.png"); background-position: center center; background-repeat: no-repeat; background-size: 21px, 100%; cursor: pointer; border: 0 none; border: 0.2em solid #192857; z-index: 999; text-indent: -9999px; -webkit-appearance: none; border-radius: 4px;}
 	.nav-button:hover {background-color: #192857; -webkit-appearance: none;}
-	.nav-button.open {background: url("https://web.archive.org/web/20250424025822im_/https://americafamilylawcenter.org/wp-content/themes/aflc/_/img/close-icon-large.png"); background-position: center center; background-repeat: no-repeat; background-size: 21px, 100%; -webkit-appearance: none;}
+	.nav-button.open {background: url("https://americafamilylawcenter.org/wp-content/themes/aflc/_/img/close-icon-large.png"); background-position: center center; background-repeat: no-repeat; background-size: 21px, 100%; -webkit-appearance: none;}
 	.primary-nav {width: 100%; float: none; background-color: #22346D; display: block; height: 50px; margin: 0; padding: 0; overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,.6); position: absolute; top: 0px; left: 0px; z-index: 998; clear: both;}
 	.primary-nav li {display: none; width: 100%; font-family: Arial;}
 	.primary-nav li a {display: block; width: 100%; padding: 10px 5%; font-size: 14px; font-weight: bold; color: #fff; text-decoration: none; border-bottom: 1px solid rgba(0,0,0,.2); border-top: 1px solid rgba(255,255,255,.1);}
@@ -522,7 +522,7 @@ height: 0;
 #notfound{padding: 45px; text-align: center; height: 500px;}
 #missing {font-size: 90px; margin-top: 75px;}
 #missing2 {font-size: 30px;}
-#bannerWrapper404 {position: relative; width: 100%; padding: 0 !important; margin: 0 !important; height: 150px; background: #eeeeee url("https://web.archive.org/web/20250424025822im_/https://americafamilylawcenter.org/wp-content/themes/aflc/_/img/banner_bg.png") center no-repeat; z-index: 98; border-bottom: 1px solid #CFCFCF;}
+#bannerWrapper404 {position: relative; width: 100%; padding: 0 !important; margin: 0 !important; height: 150px; background: #eeeeee url("https://americafamilylawcenter.org/wp-content/themes/aflc/_/img/banner_bg.png") center no-repeat; z-index: 98; border-bottom: 1px solid #CFCFCF;}
 #back404 {text-decoration: none; padding-top: 12px; padding-bottom: 12px; padding-left: 30px; padding-right: 30px; color: white; border: none !important; border-bottom: 4px solid #0d498e !important; background: #1d5ba3 !important; font-size: 28px; font-weight: 700; }
 #back404:hover {text-decoration: none; outline: none;}
 #back404:active {border: none !important; background: #2157bc !important; border-bottom: 4px solid #215dbc !important; text-decoration: none; outline: none;}
@@ -903,24 +903,3 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
         padding: 2px 5px;
     }
 }
-
-/*
-     FILE ARCHIVED ON 02:58:22 Apr 24, 2025 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 17:48:11 Feb 05, 2026.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.504
-  exclusion.robots: 0.022
-  exclusion.robots.policy: 0.012
-  esindex: 0.009
-  cdx.remote: 66.072
-  LoadShardBlock: 711.757 (3)
-  PetaboxLoader3.datanode: 696.654 (5)
-  load_resource: 230.555 (2)
-  PetaboxLoader3.resolve: 152.378 (2)
-*/
